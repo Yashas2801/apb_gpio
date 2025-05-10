@@ -1,5 +1,5 @@
 ##spyglass_version: SpyGlass_vT-2022.06
-##date: Wed May  7 12:15:59 2025
+##date: Wed May  7 12:19:11 2025
 ##user: YashasH
 ##cwd: /home1/WBRN18/YashasH/apb_gpio/script
 ##lang: verilog+vhdl
@@ -1181,72 +1181,70 @@ VCSRunSummary@@VCSRunSummary@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_r
 ElabSummary@@ElabSummary@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt@@0@@1@@2@@Please refer file '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt' for elab summary report
 ##sde_property: msg_label DEFAULT
 ##sde_property: msg_id DEFAULT
-##files_verilog: ./../src/apb_top.sv ./../src/apb_if.sv ./../src/register.sv ./../src/aux_if.sv ./../src/apb_io.sv
+##files_verilog: ./../src/apb_top.sv ./../src/apb_if.sv ./../src/apb_fsm.sv ./../src/register.sv ./../src/aux_if.sv ./../src/aux_reg.sv ./../src/apb_io.sv
 ##sde_property: file ./../src/apb_top.sv -id 1 -precompiled=WORK
 ##sde_property: file ./../src/apb_if.sv -id 2 -precompiled=WORK
-##sde_property: file ./../src/register.sv -id 3 -precompiled=WORK
-##sde_property: file ./../src/aux_if.sv -id 4 -precompiled=WORK
-##sde_property: file ./../src/apb_io.sv -id 5 -precompiled=WORK
+##sde_property: file ./../src/apb_fsm.sv -id 3 -precompiled=WORK
+##sde_property: file ./../src/register.sv -id 4 -precompiled=WORK
+##sde_property: file ./../src/aux_if.sv -id 5 -precompiled=WORK
+##sde_property: file ./../src/aux_reg.sv -id 6 -precompiled=WORK
+##sde_property: file ./../src/apb_io.sv -id 7 -precompiled=WORK
 #span WORK.apb_top ./../src/apb_top.sv 1 80
 #rtl_idmap WORK.apb_top 1 -lang 1
 #span WORK.apb_if ./../src/apb_if.sv 1 60
 #rtl_idmap WORK.apb_if 2 -lang 1
+#span WORK.apb_fsm ./../src/apb_fsm.sv 1 62
+#rtl_idmap WORK.apb_fsm 3 -lang 1
 #span WORK.register ./../src/register.sv 16 248
-#rtl_idmap WORK.register 3 -lang 1
+#rtl_idmap WORK.register 4 -lang 1
 #span WORK.aux_if ./../src/aux_if.sv 1 11
-#rtl_idmap WORK.aux_if 4 -lang 1
+#rtl_idmap WORK.aux_if 5 -lang 1
+#span WORK.aux_reg ./../src/aux_reg.sv 1 16
+#rtl_idmap WORK.aux_reg 6 -lang 1
 #span WORK.apb_io ./../src/apb_io.sv 1 77
-#rtl_idmap WORK.apb_io 5 -lang 1
+#rtl_idmap WORK.apb_io 7 -lang 1
 #greybox WORK.apb_top 15
 #greybox WORK.apb_if 15
-#greybox apb_fsm 0
+#greybox WORK.apb_fsm 15
 #greybox WORK.register 15
 #greybox WORK.aux_if 15
-#greybox aux_reg 0
+#greybox WORK.aux_reg 15
 #greybox WORK.apb_io 15
 DetectTopDesignUnits@@DetectTopDesignUnits@@Info@@./../src/apb_top.sv@@1@@1@@2@@Module apb_top is a top level design unit
 ##sde_property: violation -duId 1 
 #rtl_top_modules apb_top
 W224@@@@Warning@@./../src/register.sv@@157@@1@@5@@Multi-bit expression 'rgpio_nec' found when one-bit expression expected[Hierarchy: ':apb_top:reg_instance@register']
-##sde_property: violation -ruleLang 1 -duId 3 -elabDuId 4 
+##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label W224_ve
 ##sde_property: msg_id W224_ve
 W224@@@@Warning@@./../src/register.sv@@165@@1@@5@@Multi-bit expression 'rgpio_eclk' found when one-bit expression expected[Hierarchy: ':apb_top:reg_instance@register']
-##sde_property: violation -ruleLang 1 -duId 3 -elabDuId 4 
+##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label W224_ve
 ##sde_property: msg_id W224_ve
 STARC05-2.1.5.3@@NoVectorOnCondExpr@@Recommended2@@./../src/register.sv@@157@@1@@2@@Conditional expression (rgpio_nec) does not evaluate to a scalar [Hierarchy: ':apb_top:reg_instance@register']
-##sde_property: violation -ruleLang 1 -duId 3 -elabDuId 4 
+##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label STARC-2.1.5.3_ve
 ##sde_property: msg_id STARC-2.1.5.3_ve
 STARC05-2.1.5.3@@NoVectorOnCondExpr@@Recommended2@@./../src/register.sv@@165@@1@@2@@Conditional expression (rgpio_eclk) does not evaluate to a scalar [Hierarchy: ':apb_top:reg_instance@register']
-##sde_property: violation -ruleLang 1 -duId 3 -elabDuId 4 
+##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label STARC-2.1.5.3_ve
 ##sde_property: msg_id STARC-2.1.5.3_ve
 ReportPortInfo-ML@@@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo@@1@@1@@2@@Port Information for top design unit has been generated. For details see report ReportPortInfo.rpt
-ErrorAnalyzeBBox@@ErrorAnalyzeBBox@@Error@@./../src/apb_if.sv@@22@@1@@10@@Design Unit 'apb_fsm' has no definition; black-box behavior assumed
-##sde_property: violation -duId 2 -elabDuId 2 
-##sde_property: msg_label Label_3
-##sde_property: msg_id Label_3
-ErrorAnalyzeBBox@@ErrorAnalyzeBBox@@Error@@./../src/aux_if.sv@@8@@1@@10@@Design Unit 'aux_reg' has no definition; black-box behavior assumed
-##sde_property: violation -duId 4 -elabDuId 5 
-##sde_property: msg_label Label_3
-##sde_property: msg_id Label_3
 #childElab apb_top WORK.apb_top -elabDuId 1 if_instance apb_if reg_instance register aux_instance aux_if io_instance apb_io
 #childElab apb_if WORK.apb_if -elabDuId 2 fs1 apb_fsm
-#childElab apb_fsm apb_fsm -elabDuId 3
+#childElab apb_fsm WORK.apb_fsm -elabDuId 3
 #childElab register WORK.register -elabDuId 4
 #childElab aux_if WORK.aux_if -elabDuId 5 i1 aux_reg
-#childElab aux_reg aux_reg -elabDuId 6
+#childElab aux_reg WORK.aux_reg -elabDuId 6
 #childElab apb_io WORK.apb_io -elabDuId 7
 ##warning_total_suppressed_count:         0
 ##error_total_suppressed_count:         0
 ##warning_total_reported_count:         9
-##error_total_reported_count:         2
+##error_total_reported_count:         0
 ##total_warning_waived_viol_count:         0
 ##total_error_waived_viol_count:         0
-##totalGeneratedCount:        11
+##totalGeneratedCount:         9
 ##totalWaivedViolationCount:         0
-##totalReportCount:        11
+##totalReportCount:         9
 ##totalSuppressedCount:         0
 ##Active_Rules  NoAssignX-ML NoXInCase-ML ParamWidthMismatch-ML PragmaComments-ML ReportPortInfo-ML STARC05-2.1.3.1 STARC05-2.1.4.5 STARC05-2.1.5.3 STARC05-2.1.6.5 STARC05-2.10.1.4a STARC05-2.10.1.4b STARC05-2.10.2.3 STARC05-2.10.3.2a STARC05-2.11.3.1 STARC05-2.2.3.3 STARC05-2.3.1.2c STARC05-2.3.1.5b STARC05-2.3.1.6 STARC05-2.3.3.1 W110 W110a W116 W122 W123 W156 W19 W215 W216 W218 W224 W240 W263 W287a W287b W289 W292 W293 W317 W337 W339a W352 W362 W398 W415a W416 W421 W422 W424 W426 W442a W442b W442c W442f W467 W480 W481a W481b W486 W496a W496b W499 W502 W505 W528 W66 W71 badimplicitSM1 badimplicitSM2 badimplicitSM4 bothedges mixedsenselist sim_race02

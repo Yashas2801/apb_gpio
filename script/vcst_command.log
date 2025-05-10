@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running vcst Version T-2022.06 for linux64 -- May 30, 2022
-#@ # Date:   Wed May  7 12:19:00 2025
+#@ # Date:   Sat May 10 09:14:49 2025
 #@ # Run by: YashasH@mavenserver-RH3
 #@ 
 
@@ -2153,5 +2153,4 @@ source -echo -verbose top_lint.tcl
 #@ 
 #@ # -- End source top_lint.tcl
 
-vim report/apb_top_lint_register.txt 
 exit

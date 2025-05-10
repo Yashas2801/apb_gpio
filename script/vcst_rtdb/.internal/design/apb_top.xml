@@ -2,9 +2,9 @@
 <SVI_SIMON>
   <option data="full_hier"/>
   <option data="vcstaticStabilityMode=1"/>
-  <option data="circWriteFile=/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/apb_top.scm"/>
-  <option data="outputWorkDir=/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design"/>
-  <option data="vsiLogDir=/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/logs"/>
+  <option data="circWriteFile=/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/apb_top.scm"/>
+  <option data="outputWorkDir=/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design"/>
+  <option data="vsiLogDir=/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/logs"/>
   <option data="noRemoveConstants"/>
   <option data="2valued"/>
   <option data="preserveSigs"/>
@@ -62,7 +62,7 @@
   <option data="hsc=/"/>
   <option data="elab_summary_report_max_inst=5"/>
   <option data="top=apb_top"/>
-  <option data="portCoercionsLog=/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/port_coercions.rpt"/>
+  <option data="portCoercionsLog=/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/port_coercions.rpt"/>
 </SVI_VCS>
 <SVI_VIFTRANS>
   <option data="blv_chkHDLLib"/>

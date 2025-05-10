@@ -17,5 +17,5 @@ XLRM_TIME=TRUE
 
 DISAMBIG_CONCAT=TRUE
 
-DEFAULT : /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/worklib
+DEFAULT : /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/worklib
 

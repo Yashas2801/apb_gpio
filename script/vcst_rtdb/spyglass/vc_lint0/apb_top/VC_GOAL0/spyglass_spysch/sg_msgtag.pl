@@ -9,7 +9,7 @@ use SpyGlass::Objects;
 spyRebootMsgTagSupport();
 
 spySetMsgTagCount(74,46);
-spyParseTextMessageTagFile("/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/sg_msgtag.txt");
+spyParseTextMessageTagFile("/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/sg_msgtag.txt");
 
 if(!defined $::spyInIspy || !$::spyInIspy)
 {
@@ -20,6 +20,6 @@ if(!defined $::spyInIspy || !$::spyInIspy)
 )
 );
 }
-spyMessageTagTestBenchmark(9,"/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass.vdb");
+spyMessageTagTestBenchmark(9,"/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass.vdb");
 
 1;

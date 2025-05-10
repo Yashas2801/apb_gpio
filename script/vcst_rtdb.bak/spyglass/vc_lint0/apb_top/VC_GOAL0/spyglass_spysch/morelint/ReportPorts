@@ -12,14 +12,3 @@ VALUE@@PREADY@@OUTPUT@@0@@0@@-@@apb_top@@No
 VALUE@@aux_in@@INPUT@@31@@0@@-@@apb_top@@No
 VALUE@@io_pad@@INOUT@@31@@0@@-@@apb_top@@No
 VALUE@@ext_clk_pad_i@@INPUT@@0@@0@@-@@apb_top@@No
-SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
-VALUE@@PCLK@@INPUT@@0@@0@@-@@apb_fsm@@Yes
-VALUE@@PENABLE@@INPUT@@0@@0@@-@@apb_fsm@@Yes
-VALUE@@PSEL@@INPUT@@0@@0@@-@@apb_fsm@@Yes
-VALUE@@PRESETn@@INPUT@@0@@0@@-@@apb_fsm@@Yes
-VALUE@@PREADY@@INPUT@@0@@0@@-@@apb_fsm@@Yes
-SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
-VALUE@@sys_clk@@INPUT@@0@@0@@-@@aux_reg@@Yes
-VALUE@@aux_in@@INPUT@@31@@0@@-@@aux_reg@@Yes
-VALUE@@aux_i@@INPUT@@31@@0@@-@@aux_reg@@Yes
-VALUE@@sys_rst@@INPUT@@0@@0@@-@@aux_reg@@Yes

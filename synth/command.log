@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version T-2022.03-SP4 for linux64 -- Aug 24, 2022
-#@ # Date:   Wed May  7 12:09:23 2025
+#@ # Date:   Sat May 10 09:13:30 2025
 #@ # Run by: YashasH@mavenserver-RH3
 #@ 
 
@@ -8854,9 +8854,6 @@ change_selection [get_cells apb_top]
 gui_set_setting -window [gui_get_current_window -types Schematic -mru] -setting schematic:background_color -value black
 gui_set_setting -window [gui_get_current_window -types Schematic -mru] -setting zoomFitFactor -value 0.0
 change_selection [get_cells apb_top]
-change_selection 
-change_selection [get_nets sys_rst]
-change_selection [get_nets sys_rst]
-change_selection [get_nets sys_rst]
-change_selection [get_cells apb_top]
+cd ..
+ls
 exit

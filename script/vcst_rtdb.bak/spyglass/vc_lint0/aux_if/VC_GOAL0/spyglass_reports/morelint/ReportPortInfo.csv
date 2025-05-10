@@ -1,5 +1,0 @@
-Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
-aux_if,Top_Level,sys_clk,INPUT,1,-,-,-
-aux_if,Top_Level,aux_in,INPUT,32,[31:0],-,-
-aux_if,Top_Level,sys_rst,INPUT,1,-,-,-
-aux_if,Top_Level,aux_i,OUTPUT,32,[31:0],-,-

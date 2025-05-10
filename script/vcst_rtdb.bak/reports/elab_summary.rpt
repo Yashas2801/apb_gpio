@@ -23,6 +23,16 @@ Design Unit Name: 'apb_if', (./../src/apb_if.sv:1)
 =============================================
 
 
+Design Unit Name: 'apb_fsm', (./../src/apb_fsm.sv:1)
+    Parameters (Total 3)
+        IDLE = 2'b00  (default: 2'b00)
+        SETUP = 2'b01  (default: 2'b01)
+        ENABLE = 2'b10  (default: 2'b10)
+    Instances (Total 1)(Optimized)
+        apb_top/if_instance/fs1
+=============================================
+
+
 Design Unit Name: 'register', (./../src/register.sv:16)
     Parameters (Total 0)
     Instances (Total 1)(Optimized)
@@ -34,6 +44,13 @@ Design Unit Name: 'aux_if', (./../src/aux_if.sv:1)
     Parameters (Total 0)
     Instances (Total 1)(Optimized)
         apb_top/aux_instance
+=============================================
+
+
+Design Unit Name: 'aux_reg', (./../src/aux_reg.sv:1)
+    Parameters (Total 0)
+    Instances (Total 1)(Optimized)
+        apb_top/aux_instance/i1
 =============================================
 
 

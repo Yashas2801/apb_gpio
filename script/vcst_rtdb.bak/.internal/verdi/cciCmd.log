@@ -1,4 +1,5 @@
-12:15:48 : gui:mavenserver-RH3:44641
-12:15:48 : MasterSourceFile top_lint.tcl
-12:15:56 : ___vcNSchemaDBErrorInfo
-12:16:07 : exit
+12:19:00 : gui:mavenserver-RH3:34251
+12:19:00 : MasterSourceFile top_lint.tcl
+12:19:08 : ___vcNSchemaDBErrorInfo
+12:19:35 : vim report/apb_top_lint_register.txt 
+12:19:38 : exit

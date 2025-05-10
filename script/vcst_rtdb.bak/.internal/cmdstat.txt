@@ -1,252 +1,252 @@
 
 
-### analyze	Num_calls 1	Total_time 00:00:00.398699	Total malloc-M 2
-1	File:top_lint.tcl::9	Time:00:00:00.398699	 Malloc-MB:2
+### analyze	Num_calls 1	Total_time 00:00:00.371735	Total malloc-M 2
+1	File:top_lint.tcl::9	Time:00:00:00.371735	 Malloc-MB:2
 
-### check_lint_noblock	Num_calls 1	Total_time 00:00:00.255715	Total malloc-M 5
-1	File:top_lint.tcl::11	Time:00:00:00.255715	 Malloc-MB:5
+### check_lint_noblock	Num_calls 1	Total_time 00:00:00.265272	Total malloc-M 5
+1	File:top_lint.tcl::11	Time:00:00:00.265272	 Malloc-MB:5
 
-### compress_hdl	Num_calls 1	Total_time 00:00:00.011539	Total malloc-M 1
-1	File:top_lint.tcl::5	Time:00:00:00.011539	 Malloc-MB:1
+### compress_hdl	Num_calls 1	Total_time 00:00:00.011359	Total malloc-M 1
+1	File:top_lint.tcl::5	Time:00:00:00.011359	 Malloc-MB:1
 
-### compress_violations	Num_calls 1	Total_time 00:00:00.011497	Total malloc-M 1
-1	File:top_lint.tcl::5	Time:00:00:00.011497	 Malloc-MB:1
+### compress_violations	Num_calls 1	Total_time 00:00:00.011325	Total malloc-M 1
+1	File:top_lint.tcl::5	Time:00:00:00.011325	 Malloc-MB:1
 
-### configure_infer_setup_start_pts	Num_calls 1	Total_time 00:00:00.000084	Total malloc-M 0
+### configure_infer_setup_start_pts	Num_calls 1	Total_time 00:00:00.000055	Total malloc-M 0
 
-### configure_lint_tag_parameter	Num_calls 45	Total_time 00:00:00.102600	Total malloc-M 1
-1	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::90	Time:00:00:00.003552	 Malloc-MB:0
-2	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::18	Time:00:00:00.003275	 Malloc-MB:1
-3	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::88	Time:00:00:00.002456	 Malloc-MB:0
-4	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::106	Time:00:00:00.002442	 Malloc-MB:0
-5	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::102	Time:00:00:00.002433	 Malloc-MB:0
-6	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::97	Time:00:00:00.002432	 Malloc-MB:0
-7	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::80	Time:00:00:00.002380	 Malloc-MB:0
-8	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::104	Time:00:00:00.002358	 Malloc-MB:0
-9	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::103	Time:00:00:00.002357	 Malloc-MB:0
-10	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::34	Time:00:00:00.002353	 Malloc-MB:0
-11	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::128	Time:00:00:00.002348	 Malloc-MB:0
-12	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::82	Time:00:00:00.002344	 Malloc-MB:0
-13	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::126	Time:00:00:00.002336	 Malloc-MB:0
-14	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::116	Time:00:00:00.002317	 Malloc-MB:0
-15	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::129	Time:00:00:00.002304	 Malloc-MB:0
-16	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::55	Time:00:00:00.002301	 Malloc-MB:0
-17	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::95	Time:00:00:00.002272	 Malloc-MB:0
-18	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::79	Time:00:00:00.002258	 Malloc-MB:0
-19	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::124	Time:00:00:00.002256	 Malloc-MB:0
-20	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::110	Time:00:00:00.002232	 Malloc-MB:0
-21	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::114	Time:00:00:00.002198	 Malloc-MB:0
-22	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::72	Time:00:00:00.002189	 Malloc-MB:0
-23	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::112	Time:00:00:00.002171	 Malloc-MB:0
-24	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::24	Time:00:00:00.002170	 Malloc-MB:0
-25	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::52	Time:00:00:00.002168	 Malloc-MB:0
-26	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::41	Time:00:00:00.002158	 Malloc-MB:0
-27	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::109	Time:00:00:00.002157	 Malloc-MB:0
-28	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::134	Time:00:00:00.002151	 Malloc-MB:0
-29	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::58	Time:00:00:00.002143	 Malloc-MB:0
-30	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::71	Time:00:00:00.002139	 Malloc-MB:0
-31	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::63	Time:00:00:00.002135	 Malloc-MB:0
-32	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::74	Time:00:00:00.002134	 Malloc-MB:0
-33	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::61	Time:00:00:00.002132	 Malloc-MB:0
-34	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::75	Time:00:00:00.002126	 Malloc-MB:0
-35	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::46	Time:00:00:00.002125	 Malloc-MB:0
-36	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::60	Time:00:00:00.002124	 Malloc-MB:0
-37	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::77	Time:00:00:00.002114	 Malloc-MB:0
-38	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::66	Time:00:00:00.002112	 Malloc-MB:0
-39	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::142	Time:00:00:00.002108	 Malloc-MB:0
-40	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::140	Time:00:00:00.002102	 Malloc-MB:0
-41	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::143	Time:00:00:00.002080	 Malloc-MB:0
+### configure_lint_tag_parameter	Num_calls 45	Total_time 00:00:00.102870	Total malloc-M 1
+1	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::46	Time:00:00:00.003939	 Malloc-MB:0
+2	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::41	Time:00:00:00.003448	 Malloc-MB:0
+3	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::34	Time:00:00:00.003403	 Malloc-MB:0
+4	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::52	Time:00:00:00.003115	 Malloc-MB:0
+5	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::18	Time:00:00:00.002900	 Malloc-MB:1
+6	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::88	Time:00:00:00.002707	 Malloc-MB:0
+7	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::114	Time:00:00:00.002609	 Malloc-MB:0
+8	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::95	Time:00:00:00.002258	 Malloc-MB:0
+9	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::106	Time:00:00:00.002227	 Malloc-MB:0
+10	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::124	Time:00:00:00.002223	 Malloc-MB:0
+11	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::116	Time:00:00:00.002211	 Malloc-MB:0
+12	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::90	Time:00:00:00.002206	 Malloc-MB:0
+13	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::24	Time:00:00:00.002198	 Malloc-MB:0
+14	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::99	Time:00:00:00.002177	 Malloc-MB:0
+15	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::55	Time:00:00:00.002167	 Malloc-MB:0
+16	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::60	Time:00:00:00.002154	 Malloc-MB:0
+17	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::110	Time:00:00:00.002148	 Malloc-MB:0
+18	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::112	Time:00:00:00.002138	 Malloc-MB:0
+19	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::74	Time:00:00:00.002121	 Malloc-MB:0
+20	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::58	Time:00:00:00.002119	 Malloc-MB:0
+21	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::142	Time:00:00:00.002118	 Malloc-MB:0
+22	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::102	Time:00:00:00.002117	 Malloc-MB:0
+23	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::75	Time:00:00:00.002116	 Malloc-MB:0
+24	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::97	Time:00:00:00.002115	 Malloc-MB:0
+25	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::72	Time:00:00:00.002108	 Malloc-MB:0
+26	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::65	Time:00:00:00.002106	 Malloc-MB:0
+27	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::82	Time:00:00:00.002105	 Malloc-MB:0
+28	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::71	Time:00:00:00.002103	 Malloc-MB:0
+29	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::134	Time:00:00:00.002102	 Malloc-MB:0
+30	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::103	Time:00:00:00.002095	 Malloc-MB:0
+31	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::61	Time:00:00:00.002092	 Malloc-MB:0
+32	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::68	Time:00:00:00.002091	 Malloc-MB:0
+33	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::63	Time:00:00:00.002089	 Malloc-MB:0
+34	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::79	Time:00:00:00.002087	 Malloc-MB:0
+35	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::130	Time:00:00:00.002083	 Malloc-MB:0
+36	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::77	Time:00:00:00.002081	 Malloc-MB:0
+37	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::104	Time:00:00:00.002080	 Malloc-MB:0
+38	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::129	Time:00:00:00.002079	 Malloc-MB:0
+39	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::80	Time:00:00:00.002077	 Malloc-MB:0
+40	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::66	Time:00:00:00.002076	 Malloc-MB:0
 
-### configure_reset_propagation	Num_calls 1	Total_time 00:00:00.000046	Total malloc-M 0
+### configure_reset_propagation	Num_calls 1	Total_time 00:00:00.000041	Total malloc-M 0
 
-### configure_tag	Num_calls 108	Total_time 00:00:00.732214	Total malloc-M 5
-1	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/merge_commands.tcl::0	Time:00:00:00.049799	 Malloc-MB:4
-2	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::3	Time:00:00:00.015888	 Malloc-MB:0
-3	File:top_lint.tcl::5	Time:00:00:00.008607	 Malloc-MB:0
-4	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::4	Time:00:00:00.008531	 Malloc-MB:0
-5	File:top_lint.tcl::5	Time:00:00:00.008489	 Malloc-MB:0
-6	File:top_lint.tcl::5	Time:00:00:00.008241	 Malloc-MB:0
-7	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::21	Time:00:00:00.008230	 Malloc-MB:0
-8	File:top_lint.tcl::5	Time:00:00:00.008202	 Malloc-MB:0
-9	File:top_lint.tcl::5	Time:00:00:00.008182	 Malloc-MB:0
-10	File:top_lint.tcl::5	Time:00:00:00.007888	 Malloc-MB:0
-11	File:top_lint.tcl::5	Time:00:00:00.007803	 Malloc-MB:0
-12	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::26	Time:00:00:00.007691	 Malloc-MB:0
-13	File:top_lint.tcl::5	Time:00:00:00.007669	 Malloc-MB:0
-14	File:top_lint.tcl::5	Time:00:00:00.007666	 Malloc-MB:0
-15	File:top_lint.tcl::5	Time:00:00:00.007654	 Malloc-MB:0
-16	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::81	Time:00:00:00.007502	 Malloc-MB:0
-17	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::83	Time:00:00:00.007479	 Malloc-MB:0
-18	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::38	Time:00:00:00.007464	 Malloc-MB:0
-19	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::6	Time:00:00:00.007399	 Malloc-MB:0
-20	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::27	Time:00:00:00.007376	 Malloc-MB:0
-21	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::94	Time:00:00:00.007298	 Malloc-MB:0
-22	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::133	Time:00:00:00.007222	 Malloc-MB:0
-23	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::37	Time:00:00:00.007153	 Malloc-MB:0
-24	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::70	Time:00:00:00.007127	 Malloc-MB:0
-25	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::125	Time:00:00:00.007124	 Malloc-MB:0
-26	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::127	Time:00:00:00.007112	 Malloc-MB:0
-27	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::136	Time:00:00:00.007098	 Malloc-MB:0
-28	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::145	Time:00:00:00.007089	 Malloc-MB:0
-29	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::131	Time:00:00:00.007064	 Malloc-MB:0
-30	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::5	Time:00:00:00.007053	 Malloc-MB:0
-31	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::132	Time:00:00:00.007032	 Malloc-MB:0
-32	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::59	Time:00:00:00.007028	 Malloc-MB:0
-33	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::36	Time:00:00:00.006990	 Malloc-MB:0
-34	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::84	Time:00:00:00.006979	 Malloc-MB:0
-35	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::135	Time:00:00:00.006964	 Malloc-MB:0
-36	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::29	Time:00:00:00.006960	 Malloc-MB:0
-37	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::111	Time:00:00:00.006944	 Malloc-MB:0
-38	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::39	Time:00:00:00.006941	 Malloc-MB:0
-39	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::108	Time:00:00:00.006939	 Malloc-MB:0
-40	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::144	Time:00:00:00.006927	 Malloc-MB:0
-41	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::78	Time:00:00:00.006926	 Malloc-MB:0
-42	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::138	Time:00:00:00.006913	 Malloc-MB:0
-43	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::76	Time:00:00:00.006890	 Malloc-MB:0
-44	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::42	Time:00:00:00.006867	 Malloc-MB:0
-45	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::141	Time:00:00:00.006849	 Malloc-MB:0
-46	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::43	Time:00:00:00.006848	 Malloc-MB:0
-47	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::73	Time:00:00:00.006840	 Malloc-MB:0
-48	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::40	Time:00:00:00.006815	 Malloc-MB:0
-49	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::31	Time:00:00:00.006800	 Malloc-MB:0
-50	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::123	Time:00:00:00.006770	 Malloc-MB:0
-51	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::50	Time:00:00:00.006755	 Malloc-MB:0
-52	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::47	Time:00:00:00.006747	 Malloc-MB:0
-53	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::12	Time:00:00:00.006742	 Malloc-MB:0
-54	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::11	Time:00:00:00.006730	 Malloc-MB:0
-55	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::44	Time:00:00:00.006715	 Malloc-MB:0
-56	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::13	Time:00:00:00.006706	 Malloc-MB:0
-57	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::113	Time:00:00:00.006693	 Malloc-MB:0
-58	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::48	Time:00:00:00.006677	 Malloc-MB:0
-59	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::14	Time:00:00:00.006676	 Malloc-MB:0
-60	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::16	Time:00:00:00.006669	 Malloc-MB:0
-61	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::115	Time:00:00:00.006634	 Malloc-MB:0
-62	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::7	Time:00:00:00.006624	 Malloc-MB:0
-63	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::35	Time:00:00:00.006622	 Malloc-MB:0
-64	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::139	Time:00:00:00.006600	 Malloc-MB:0
-65	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::137	Time:00:00:00.006590	 Malloc-MB:0
-66	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::56	Time:00:00:00.005533	 Malloc-MB:0
-67	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::87	Time:00:00:00.005347	 Malloc-MB:0
-68	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::121	Time:00:00:00.005304	 Malloc-MB:0
-69	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::25	Time:00:00:00.005275	 Malloc-MB:0
-70	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::101	Time:00:00:00.005233	 Malloc-MB:0
-71	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::22	Time:00:00:00.005187	 Malloc-MB:0
-72	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::86	Time:00:00:00.005154	 Malloc-MB:0
-73	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::57	Time:00:00:00.005131	 Malloc-MB:0
-74	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::89	Time:00:00:00.005067	 Malloc-MB:0
-75	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::30	Time:00:00:00.005053	 Malloc-MB:0
-76	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::49	Time:00:00:00.005046	 Malloc-MB:0
-77	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::28	Time:00:00:00.005031	 Malloc-MB:0
-78	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::64	Time:00:00:00.005012	 Malloc-MB:0
-79	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::105	Time:00:00:00.005003	 Malloc-MB:0
-80	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::91	Time:00:00:00.004984	 Malloc-MB:0
-81	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::15	Time:00:00:00.004966	 Malloc-MB:0
-82	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::45	Time:00:00:00.004945	 Malloc-MB:0
-83	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::53	Time:00:00:00.004929	 Malloc-MB:0
-84	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::54	Time:00:00:00.004901	 Malloc-MB:0
-85	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::17	Time:00:00:00.004890	 Malloc-MB:0
-86	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::62	Time:00:00:00.004887	 Malloc-MB:0
-87	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::23	Time:00:00:00.004876	 Malloc-MB:0
-88	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::33	Time:00:00:00.004843	 Malloc-MB:0
-89	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::107	Time:00:00:00.004839	 Malloc-MB:0
-90	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::32	Time:00:00:00.004767	 Malloc-MB:0
-91	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::119	Time:00:00:00.004744	 Malloc-MB:0
-92	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::122	Time:00:00:00.004723	 Malloc-MB:0
-93	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::69	Time:00:00:00.004718	 Malloc-MB:0
-94	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::8	Time:00:00:00.004717	 Malloc-MB:0
-95	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::67	Time:00:00:00.004711	 Malloc-MB:0
-96	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::98	Time:00:00:00.004707	 Malloc-MB:0
-97	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::10	Time:00:00:00.004705	 Malloc-MB:0
-98	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::51	Time:00:00:00.004688	 Malloc-MB:0
-99	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::92	Time:00:00:00.004684	 Malloc-MB:0
-100	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::118	Time:00:00:00.004676	 Malloc-MB:0
-101	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::100	Time:00:00:00.004670	 Malloc-MB:0
+### configure_tag	Num_calls 108	Total_time 00:00:00.801488	Total malloc-M 5
+1	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/merge_commands.tcl::0	Time:00:00:00.051250	 Malloc-MB:4
+2	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::3	Time:00:00:00.014422	 Malloc-MB:0
+3	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::36	Time:00:00:00.013319	 Malloc-MB:0
+4	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::39	Time:00:00:00.012430	 Malloc-MB:0
+5	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::37	Time:00:00:00.012360	 Malloc-MB:0
+6	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::47	Time:00:00:00.012011	 Malloc-MB:0
+7	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::40	Time:00:00:00.011426	 Malloc-MB:0
+8	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::38	Time:00:00:00.011080	 Malloc-MB:0
+9	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::48	Time:00:00:00.010757	 Malloc-MB:0
+10	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::42	Time:00:00:00.010714	 Malloc-MB:0
+11	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::44	Time:00:00:00.010685	 Malloc-MB:0
+12	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::43	Time:00:00:00.010619	 Malloc-MB:0
+13	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::50	Time:00:00:00.010479	 Malloc-MB:0
+14	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::31	Time:00:00:00.010348	 Malloc-MB:0
+15	File:top_lint.tcl::5	Time:00:00:00.008772	 Malloc-MB:0
+16	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::27	Time:00:00:00.008716	 Malloc-MB:0
+17	File:top_lint.tcl::5	Time:00:00:00.008687	 Malloc-MB:0
+18	File:top_lint.tcl::5	Time:00:00:00.008605	 Malloc-MB:0
+19	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::29	Time:00:00:00.008543	 Malloc-MB:0
+20	File:top_lint.tcl::5	Time:00:00:00.008537	 Malloc-MB:0
+21	File:top_lint.tcl::5	Time:00:00:00.008370	 Malloc-MB:0
+22	File:top_lint.tcl::5	Time:00:00:00.008309	 Malloc-MB:0
+23	File:top_lint.tcl::5	Time:00:00:00.008247	 Malloc-MB:0
+24	File:top_lint.tcl::5	Time:00:00:00.008230	 Malloc-MB:0
+25	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::5	Time:00:00:00.008211	 Malloc-MB:0
+26	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::113	Time:00:00:00.008168	 Malloc-MB:0
+27	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::6	Time:00:00:00.008112	 Malloc-MB:0
+28	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::45	Time:00:00:00.007940	 Malloc-MB:0
+29	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::51	Time:00:00:00.007798	 Malloc-MB:0
+30	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::49	Time:00:00:00.007670	 Malloc-MB:0
+31	File:top_lint.tcl::5	Time:00:00:00.007640	 Malloc-MB:0
+32	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::19	Time:00:00:00.007614	 Malloc-MB:0
+33	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::21	Time:00:00:00.007604	 Malloc-MB:0
+34	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::4	Time:00:00:00.007465	 Malloc-MB:0
+35	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::35	Time:00:00:00.007440	 Malloc-MB:0
+36	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::13	Time:00:00:00.007398	 Malloc-MB:0
+37	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::115	Time:00:00:00.007334	 Malloc-MB:0
+38	File:top_lint.tcl::5	Time:00:00:00.007312	 Malloc-MB:0
+39	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::32	Time:00:00:00.007269	 Malloc-MB:0
+40	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::30	Time:00:00:00.007203	 Malloc-MB:0
+41	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::123	Time:00:00:00.007146	 Malloc-MB:0
+42	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::94	Time:00:00:00.007137	 Malloc-MB:0
+43	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::12	Time:00:00:00.007039	 Malloc-MB:0
+44	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::70	Time:00:00:00.007000	 Malloc-MB:0
+45	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::14	Time:00:00:00.006980	 Malloc-MB:0
+46	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::59	Time:00:00:00.006960	 Malloc-MB:0
+47	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::26	Time:00:00:00.006879	 Malloc-MB:0
+48	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::16	Time:00:00:00.006857	 Malloc-MB:0
+49	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::7	Time:00:00:00.006834	 Malloc-MB:0
+50	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::78	Time:00:00:00.006792	 Malloc-MB:0
+51	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::83	Time:00:00:00.006790	 Malloc-MB:0
+52	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::108	Time:00:00:00.006780	 Malloc-MB:0
+53	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::81	Time:00:00:00.006776	 Malloc-MB:0
+54	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::135	Time:00:00:00.006771	 Malloc-MB:0
+55	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::11	Time:00:00:00.006770	 Malloc-MB:0
+56	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::73	Time:00:00:00.006769	 Malloc-MB:0
+57	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::125	Time:00:00:00.006762	 Malloc-MB:0
+58	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::136	Time:00:00:00.006755	 Malloc-MB:0
+59	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::111	Time:00:00:00.006749	 Malloc-MB:0
+60	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::144	Time:00:00:00.006693	 Malloc-MB:0
+61	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::76	Time:00:00:00.006678	 Malloc-MB:0
+62	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::84	Time:00:00:00.006673	 Malloc-MB:0
+63	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::131	Time:00:00:00.006662	 Malloc-MB:0
+64	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::145	Time:00:00:00.006655	 Malloc-MB:0
+65	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::138	Time:00:00:00.006653	 Malloc-MB:0
+66	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::132	Time:00:00:00.006610	 Malloc-MB:0
+67	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::139	Time:00:00:00.006498	 Malloc-MB:0
+68	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::127	Time:00:00:00.006485	 Malloc-MB:0
+69	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::137	Time:00:00:00.006422	 Malloc-MB:0
+70	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::53	Time:00:00:00.005756	 Malloc-MB:0
+71	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::28	Time:00:00:00.005701	 Malloc-MB:0
+72	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::87	Time:00:00:00.005422	 Malloc-MB:0
+73	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::89	Time:00:00:00.005283	 Malloc-MB:0
+74	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::56	Time:00:00:00.005135	 Malloc-MB:0
+75	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::54	Time:00:00:00.005115	 Malloc-MB:0
+76	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::22	Time:00:00:00.005095	 Malloc-MB:0
+77	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::57	Time:00:00:00.005075	 Malloc-MB:0
+78	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::64	Time:00:00:00.005069	 Malloc-MB:0
+79	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::121	Time:00:00:00.005036	 Malloc-MB:0
+80	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::85	Time:00:00:00.005026	 Malloc-MB:0
+81	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::17	Time:00:00:00.005000	 Malloc-MB:0
+82	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::25	Time:00:00:00.004923	 Malloc-MB:0
+83	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::86	Time:00:00:00.004918	 Malloc-MB:0
+84	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::23	Time:00:00:00.004896	 Malloc-MB:0
+85	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::62	Time:00:00:00.004890	 Malloc-MB:0
+86	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::15	Time:00:00:00.004848	 Malloc-MB:0
+87	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::8	Time:00:00:00.004828	 Malloc-MB:0
+88	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::10	Time:00:00:00.004758	 Malloc-MB:0
+89	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::69	Time:00:00:00.004756	 Malloc-MB:0
+90	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::98	Time:00:00:00.004735	 Malloc-MB:0
+91	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::67	Time:00:00:00.004711	 Malloc-MB:0
+92	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::91	Time:00:00:00.004708	 Malloc-MB:0
+93	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::96	Time:00:00:00.004645	 Malloc-MB:0
+94	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::118	Time:00:00:00.004640	 Malloc-MB:0
+95	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::100	Time:00:00:00.004631	 Malloc-MB:0
+96	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::107	Time:00:00:00.004623	 Malloc-MB:0
+97	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::9	Time:00:00:00.004612	 Malloc-MB:0
+98	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::117	Time:00:00:00.004578	 Malloc-MB:0
+99	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::119	Time:00:00:00.004560	 Malloc-MB:0
+100	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::101	Time:00:00:00.004554	 Malloc-MB:0
+101	File:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/auxx/monet/tcl/GuideWare/block/initial_rtl/lint/lint_rtl.tcl::92	Time:00:00:00.004539	 Malloc-MB:0
 
-### define_violation	Num_calls 2	Total_time 00:00:01.724673	Total malloc-M -40
-1	File:top_lint.tcl::5	Time:00:00:00.918615	 Malloc-MB:0
-2	File:top_lint.tcl::5	Time:00:00:00.806058	 Malloc-MB:-40
+### define_violation	Num_calls 2	Total_time 00:00:01.775894	Total malloc-M -40
+1	File:top_lint.tcl::5	Time:00:00:00.958347	 Malloc-MB:0
+2	File:top_lint.tcl::5	Time:00:00:00.817547	 Malloc-MB:-40
 
-### elaborate	Num_calls 1	Total_time 00:00:03.141287	Total malloc-M 32
-1	File:top_lint.tcl::11	Time:00:00:03.141287	 Malloc-MB:32
+### elaborate	Num_calls 1	Total_time 00:00:03.121439	Total malloc-M 31
+1	File:top_lint.tcl::11	Time:00:00:03.121439	 Malloc-MB:31
 
 ### get_message_db_ptr	Num_calls 1	Total_time 00:00:00.000008	Total malloc-M 0
 
-### get_report_db_ptr	Num_calls 1	Total_time 00:00:00.000007	Total malloc-M 0
+### get_report_db_ptr	Num_calls 1	Total_time 00:00:00.000012	Total malloc-M 0
 
-### infer_setup	Num_calls 2	Total_time 00:00:00.003792	Total malloc-M 0
-1	File:top_lint.tcl::13	Time:00:00:00.002525	 Malloc-MB:0
-2	File:top_lint.tcl::13	Time:00:00:00.001267	 Malloc-MB:0
+### infer_setup	Num_calls 2	Total_time 00:00:00.042238	Total malloc-M 0
+1	File:top_lint.tcl::13	Time:00:00:00.040341	 Malloc-MB:0
+2	File:top_lint.tcl::13	Time:00:00:00.001897	 Malloc-MB:0
 
-### invalidate_report_cache	Num_calls 7	Total_time 00:00:00.021586	Total malloc-M 6
-1	File:top_lint.tcl::5	Time:00:00:00.021293	 Malloc-MB:6
+### invalidate_report_cache	Num_calls 7	Total_time 00:00:00.020918	Total malloc-M 6
+1	File:top_lint.tcl::5	Time:00:00:00.020730	 Malloc-MB:6
 
-### nschema_db_error_info	Num_calls 1	Total_time 00:00:00.000115	Total malloc-M 0
+### nschema_db_error_info	Num_calls 1	Total_time 00:00:00.000111	Total malloc-M 0
 
-### rename_tag	Num_calls 59	Total_time 00:00:00.622406	Total malloc-M -1
-1	File:top_lint.tcl::5	Time:00:00:00.015721	 Malloc-MB:0
-2	File:top_lint.tcl::5	Time:00:00:00.015368	 Malloc-MB:0
-3	File:top_lint.tcl::5	Time:00:00:00.015131	 Malloc-MB:0
-4	File:top_lint.tcl::5	Time:00:00:00.015107	 Malloc-MB:0
-5	File:top_lint.tcl::5	Time:00:00:00.015038	 Malloc-MB:0
-6	File:top_lint.tcl::5	Time:00:00:00.014846	 Malloc-MB:0
-7	File:top_lint.tcl::5	Time:00:00:00.014785	 Malloc-MB:0
-8	File:top_lint.tcl::5	Time:00:00:00.014561	 Malloc-MB:0
-9	File:top_lint.tcl::5	Time:00:00:00.013248	 Malloc-MB:0
-10	File:top_lint.tcl::5	Time:00:00:00.012390	 Malloc-MB:0
-11	File:top_lint.tcl::5	Time:00:00:00.012285	 Malloc-MB:0
-12	File:top_lint.tcl::5	Time:00:00:00.011731	 Malloc-MB:-1
-13	File:top_lint.tcl::5	Time:00:00:00.010340	 Malloc-MB:0
-14	File:top_lint.tcl::5	Time:00:00:00.010256	 Malloc-MB:0
-15	File:top_lint.tcl::5	Time:00:00:00.010061	 Malloc-MB:0
-16	File:top_lint.tcl::5	Time:00:00:00.009919	 Malloc-MB:0
-17	File:top_lint.tcl::5	Time:00:00:00.009908	 Malloc-MB:0
-18	File:top_lint.tcl::5	Time:00:00:00.009875	 Malloc-MB:0
-19	File:top_lint.tcl::5	Time:00:00:00.009854	 Malloc-MB:0
-20	File:top_lint.tcl::5	Time:00:00:00.009792	 Malloc-MB:0
-21	File:top_lint.tcl::5	Time:00:00:00.009757	 Malloc-MB:0
-22	File:top_lint.tcl::5	Time:00:00:00.009753	 Malloc-MB:0
-23	File:top_lint.tcl::5	Time:00:00:00.009745	 Malloc-MB:0
-24	File:top_lint.tcl::5	Time:00:00:00.009739	 Malloc-MB:0
-25	File:top_lint.tcl::5	Time:00:00:00.009717	 Malloc-MB:0
-26	File:top_lint.tcl::5	Time:00:00:00.009710	 Malloc-MB:0
-27	File:top_lint.tcl::5	Time:00:00:00.009704	 Malloc-MB:0
-28	File:top_lint.tcl::5	Time:00:00:00.009701	 Malloc-MB:0
-29	File:top_lint.tcl::5	Time:00:00:00.009655	 Malloc-MB:0
-30	File:top_lint.tcl::5	Time:00:00:00.009651	 Malloc-MB:0
-31	File:top_lint.tcl::5	Time:00:00:00.009624	 Malloc-MB:0
-32	File:top_lint.tcl::5	Time:00:00:00.009623	 Malloc-MB:0
-33	File:top_lint.tcl::5	Time:00:00:00.009564	 Malloc-MB:0
-34	File:top_lint.tcl::5	Time:00:00:00.009563	 Malloc-MB:0
-35	File:top_lint.tcl::5	Time:00:00:00.009537	 Malloc-MB:0
-36	File:top_lint.tcl::5	Time:00:00:00.009529	 Malloc-MB:0
-37	File:top_lint.tcl::5	Time:00:00:00.009521	 Malloc-MB:0
-38	File:top_lint.tcl::5	Time:00:00:00.009519	 Malloc-MB:0
-39	File:top_lint.tcl::5	Time:00:00:00.009517	 Malloc-MB:0
-40	File:top_lint.tcl::5	Time:00:00:00.009507	 Malloc-MB:0
-41	File:top_lint.tcl::5	Time:00:00:00.009499	 Malloc-MB:0
-42	File:top_lint.tcl::5	Time:00:00:00.009492	 Malloc-MB:0
-43	File:top_lint.tcl::5	Time:00:00:00.009482	 Malloc-MB:0
-44	File:top_lint.tcl::5	Time:00:00:00.009476	 Malloc-MB:0
-45	File:top_lint.tcl::5	Time:00:00:00.009472	 Malloc-MB:0
-46	File:top_lint.tcl::5	Time:00:00:00.009469	 Malloc-MB:0
-47	File:top_lint.tcl::5	Time:00:00:00.009465	 Malloc-MB:0
-48	File:top_lint.tcl::5	Time:00:00:00.009460	 Malloc-MB:0
-49	File:top_lint.tcl::5	Time:00:00:00.009458	 Malloc-MB:0
-50	File:top_lint.tcl::5	Time:00:00:00.009449	 Malloc-MB:0
-51	File:top_lint.tcl::5	Time:00:00:00.009440	 Malloc-MB:0
-52	File:top_lint.tcl::5	Time:00:00:00.009427	 Malloc-MB:0
-53	File:top_lint.tcl::5	Time:00:00:00.009411	 Malloc-MB:0
-54	File:top_lint.tcl::5	Time:00:00:00.009409	 Malloc-MB:0
-55	File:top_lint.tcl::5	Time:00:00:00.009407	 Malloc-MB:0
-56	File:top_lint.tcl::5	Time:00:00:00.009391	 Malloc-MB:0
+### rename_tag	Num_calls 59	Total_time 00:00:00.560865	Total malloc-M -1
+1	File:top_lint.tcl::5	Time:00:00:00.011329	 Malloc-MB:-1
+2	File:top_lint.tcl::5	Time:00:00:00.010121	 Malloc-MB:0
+3	File:top_lint.tcl::5	Time:00:00:00.010046	 Malloc-MB:0
+4	File:top_lint.tcl::5	Time:00:00:00.009993	 Malloc-MB:0
+5	File:top_lint.tcl::5	Time:00:00:00.009911	 Malloc-MB:0
+6	File:top_lint.tcl::5	Time:00:00:00.009881	 Malloc-MB:0
+7	File:top_lint.tcl::5	Time:00:00:00.009844	 Malloc-MB:0
+8	File:top_lint.tcl::5	Time:00:00:00.009831	 Malloc-MB:0
+9	File:top_lint.tcl::5	Time:00:00:00.009830	 Malloc-MB:0
+10	File:top_lint.tcl::5	Time:00:00:00.009767	 Malloc-MB:0
+11	File:top_lint.tcl::5	Time:00:00:00.009747	 Malloc-MB:0
+12	File:top_lint.tcl::5	Time:00:00:00.009713	 Malloc-MB:0
+13	File:top_lint.tcl::5	Time:00:00:00.009685	 Malloc-MB:0
+14	File:top_lint.tcl::5	Time:00:00:00.009667	 Malloc-MB:0
+15	File:top_lint.tcl::5	Time:00:00:00.009637	 Malloc-MB:0
+16	File:top_lint.tcl::5	Time:00:00:00.009611	 Malloc-MB:0
+17	File:top_lint.tcl::5	Time:00:00:00.009597	 Malloc-MB:0
+18	File:top_lint.tcl::5	Time:00:00:00.009590	 Malloc-MB:0
+19	File:top_lint.tcl::5	Time:00:00:00.009563	 Malloc-MB:0
+20	File:top_lint.tcl::5	Time:00:00:00.009557	 Malloc-MB:0
+21	File:top_lint.tcl::5	Time:00:00:00.009556	 Malloc-MB:0
+22	File:top_lint.tcl::5	Time:00:00:00.009510	 Malloc-MB:0
+23	File:top_lint.tcl::5	Time:00:00:00.009500	 Malloc-MB:0
+24	File:top_lint.tcl::5	Time:00:00:00.009495	 Malloc-MB:0
+25	File:top_lint.tcl::5	Time:00:00:00.009481	 Malloc-MB:0
+26	File:top_lint.tcl::5	Time:00:00:00.009471	 Malloc-MB:0
+27	File:top_lint.tcl::5	Time:00:00:00.009433	 Malloc-MB:0
+28	File:top_lint.tcl::5	Time:00:00:00.009428	 Malloc-MB:0
+29	File:top_lint.tcl::5	Time:00:00:00.009425	 Malloc-MB:0
+30	File:top_lint.tcl::5	Time:00:00:00.009416	 Malloc-MB:0
+31	File:top_lint.tcl::5	Time:00:00:00.009392	 Malloc-MB:0
+32	File:top_lint.tcl::5	Time:00:00:00.009389	 Malloc-MB:0
+33	File:top_lint.tcl::5	Time:00:00:00.009379	 Malloc-MB:0
+34	File:top_lint.tcl::5	Time:00:00:00.009376	 Malloc-MB:0
+35	File:top_lint.tcl::5	Time:00:00:00.009375	 Malloc-MB:0
+36	File:top_lint.tcl::5	Time:00:00:00.009371	 Malloc-MB:0
+37	File:top_lint.tcl::5	Time:00:00:00.009367	 Malloc-MB:0
+38	File:top_lint.tcl::5	Time:00:00:00.009346	 Malloc-MB:0
+39	File:top_lint.tcl::5	Time:00:00:00.009336	 Malloc-MB:0
+40	File:top_lint.tcl::5	Time:00:00:00.009316	 Malloc-MB:0
+41	File:top_lint.tcl::5	Time:00:00:00.009315	 Malloc-MB:0
+42	File:top_lint.tcl::5	Time:00:00:00.009291	 Malloc-MB:0
+43	File:top_lint.tcl::5	Time:00:00:00.009287	 Malloc-MB:0
+44	File:top_lint.tcl::5	Time:00:00:00.009261	 Malloc-MB:0
+45	File:top_lint.tcl::5	Time:00:00:00.009257	 Malloc-MB:0
+46	File:top_lint.tcl::5	Time:00:00:00.009248	 Malloc-MB:0
+47	File:top_lint.tcl::5	Time:00:00:00.009247	 Malloc-MB:0
+48	File:top_lint.tcl::5	Time:00:00:00.009246	 Malloc-MB:0
+49	File:top_lint.tcl::5	Time:00:00:00.009241	 Malloc-MB:0
+50	File:top_lint.tcl::5	Time:00:00:00.009237	 Malloc-MB:0
+51	File:top_lint.tcl::5	Time:00:00:00.009235	 Malloc-MB:0
+52	File:top_lint.tcl::5	Time:00:00:00.009216	 Malloc-MB:0
+53	File:top_lint.tcl::5	Time:00:00:00.009204	 Malloc-MB:0
+54	File:top_lint.tcl::5	Time:00:00:00.009193	 Malloc-MB:0
+55	File:top_lint.tcl::5	Time:00:00:00.009152	 Malloc-MB:0
+56	File:top_lint.tcl::5	Time:00:00:00.009139	 Malloc-MB:0
+57	File:top_lint.tcl::5	Time:00:00:00.009131	 Malloc-MB:0
 
-### report_lint	Num_calls 1	Total_time 00:00:00.845870	Total malloc-M 7
-1	File:top_lint.tcl::17	Time:00:00:00.845870	 Malloc-MB:7
+### report_lint	Num_calls 1	Total_time 00:00:00.835374	Total malloc-M 6
+1	File:top_lint.tcl::17	Time:00:00:00.835374	 Malloc-MB:6
 
-### restore_session	Num_calls 1	Total_time 00:00:00.000062	Total malloc-M 0
+### restore_session	Num_calls 1	Total_time 00:00:00.000065	Total malloc-M 0
 
-### waive_violation	Num_calls 1	Total_time 00:00:01.284162	Total malloc-M 0
-1	File:top_lint.tcl::15	Time:00:00:01.284162	 Malloc-MB:0
+### waive_violation	Num_calls 1	Total_time 00:00:00.857288	Total malloc-M 0
+1	File:top_lint.tcl::15	Time:00:00:00.857288	 Malloc-MB:0
 
  ****************************Shell commands Recording************************
 exit

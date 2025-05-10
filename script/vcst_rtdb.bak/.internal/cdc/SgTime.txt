@@ -5,5 +5,6 @@ _nameToNet Map clear :    Time Taken: 0.00s
 UserConstantPropagation :    Time Taken: 0.00s
 DynamicUserCasePropagation :    Time Taken: 0.00s
 DesignConstantPropagation :    Time Taken: 0.00s
+HybridSeqPropagation :    Time Taken: 0.00s
 ReverseConstPropagationOnBiDir:    Time Taken: 0.00s
 ConstantPropagation :    Time Taken: 0.00s

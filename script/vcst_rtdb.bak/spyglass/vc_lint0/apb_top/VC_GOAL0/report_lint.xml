@@ -58,16 +58,4 @@
   <arg type="line" name="line" sgField="line" format="integer">1</arg>
   <arg type="MODULE" name="MODULE" sgField="MODULE" format="string">empty</arg>
 </violation>
-<violation rulename="ErrorAnalyzeBBox" policy="SpyGlass" lang="Mixed" message_label="Label_3" severity="Error" type="normal" msgHelp="Design Unit &apos;&#37;s&apos; has no definition; black-box behavior assumed">
-  <arg type="file" name="file" sgField="file" format="string">./../src/apb_if.sv</arg>
-  <arg type="line" name="line" sgField="line" format="integer">22</arg>
-  <arg type="MODULE" name="MODULE" sgField="MODULE" format="string">apb_if</arg>
-  <arg pos="1" type="" format="string" name="" sgField="Message">apb_fsm</arg>
-</violation>
-<violation rulename="ErrorAnalyzeBBox" policy="SpyGlass" lang="Mixed" message_label="Label_3" severity="Error" type="normal" msgHelp="Design Unit &apos;&#37;s&apos; has no definition; black-box behavior assumed">
-  <arg type="file" name="file" sgField="file" format="string">./../src/aux_if.sv</arg>
-  <arg type="line" name="line" sgField="line" format="integer">8</arg>
-  <arg type="MODULE" name="MODULE" sgField="MODULE" format="string">aux_if</arg>
-  <arg pos="1" type="" format="string" name="" sgField="Message">aux_reg</arg>
-</violation>
 </violations>

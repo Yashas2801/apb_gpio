@@ -1,5 +1,7 @@
+./../src/apb_fsm.sv
 ./../src/apb_if.sv
 ./../src/apb_io.sv
 ./../src/apb_top.sv
 ./../src/aux_if.sv
+./../src/aux_reg.sv
 ./../src/register.sv

@@ -1,4 +1,4 @@
-SpyGlass run started at 12:19:06 PM on May 07 2025 
+SpyGlass run started at 09:14:54 AM on May 10 2025 
 
 SpyGlass Predictive Analyzer(R) - Version SpyGlass_vT-2022.06
 Synopsys TestMAX(TM)
@@ -1742,7 +1742,7 @@ Loading Shared library libVhStarc2005-Linux4.spyso from /home/cad/eda/SYNOPSYS/V
 
 ##build_id : T-2022.06
 ##system   : Linux mavenserver-RH3 4.18.0-553.44.1.el8_10.x86_64 #1 SMP Wed Mar 5 10:48:41 EST 2025 x86_64
-##cwd      : /home1/WBRN18/YashasH/apb_gpio/script
+##cwd      : /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script
 ##lang     : Verilog+VHDL
 ##args     : -mSpyGlass::Compatibility::v2_7_3 \
              -mSpyGlass::Compatibility::v2_7_3 \
@@ -1758,9 +1758,9 @@ Loading Shared library libVhStarc2005-Linux4.spyso from /home/cad/eda/SYNOPSYS/V
              -lib dw04 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw04/lib \
              -lib dw05 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw05/lib \
              -lib dw06 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw06/lib \
-             -lib WORK /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK \
+             -lib WORK /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK \
              -rules='STARC05-2.10.1.4b,STARC05-2.10.1.4a,STARC05-2.3.1.2c,STARC05-2.1.3.1,STARC05-2.1.6.5,STARC05-2.11.3.1,STARC05-2.3.3.1,STARC05-2.10.3.2a,STARC05-2.10.2.3,STARC05-2.3.1.6,STARC05-2.3.1.5b,STARC05-2.2.3.3,STARC05-2.1.5.3,STARC05-2.1.4.5,sim_race02,NoXInCase-ML,ParamWidthMismatch-ML,NoAssignX-ML,PragmaComments-ML,ReportPortInfo-ML,W528,W505,W467,W424,W421,W398,W293,W287b,W287a,W240,W71,W110a,mixedsenselist,W416,W292,W156,W123,W122,W116,W422,W502,W499,W486,W481b,W481a,W480,W426,W415a,W362,W352,W337,W317,W289,W263,W224,W218,W216,W215,W66,W19,W496b,W496a,W110,bothedges,badimplicitSM4,badimplicitSM2,badimplicitSM1,W442f,W442c,W442b,W442a,W339a' \
-             -wdir '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0' \
+             -wdir '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0' \
              -mixed \
              -policy='lint,morelint,simulation,starc2005' \
              +incdir+./+ \
@@ -1769,8 +1769,8 @@ Loading Shared library libVhStarc2005-Linux4.spyso from /home/cad/eda/SYNOPSYS/V
              -allow_non_lrm \
              --goal_info 'VC_GOAL0@' \
              -use_vcs_compile \
-             -projectwdir '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0' \
-             -templatedir '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass' \
+             -projectwdir '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0' \
+             -templatedir '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass' \
              -check_celldefine \
              --template_info 'VC_GOAL0' \
              -prefer_tech_lib \
@@ -1780,7 +1780,7 @@ Loading Shared library libVhStarc2005-Linux4.spyso from /home/cad/eda/SYNOPSYS/V
              -allow_module_override \
              -allow_celldefine_as_top \
              -suppress_verilog_rules 'W505,W467,W424,W293,W422,W481b,W481a,W426,W289,W218,W216,W215,W66,bothedges,badimplicitSM4,badimplicitSM2,badimplicitSM1,W442f,W442c,W442b,W442a' \
-             -existing_vir_dump_path '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/' \
+             -existing_vir_dump_path '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/' \
              -enable_generate_label_naming \
              -enable_detailed_hierarchy \
              --disable_internal_waivers_gen \
@@ -1799,19 +1799,19 @@ Loading Shared library libVhStarc2005-Linux4.spyso from /home/cad/eda/SYNOPSYS/V
              -use_lrm_width=no \
              -64bit 
 ##verbosity level   : 2
-##exact cmdline arg : -batch -project /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0.prj -goal VC_GOAL0 -64bit
+##exact cmdline arg : -batch -project /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0.prj -goal VC_GOAL0 -64bit
 ##spyglass_run.csh begins :
-;	cd /home1/WBRN18/YashasH/apb_gpio/script
+;	cd /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script
 ;	setenv ATRENTA_LICENSE_FILE 27020@mavenserver-rh1:27021@mavenserver-RH2
 ;	setenv SPYGLASS_LD_PRELOAD /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/SG_COMPAT/SPYGLASS_HOME/lib/libreplacemalloc.so
 ;	setenv SPYGLASS_DW_PATH /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/SG_COMPAT/SPYGLASS_HOME/dw_support
-;	/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/SG_COMPAT/SPYGLASS_HOME/bin/spyglass  -batch -project /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0.prj -goal VC_GOAL0 -64bit
+;	/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/SG_COMPAT/SPYGLASS_HOME/bin/spyglass  -batch -project /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0.prj -goal VC_GOAL0 -64bit
 ##spyglass_run.csh ends
 ##files    :
 
-INFO [6]    Work Directory '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK' does not exist.
+INFO [6]    Work Directory '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK' does not exist.
 
-INFO [75]    Creating the Work Directory '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK/64' for 64bit  precompiled dump.
+INFO [75]    Creating the Work Directory '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK/64' for 64bit  precompiled dump.
 Checking Rule PrecompileLibCheck01 (Rule 1 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule PrecompileLibCheck02 (Rule 2 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule PrecompileLibCheck03 (Rule 3 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -1822,8 +1822,8 @@ Checking Rule SGDC_sdcschema02 (Rule 7 of total 219) .... done (Time = 0.00s, Me
 Checking Rule SGDC_clock05 (Rule 8 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_clock09 (Rule 9 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_force_ta05 (Rule 10 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule SGDC_require_path03 (Rule 11 of total 219) .... done (Time = 0.00s, Memory = -32.0K)
-Checking Rule SGDC_require_value03 (Rule 12 of total 219) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_require_path03 (Rule 11 of total 219) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_require_value03 (Rule 12 of total 219) .... done (Time = 0.00s, Memory = -32.0K)
 Checking Rule SGDC_voltagedomain05 (Rule 13 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
 Checking Rule SGDC_voltagedomain06 (Rule 14 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_voltagedomain07 (Rule 15 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
@@ -1857,11 +1857,11 @@ Checking Rule SGDC_power_data01 (Rule 42 of total 219) .... done (Time = 0.00s, 
 Checking Rule SGDC_ungroup01 (Rule 43 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_abstract_port06 (Rule 44 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
 Checking Rule SGDC_abstract_port14 (Rule 45 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule SGDC_abstract_port15 (Rule 46 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port15 (Rule 46 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
 Checking Rule SGDC_abstract_port18 (Rule 47 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule sdc_init_rule (Rule 48 of total 219) .... done (Time = 0.00s, Memory = 48.0K)
 Checking Rule CMD_ignorelibs01 (Rule 49 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule ReportRuleNotRun (Rule 50 of total 219) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 50 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W442a (Rule 51 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W442b (Rule 52 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W442c (Rule 53 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -1880,31 +1880,31 @@ Checking Rule ReportIgnoreSummary (Rule 65 of total 219) .... done (Time = 0.00s
 
  Analysis started using vcs ...
 Checking Rule VCSRunSummary (Rule 66 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration started: 1 sec, 1.76 sec, 437096 KB, 1085336 KB
-##SGDEBUG [BENCHMARK_INCR]: Elaboration started: 1 sec, 1.76 sec, 437096 KB, 1085336 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration started: 2 sec, 1.62 sec, 437104 KB, 1085328 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration started: 2 sec, 1.62 sec, 437104 KB, 1085328 KB
 Loading hierarchy for module 'apb_top' ... done
  Elaborating Top Verilog Design Unit 'apb_top' ..... done
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration finished: 1 sec, 1.77 sec, 503048 KB, 1150888 KB
-##SGDEBUG [BENCHMARK_INCR]: Elaboration finished: 0 sec, 0.01 sec, 65952 KB, 65552 KB
-##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker started: 1 sec, 1.77 sec, 503048 KB, 1150888 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration finished: 2 sec, 1.63 sec, 503048 KB, 1150880 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration finished: 0 sec, 0.01 sec, 65944 KB, 65552 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker started: 2 sec, 1.63 sec, 503048 KB, 1150880 KB
 ##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker started: 0 sec, 0.00 sec, 0 KB, 0 KB
-##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker finished: 1 sec, 1.77 sec, 503064 KB, 1150888 KB
-##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker finished: 0 sec, 0.00 sec, 16 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker finished: 2 sec, 1.63 sec, 503072 KB, 1150880 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker finished: 0 sec, 0.00 sec, 24 KB, 0 KB
 Checking Rule ElabSummary (Rule 67 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule DumpDesignFilesForVCS (Rule 68 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule ReportCheckDataSummary (Rule 69 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
- Reading waiver file "/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
- Generating SGDC file "/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/constraint/pragma2Constraint.sgdc" from pragmas in HDL source files ....
- Generating WAIVER file "/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+ Reading waiver file "/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating SGDC file "/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/constraint/pragma2Constraint.sgdc" from pragmas in HDL source files ....
+ Generating WAIVER file "/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
 Checking Rule SGDC_waive37 (Rule 70 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule DetectTopDesignUnits (Rule 71 of total 219) Detected 1 top level design units: 
      apb_top
- .... done (Time = 0.00s, Memory = 0.0K)
+ .... done (Time = 0.00s, Memory = 8.0K)
 Performing semantic checks on SGDC contents
 ..... SGDC semantic checks completed. (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_testmode03 (Rule 72 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule ReportObsoletePragmas (Rule 73 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule GenerateConfMap (Rule 74 of total 219) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule GenerateConfMap (Rule 74 of total 219) .... done (Time = 0.00s, Memory = 32.0K)
 Checking Rule HdlLibDuCheck (Rule 75 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule RtlDesignInfo (Rule 76 of total 219)
 ##SGDEBUG [BENCHMARK_DATA]: Number of RTL Design Units = 7
@@ -1932,7 +1932,7 @@ Checking Rule SGDC_waive26 (Rule 84 of total 219) .... done (Time = 0.00s, Memor
 Checking Rule SGDC_waive27 (Rule 85 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_waive29 (Rule 86 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W317 (Rule 87 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule W422 (Rule 88 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W422 (Rule 88 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
 Checking Rule W426 (Rule 89 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W480 (Rule 90 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W481a (Rule 91 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -1952,14 +1952,14 @@ Checking Rule STARC05-2.3.3.1 (Rule 104 of total 219) .... done (Time = 0.00s, M
 Checking Rule STARC05-2.3.3.1 (Rule 105 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule STARC05-2.11.3.1 (Rule 106 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking ELABDU Rules for designUnit apb_top
-    Checking Rule W110 (Rule 107 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule W110 (Rule 107 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W122 (Rule 108 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W496a (Rule 109 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W496b (Rule 110 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W19 (Rule 111 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule W19 (Rule 111 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W66 (Rule 112 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W116 (Rule 113 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W123 (Rule 114 of total 219) .... done (Time = 0.00s, Memory = 24.0K)
+    Checking Rule W123 (Rule 114 of total 219) .... done (Time = 0.00s, Memory = 32.0K)
     Checking Rule W156 (Rule 115 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W215 (Rule 116 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W216 (Rule 117 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -1974,7 +1974,7 @@ Checking ELABDU Rules for designUnit apb_top
     Checking Rule W415a (Rule 126 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W486 (Rule 127 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W499 (Rule 128 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W502 (Rule 129 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule W502 (Rule 129 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W116 (Rule 130 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W122 (Rule 131 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W123 (Rule 132 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -1990,11 +1990,11 @@ Checking ELABDU Rules for designUnit apb_top
     Checking Rule W505 (Rule 142 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 143 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 144 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 146 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 147 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 148 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule Prereqs_ReportPortInfo-ML (Rule 149 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ReportPortInfo-ML (Rule 149 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
     Checking Rule NoAssignX-ML (Rule 150 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule ParamWidthMismatch-ML (Rule 151 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Postreqs_Usage_ML (Rule 152 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2049,7 +2049,7 @@ Checking ELABDU Rules for designUnit apb_if
     Checking Rule W505 (Rule 142 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 143 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 144 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 146 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 147 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 148 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2108,7 +2108,7 @@ Checking ELABDU Rules for designUnit apb_fsm
     Checking Rule W505 (Rule 142 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 143 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 144 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 146 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 147 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 148 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2167,7 +2167,7 @@ Checking ELABDU Rules for designUnit register
     Checking Rule W505 (Rule 142 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 143 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 144 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 146 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 147 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 148 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2176,7 +2176,7 @@ Checking ELABDU Rules for designUnit register
     Checking Rule ParamWidthMismatch-ML (Rule 151 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Postreqs_Usage_ML (Rule 152 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule NoXInCase-ML (Rule 153 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule sim_race02 (Rule 154 of total 219) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule sim_race02 (Rule 154 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule STARC05-2.1.3.1 (Rule 155 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule STARC05-2.10.1.4a (Rule 156 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule STARC05-2.10.1.4b (Rule 157 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2226,7 +2226,7 @@ Checking ELABDU Rules for designUnit aux_if
     Checking Rule W505 (Rule 142 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 143 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 144 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 146 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 147 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 148 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2285,7 +2285,7 @@ Checking ELABDU Rules for designUnit aux_reg
     Checking Rule W505 (Rule 142 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 143 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 144 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 146 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 147 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 148 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2344,7 +2344,7 @@ Checking ELABDU Rules for designUnit apb_io
     Checking Rule W505 (Rule 142 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 143 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 144 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 145 of total 219) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 146 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 147 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 148 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2361,7 +2361,7 @@ Checking ELABDU Rules for designUnit apb_io
     Checking Rule STARC05-2.1.5.3 (Rule 159 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule STARC05-2.2.3.3 (Rule 160 of total 219) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule STARC05-2.3.1.6 (Rule 161 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule STARC05-2.10.2.3 (Rule 162 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.2.3 (Rule 162 of total 219) .... done (Time = 0.01s, Memory = 0.0K)
     Checking Rule STARC05-2.10.3.2a (Rule 163 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule STARC05-2.11.3.1 (Rule 164 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking ELABDU Rules for designUnit apb_top
@@ -2371,8 +2371,8 @@ Checking ELABDU Rules for designUnit register
 Checking ELABDU Rules for designUnit aux_if
 Checking ELABDU Rules for designUnit aux_reg
 Checking ELABDU Rules for designUnit apb_io
-##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Lexical Checker started: 2 sec, 2.26 sec, 502744 KB, 1150888 KB
-##SGDEBUG [BENCHMARK_INCR]: RTL Lexical Checker started: 1 sec, 0.49 sec, -320 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Lexical Checker started: 3 sec, 2.13 sec, 502744 KB, 1150880 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Lexical Checker started: 1 sec, 0.50 sec, -328 KB, 0 KB
 Checking Lexical Rules for file ./../src/apb_io.sv
     Checking Rule ReportPortInfo-ML (Rule 165 of total 219) .... done (Time = 0.00s, Memory = 96.0K)
 Checking Lexical Rules for file ./../src/apb_if.sv
@@ -2387,8 +2387,8 @@ Checking Lexical Rules for file ./../src/aux_reg.sv
     Checking Rule ReportPortInfo-ML (Rule 165 of total 219) .... done (Time = 0.00s, Memory = 96.0K)
 Checking Lexical Rules for file ./../src/apb_fsm.sv
     Checking Rule ReportPortInfo-ML (Rule 165 of total 219) .... done (Time = 0.00s, Memory = 96.0K)
-##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Lexical Checker finished: 2 sec, 2.27 sec, 502840 KB, 1150888 KB
-##SGDEBUG [BENCHMARK_INCR]: RTL Lexical Checker finished: 0 sec, 0.01 sec, 96 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Lexical Checker finished: 3 sec, 2.14 sec, 502848 KB, 1150880 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Lexical Checker finished: 0 sec, 0.01 sec, 104 KB, 0 KB
 Checking Rule SGDC_waive24 (Rule 166 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_waive25 (Rule 167 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_waive31 (Rule 168 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2398,11 +2398,11 @@ Checking Rule AnalyzeBBox (Rule 171 of total 219) .... done (Time = 0.00s, Memor
 Checking Rule ReportCheckDataSummary (Rule 69 of total 219) .... done (Time = 0.00s, Memory = 0.0K)
 
 Generating data for Console...
-##SGDEBUG [PEAK_VMSIZE_END_RULE]: 1150888 KB for entire run at 'Elaboration finished' stage
+##SGDEBUG [PEAK_VMSIZE_END_RULE]: 1150880 KB for entire run at 'Elaboration finished' stage
 ##SGDEBUG [PEAK_SWAP_MEMORY_END_RULE]: 0 KB for entire run
-##SGDEBUG [VMPEAK_MEMORY]: 1150888 KB for entire run
-##SGDEBUG [PEAK_RSS_MEMORY]: 435812 KB for entire run
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking finished: 2 sec, 2.32 sec, 501048 KB, 1150888 KB
+##SGDEBUG [VMPEAK_MEMORY]: 1150880 KB for entire run
+##SGDEBUG [PEAK_RSS_MEMORY]: 408568 KB for entire run
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking finished: 3 sec, 2.19 sec, 501056 KB, 1150880 KB
 ##SGDEBUG [BENCHMARK_INCR]: Rule checking finished: 0 sec, 0.05 sec, -1792 KB, 0 KB
 
 
@@ -3729,6 +3729,6 @@ SpyGlass Rule Checking Complete.
 
 SpyGlass Exit Code 0 (Rule-checking completed with warnings)
 SpyGlass total run-time is 00:00:06 (6 secs)
-SpyGlass total goal run-time is 00:00:03 (3 secs)
-SpyGlass total cpu-time is 2 secs
-SpyGlass run completed at 12:19:12 PM on May 07 2025
+SpyGlass total goal run-time is 00:00:02 (2 secs)
+SpyGlass total cpu-time is 3 secs
+SpyGlass run completed at 09:15:00 AM on May 10 2025

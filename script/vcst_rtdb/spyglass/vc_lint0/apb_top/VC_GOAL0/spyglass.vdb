@@ -1,11 +1,11 @@
 ##spyglass_version: SpyGlass_vT-2022.06
-##date: Wed May  7 12:19:11 2025
+##date: Sat May 10 09:15:00 2025
 ##user: YashasH
-##cwd: /home1/WBRN18/YashasH/apb_gpio/script
+##cwd: /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script
 ##lang: verilog+vhdl
-##args: -mSpyGlass::Compatibility::v2_7_3 -mSpyGlass::Compatibility::v2_7_3 -mSpyGlass::Compatibility::v2_7_3 -nl -batch -top 'apb_top' -lib dware /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dware/lib -lib gtech /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/gtech/lib -lib dw01 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw01/lib -lib dw02 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw02/lib -lib dw03 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw03/lib -lib dw04 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw04/lib -lib dw05 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw05/lib -lib dw06 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw06/lib -lib WORK /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK -rules='STARC05-2.10.1.4b,STARC05-2.10.1.4a,STARC05-2.3.1.2c,STARC05-2.1.3.1,STARC05-2.1.6.5,STARC05-2.11.3.1,STARC05-2.3.3.1,STARC05-2.10.3.2a,STARC05-2.10.2.3,STARC05-2.3.1.6,STARC05-2.3.1.5b,STARC05-2.2.3.3,STARC05-2.1.5.3,STARC05-2.1.4.5,sim_race02,NoXInCase-ML,ParamWidthMismatch-ML,NoAssignX-ML,PragmaComments-ML,ReportPortInfo-ML,W528,W505,W467,W424,W421,W398,W293,W287b,W287a,W240,W71,W110a,mixedsenselist,W416,W292,W156,W123,W122,W116,W422,W502,W499,W486,W481b,W481a,W480,W426,W415a,W362,W352,W337,W317,W289,W263,W224,W218,W216,W215,W66,W19,W496b,W496a,W110,bothedges,badimplicitSM4,badimplicitSM2,badimplicitSM1,W442f,W442c,W442b,W442a,W339a' -wdir '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0' -mixed -policy='lint,morelint,simulation,starc2005' +incdir+./+ -noreport --perflog -allow_non_lrm --goal_info 'VC_GOAL0@' -use_vcs_compile -projectwdir '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0' -templatedir '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass' -check_celldefine --template_info 'VC_GOAL0' -prefer_tech_lib -ignore_pgpin 'true' --disable_sgom_db -disable_html_report 'html,datasheet,dashboard' -allow_module_override -allow_celldefine_as_top -suppress_verilog_rules 'W505,W467,W424,W293,W422,W481b,W481a,W426,W289,W218,W216,W215,W66,bothedges,badimplicitSM4,badimplicitSM2,badimplicitSM1,W442f,W442c,W442b,W442a' -run_pre_synth_rules_only -existing_vir_dump_path '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/' -enable_generate_label_naming -enable_detailed_hierarchy --disable_internal_waivers_gen -check_static_value=no -checkfullbus=W240,W528 -checkfullrecord=W123,W240,W528 -checkfullstruct=no -disable_rtl_deadcode=no -filter_mark_open=no -handle_shift_op=no -ignoreModuleInstance=yes -no_strict=no -nocheckoverflow='STARC05-2.1.3.1,STARC05-2.10.3.2a,W110,W116,W263,W362,W416,W486' -report_only_from_one_hierarchy=no -strict=no -use_lrm_width=no -64bit 
+##args: -mSpyGlass::Compatibility::v2_7_3 -mSpyGlass::Compatibility::v2_7_3 -mSpyGlass::Compatibility::v2_7_3 -nl -batch -top 'apb_top' -lib dware /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dware/lib -lib gtech /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/gtech/lib -lib dw01 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw01/lib -lib dw02 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw02/lib -lib dw03 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw03/lib -lib dw04 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw04/lib -lib dw05 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw05/lib -lib dw06 /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw06/lib -lib WORK /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/WORK -rules='STARC05-2.10.1.4b,STARC05-2.10.1.4a,STARC05-2.3.1.2c,STARC05-2.1.3.1,STARC05-2.1.6.5,STARC05-2.11.3.1,STARC05-2.3.3.1,STARC05-2.10.3.2a,STARC05-2.10.2.3,STARC05-2.3.1.6,STARC05-2.3.1.5b,STARC05-2.2.3.3,STARC05-2.1.5.3,STARC05-2.1.4.5,sim_race02,NoXInCase-ML,ParamWidthMismatch-ML,NoAssignX-ML,PragmaComments-ML,ReportPortInfo-ML,W528,W505,W467,W424,W421,W398,W293,W287b,W287a,W240,W71,W110a,mixedsenselist,W416,W292,W156,W123,W122,W116,W422,W502,W499,W486,W481b,W481a,W480,W426,W415a,W362,W352,W337,W317,W289,W263,W224,W218,W216,W215,W66,W19,W496b,W496a,W110,bothedges,badimplicitSM4,badimplicitSM2,badimplicitSM1,W442f,W442c,W442b,W442a,W339a' -wdir '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0' -mixed -policy='lint,morelint,simulation,starc2005' +incdir+./+ -noreport --perflog -allow_non_lrm --goal_info 'VC_GOAL0@' -use_vcs_compile -projectwdir '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0' -templatedir '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass' -check_celldefine --template_info 'VC_GOAL0' -prefer_tech_lib -ignore_pgpin 'true' --disable_sgom_db -disable_html_report 'html,datasheet,dashboard' -allow_module_override -allow_celldefine_as_top -suppress_verilog_rules 'W505,W467,W424,W293,W422,W481b,W481a,W426,W289,W218,W216,W215,W66,bothedges,badimplicitSM4,badimplicitSM2,badimplicitSM1,W442f,W442c,W442b,W442a' -run_pre_synth_rules_only -existing_vir_dump_path '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/' -enable_generate_label_naming -enable_detailed_hierarchy --disable_internal_waivers_gen -check_static_value=no -checkfullbus=W240,W528 -checkfullrecord=W123,W240,W528 -checkfullstruct=no -disable_rtl_deadcode=no -filter_mark_open=no -handle_shift_op=no -ignoreModuleInstance=yes -no_strict=no -nocheckoverflow='STARC05-2.1.3.1,STARC05-2.10.3.2a,W110,W116,W263,W362,W416,W486' -report_only_from_one_hierarchy=no -strict=no -use_lrm_width=no -64bit 
 ##verbosity level: 2
-##spysch_dirname: /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch
+##spysch_dirname: /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_spysch
 ##vdb_delimiter: @@
 ##scenario_name: default_scenario
 ##run_mode: SINGLE_WORKSPACE
@@ -1172,13 +1172,13 @@
 #severity Info               starc2005    INFO      -1
 #severity Warning            starc2002    WARNING   -1
 
-##file_label: multidim_array_data -file /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/lint/SignalUsageReport.rpt -policy lint -external
-##file_label: multidim_array_data -file /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/lint/SignalUsageReport.rpt -policy lint -external
-##file_label: morelint_ReportPortInfo -file /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo -policy morelint -external
+##file_label: multidim_array_data -file /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/lint/SignalUsageReport.rpt -policy lint -external
+##file_label: multidim_array_data -file /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/lint/SignalUsageReport.rpt -policy lint -external
+##file_label: morelint_ReportPortInfo -file /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo -policy morelint -external
 CMD_incdir03@@IncdirNotUsed@@Warning@@N.A.@@0@@1@@10@@Incdir specification '+incdir+./' ignored as no Verilog design/library file is specified
-VCSRunSummary@@VCSRunSummary@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/vcs_run_summary.rpt@@0@@1@@2@@Please refer file '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/vcs_run_summary.rpt' for summary of VCS messages
-##file_label: SPG_ELAB_SUMMARY_FILE -file /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt -policy SpyGlass -external
-ElabSummary@@ElabSummary@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt@@0@@1@@2@@Please refer file '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt' for elab summary report
+VCSRunSummary@@VCSRunSummary@@Info@@/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/vcs_run_summary.rpt@@0@@1@@2@@Please refer file '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/vcs_run_summary.rpt' for summary of VCS messages
+##file_label: SPG_ELAB_SUMMARY_FILE -file /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt -policy SpyGlass -external
+ElabSummary@@ElabSummary@@Info@@/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt@@0@@1@@2@@Please refer file '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/SpyGlass/elab_summary.rpt' for elab summary report
 ##sde_property: msg_label DEFAULT
 ##sde_property: msg_id DEFAULT
 ##files_verilog: ./../src/apb_top.sv ./../src/apb_if.sv ./../src/apb_fsm.sv ./../src/register.sv ./../src/aux_if.sv ./../src/aux_reg.sv ./../src/apb_io.sv
@@ -1189,19 +1189,19 @@ ElabSummary@@ElabSummary@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/
 ##sde_property: file ./../src/aux_if.sv -id 5 -precompiled=WORK
 ##sde_property: file ./../src/aux_reg.sv -id 6 -precompiled=WORK
 ##sde_property: file ./../src/apb_io.sv -id 7 -precompiled=WORK
-#span WORK.apb_top ./../src/apb_top.sv 1 80
+#span WORK.apb_top ./../src/apb_top.sv 1 84
 #rtl_idmap WORK.apb_top 1 -lang 1
-#span WORK.apb_if ./../src/apb_if.sv 1 60
+#span WORK.apb_if ./../src/apb_if.sv 1 62
 #rtl_idmap WORK.apb_if 2 -lang 1
-#span WORK.apb_fsm ./../src/apb_fsm.sv 1 62
+#span WORK.apb_fsm ./../src/apb_fsm.sv 1 63
 #rtl_idmap WORK.apb_fsm 3 -lang 1
-#span WORK.register ./../src/register.sv 16 248
+#span WORK.register ./../src/register.sv 16 295
 #rtl_idmap WORK.register 4 -lang 1
-#span WORK.aux_if ./../src/aux_if.sv 1 11
+#span WORK.aux_if ./../src/aux_if.sv 1 17
 #rtl_idmap WORK.aux_if 5 -lang 1
-#span WORK.aux_reg ./../src/aux_reg.sv 1 16
+#span WORK.aux_reg ./../src/aux_reg.sv 1 17
 #rtl_idmap WORK.aux_reg 6 -lang 1
-#span WORK.apb_io ./../src/apb_io.sv 1 77
+#span WORK.apb_io ./../src/apb_io.sv 1 78
 #rtl_idmap WORK.apb_io 7 -lang 1
 #greybox WORK.apb_top 15
 #greybox WORK.apb_if 15
@@ -1213,23 +1213,23 @@ ElabSummary@@ElabSummary@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/
 DetectTopDesignUnits@@DetectTopDesignUnits@@Info@@./../src/apb_top.sv@@1@@1@@2@@Module apb_top is a top level design unit
 ##sde_property: violation -duId 1 
 #rtl_top_modules apb_top
-W224@@@@Warning@@./../src/register.sv@@157@@1@@5@@Multi-bit expression 'rgpio_nec' found when one-bit expression expected[Hierarchy: ':apb_top:reg_instance@register']
+W224@@@@Warning@@./../src/register.sv@@189@@1@@5@@Multi-bit expression 'rgpio_nec' found when one-bit expression expected[Hierarchy: ':apb_top:reg_instance@register']
 ##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label W224_ve
 ##sde_property: msg_id W224_ve
-W224@@@@Warning@@./../src/register.sv@@165@@1@@5@@Multi-bit expression 'rgpio_eclk' found when one-bit expression expected[Hierarchy: ':apb_top:reg_instance@register']
+W224@@@@Warning@@./../src/register.sv@@197@@1@@5@@Multi-bit expression 'rgpio_eclk' found when one-bit expression expected[Hierarchy: ':apb_top:reg_instance@register']
 ##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label W224_ve
 ##sde_property: msg_id W224_ve
-STARC05-2.1.5.3@@NoVectorOnCondExpr@@Recommended2@@./../src/register.sv@@157@@1@@2@@Conditional expression (rgpio_nec) does not evaluate to a scalar [Hierarchy: ':apb_top:reg_instance@register']
+STARC05-2.1.5.3@@NoVectorOnCondExpr@@Recommended2@@./../src/register.sv@@189@@1@@2@@Conditional expression (rgpio_nec) does not evaluate to a scalar [Hierarchy: ':apb_top:reg_instance@register']
 ##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label STARC-2.1.5.3_ve
 ##sde_property: msg_id STARC-2.1.5.3_ve
-STARC05-2.1.5.3@@NoVectorOnCondExpr@@Recommended2@@./../src/register.sv@@165@@1@@2@@Conditional expression (rgpio_eclk) does not evaluate to a scalar [Hierarchy: ':apb_top:reg_instance@register']
+STARC05-2.1.5.3@@NoVectorOnCondExpr@@Recommended2@@./../src/register.sv@@197@@1@@2@@Conditional expression (rgpio_eclk) does not evaluate to a scalar [Hierarchy: ':apb_top:reg_instance@register']
 ##sde_property: violation -ruleLang 1 -duId 4 -elabDuId 4 
 ##sde_property: msg_label STARC-2.1.5.3_ve
 ##sde_property: msg_id STARC-2.1.5.3_ve
-ReportPortInfo-ML@@@@Info@@/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo@@1@@1@@2@@Port Information for top design unit has been generated. For details see report ReportPortInfo.rpt
+ReportPortInfo-ML@@@@Info@@/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo@@1@@1@@2@@Port Information for top design unit has been generated. For details see report ReportPortInfo.rpt
 #childElab apb_top WORK.apb_top -elabDuId 1 if_instance apb_if reg_instance register aux_instance aux_if io_instance apb_io
 #childElab apb_if WORK.apb_if -elabDuId 2 fs1 apb_fsm
 #childElab apb_fsm WORK.apb_fsm -elabDuId 3

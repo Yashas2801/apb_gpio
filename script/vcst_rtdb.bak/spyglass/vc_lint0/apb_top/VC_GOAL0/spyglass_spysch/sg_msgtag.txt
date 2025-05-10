@@ -10,16 +10,6 @@
 7 "STARC05-2.1.5.3" 1
 "SPG_MSGTAG_HIERARCHY"
 ":apb_top:reg_instance@register"
-9 "ErrorAnalyzeBBox" 2
-"BBoxEng"
-["apb_fsm","BB_NO_MOD_DEF"]
-"BBoxEngAuxiInfo"
-["WORK","apb_fsm","1"]
-10 "ErrorAnalyzeBBox" 2
-"BBoxEng"
-["aux_reg","BB_NO_MOD_DEF"]
-"BBoxEngAuxiInfo"
-["WORK","aux_reg","1"]
 -1 "CMD_incdir03" 2
 "RULEGROUP"
 ["Command-line read"]
@@ -33,11 +23,6 @@
 -1 "ElabSummary" 2
 "RULEGROUP"
 ["Design Read"]
-"BUILTIN"
-"1"
--1 "ErrorAnalyzeBBox" 2
-"RULEGROUP"
-["Blackbox Resolution"]
 "BUILTIN"
 "1"
 -1 "ReportPortInfo-ML" 3

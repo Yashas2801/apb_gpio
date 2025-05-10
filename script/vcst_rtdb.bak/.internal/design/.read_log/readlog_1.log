@@ -1,20 +1,4 @@
 BEGIN_VIOLATION
-RULE_NAME:SM_URMI
-FILE_NAME:./../src/apb_if.sv
-LINE_NUMBER:22
-VCS_SEVERITY:Warning
-MESSAGE:  Module definition &apos;apb_fsm&apos; of instance &apos;fs1&apos; is not found in the design
-END_VIOLATION
-
-BEGIN_VIOLATION
-RULE_NAME:SM_URMI
-FILE_NAME:./../src/aux_if.sv
-LINE_NUMBER:8
-VCS_SEVERITY:Warning
-MESSAGE:  Module definition &apos;aux_reg&apos; of instance &apos;i1&apos; is not found in the design
-END_VIOLATION
-
-BEGIN_VIOLATION
 RULE_NAME:DB_CANT_LOAD
 VCS_SEVERITY:Warning
 MESSAGE:  Invalid link library file specified. Cannot load link library &apos;.//&apos;

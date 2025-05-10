@@ -3,3 +3,5 @@
 ./../src/apb_top.sv
 ./../src/register.sv
 ./../src/aux_if.sv
+./../src/aux_reg.sv
+./../src/apb_fsm.sv

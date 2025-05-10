@@ -42,9 +42,9 @@ set link_library " "
 set_app_var enable_lint true
 configure_lint_setup -goal lint_rtl
 analyze -verbose -format verilog "../src/apb_io.sv ../src/apb_if.sv ../src/apb_top.sv ../src/register.sv ../src/aux_if.sv ../src/aux_reg.sv ../src/apb_fsm.sv"
-[Info] DB_COPT044: Calling VCS: '$VCS_HOME/bin/vlogan  -kdb=common_elab /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/analyzeCmd1 -Xufe=parallel:incrdump  -full64 '.
+[Info] DB_COPT044: Calling VCS: '$VCS_HOME/bin/vlogan  -kdb=common_elab /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/analyzeCmd1 -Xufe=parallel:incrdump  -full64 '.
                          Chronologic VCS (TM)
-         Version T-2022.06_Full64 -- Wed May  7 12:19:05 2025
+         Version T-2022.06_Full64 -- Sat May 10 09:14:53 2025
 
                     Copyright (c) 1991 - 2022 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
@@ -62,7 +62,7 @@ analyze -verbose -format verilog "../src/apb_io.sv ../src/apb_if.sv ../src/apb_t
             Inclusivity and Diversity" (Refer to article 000036315 at
                         https://solvnetplus.synopsys.com)
 
-Parsing design file '/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/undef_vcs.v'
+Parsing design file '/home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/undef_vcs.v'
 Parsing design file './../src/apb_io.sv'
 Parsing design file './../src/apb_if.sv'
 Parsing design file './../src/apb_top.sv'
@@ -70,16 +70,16 @@ Parsing design file './../src/register.sv'
 Parsing design file './../src/aux_if.sv'
 Parsing design file './../src/aux_reg.sv'
 Parsing design file './../src/apb_fsm.sv'
-CPU time: .109 seconds to compile
+CPU time: .132 seconds to compile
 elaborate apb_top
 Doing common elaboration 
 Final timescale is '1ps/1ps'
 Info: Invoking Simon...
-Importing Symbol Libraries...
 Info: Simon VCS Start
+Importing Symbol Libraries...
 =======================================================
-VCS CPU Time(s)     :0.09
-SIMON CPU Time(s)   :0.12
+VCS CPU Time(s)     :0.11
+SIMON CPU Time(s)   :0.14
 SIMON Total Time(s) :0.06
 Peak Memory(MB)     :389
 =======================================================
@@ -93,12 +93,12 @@ Warning-[DB_CANT_LOAD] Invalid library file specified.
 
 [Info] Loading Lint Language Checker Finished 
   Failed to import the "default_u" library because the library files cannot be found in the library paths.
----Any error or warning message, please refer to /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/verdi/elabcomLog/libCompiler.log---
+---Any error or warning message, please refer to /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/verdi/elabcomLog/libCompiler.log---
 
 Verdi KDB elaboration done and the database successfully generated: 0 error(s), 0 warning(s)
 # Gate Counts 
-Number of Flat Instances = 1134
-Number of Operator = 1134
+Number of Flat Instances = 1135
+Number of Operator = 1135
 Number of Libcells = 0
 Number of Black-Box Instances = 0
 
@@ -110,11 +110,9 @@ eval {;}
 waive_lint -tag "STARC05-2.5.1.2" -add apb_top1
 report_lint -verbose -file ./report/apb_top_lint_register.txt
 
-vim report/apb_top_lint_register.txt 
-Error: unknown command 'vim' (CMD-005)
 exit
 =======================================================
-Total Time(S)  :42.76
-CPU Time(S)    :14.46
-Peak Memory(MB):2638
+Total Time(S)  :24.46
+CPU Time(S)    :13.89
+Peak Memory(MB):2639
 =======================================================

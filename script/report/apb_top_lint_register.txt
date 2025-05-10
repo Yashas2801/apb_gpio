@@ -7,7 +7,7 @@
     Version : T-2022.06 -- May 30, 2022
 
   Report Info
-    Created : May 07, 2025  12:19:14
+    Created : May 10, 2025  09:15:02
 
     TopLevelModule: apb_top
 
@@ -65,7 +65,7 @@
   Goal          : lint_rtl
   Module        : register
   FileName      : ./../src/register.sv
-  LineNumber    : 165
+  LineNumber    : 197
   Statement     :     if (rgpio_eclk) begin
   NodeType      : rgpio_eclk
   HIERARCHY     : :apb_top:reg_instance@register
@@ -76,7 +76,7 @@
   Goal          : lint_rtl
   Module        : register
   FileName      : ./../src/register.sv
-  LineNumber    : 157
+  LineNumber    : 189
   Statement     :     if (rgpio_nec) begin
   NodeType      : rgpio_nec
   HIERARCHY     : :apb_top:reg_instance@register
@@ -90,7 +90,7 @@
   Goal            : lint_rtl
   Module          : register
   FileName        : ./../src/register.sv
-  LineNumber      : 157
+  LineNumber      : 189
   Statement       :     if (rgpio_nec) begin
   RTL_EXPRESSION  : rgpio_nec
   HIERARCHY       : :apb_top:reg_instance@register
@@ -101,7 +101,7 @@
   Goal            : lint_rtl
   Module          : register
   FileName        : ./../src/register.sv
-  LineNumber      : 165
+  LineNumber      : 197
   Statement       :     if (rgpio_eclk) begin
   RTL_EXPRESSION  : rgpio_eclk
   HIERARCHY       : :apb_top:reg_instance@register
@@ -111,12 +111,56 @@
   -----------------------------------------------------------------------------
   Tag                 : RegInputOutput-ML
   Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:4
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 6
+  Statement           :     input wire PWRITE,
+  Signal              : PWRITE
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:9
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 9
+  Statement           :     output wire [31:0] PRDATA,
+  Signal              : PRDATA[31:0]
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
   Violation           : Lint:5
   Goal                : lint_rtl
   FileName            : ./../src/apb_top.sv
   LineNumber          : 10
-  Statement           : output wire IRQ,
+  Statement           :     output wire IRQ,
   Signal              : IRQ
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:2
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 4
+  Statement           :     input wire PSEL,
+  Signal              : PSEL
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:8
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 8
+  Statement           :     input wire [31:0] PWDATA,
+  Signal              : PWDATA[31:0]
   Module              : apb_top
   DesignObjHierarchy  : apb_top
   -----------------------------------------------------------------------------
@@ -126,7 +170,7 @@
   Goal                : lint_rtl
   FileName            : ./../src/apb_top.sv
   LineNumber          : 5
-  Statement           : input wire PENABLE,
+  Statement           :     input wire PENABLE,
   Signal              : PENABLE
   Module              : apb_top
   DesignObjHierarchy  : apb_top
@@ -137,19 +181,8 @@
   Goal                : lint_rtl
   FileName            : ./../src/apb_top.sv
   LineNumber          : 11
-  Statement           : output wire PREADY,
+  Statement           :     output wire PREADY,
   Signal              : PREADY
-  Module              : apb_top
-  DesignObjHierarchy  : apb_top
-  -----------------------------------------------------------------------------
-  Tag                 : RegInputOutput-ML
-  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
-  Violation           : Lint:9
-  Goal                : lint_rtl
-  FileName            : ./../src/apb_top.sv
-  LineNumber          : 9
-  Statement           : output wire [31:0]PRDATA,
-  Signal              : PRDATA[31:0]
   Module              : apb_top
   DesignObjHierarchy  : apb_top
   -----------------------------------------------------------------------------
@@ -159,41 +192,8 @@
   Goal                : lint_rtl
   FileName            : ./../src/apb_top.sv
   LineNumber          : 7
-  Statement           : input wire [31:0]PADDR,
+  Statement           :     input wire [31:0] PADDR,
   Signal              : PADDR[31:0]
-  Module              : apb_top
-  DesignObjHierarchy  : apb_top
-  -----------------------------------------------------------------------------
-  Tag                 : RegInputOutput-ML
-  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
-  Violation           : Lint:4
-  Goal                : lint_rtl
-  FileName            : ./../src/apb_top.sv
-  LineNumber          : 6
-  Statement           : input wire PWRITE,
-  Signal              : PWRITE
-  Module              : apb_top
-  DesignObjHierarchy  : apb_top
-  -----------------------------------------------------------------------------
-  Tag                 : RegInputOutput-ML
-  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
-  Violation           : Lint:8
-  Goal                : lint_rtl
-  FileName            : ./../src/apb_top.sv
-  LineNumber          : 8
-  Statement           : input wire [31:0]PWDATA,
-  Signal              : PWDATA[31:0]
-  Module              : apb_top
-  DesignObjHierarchy  : apb_top
-  -----------------------------------------------------------------------------
-  Tag                 : RegInputOutput-ML
-  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
-  Violation           : Lint:2
-  Goal                : lint_rtl
-  FileName            : ./../src/apb_top.sv
-  LineNumber          : 4
-  Statement           : input wire PSEL,
-  Signal              : PSEL
   Module              : apb_top
   DesignObjHierarchy  : apb_top
 
@@ -204,6 +204,6 @@
   Description   : Port Information for top design unit has been generated. For details see report ReportPortInfo.rpt
   Violation     : Lint:14
   Goal          : lint_rtl
-  FileName      : /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo
+  FileName      : /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo
   LineNumber    : 1
   Statement     : #     Comment          : Report Top Level Module Port Info

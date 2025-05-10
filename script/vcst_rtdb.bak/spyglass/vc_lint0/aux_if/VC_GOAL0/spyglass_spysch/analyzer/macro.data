@@ -1,3 +1,0 @@
-22 serialization::archive 18 0 0 17030 0 0 0 0 2 0 2 1 0
-0 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 0 0 0 0 0 0 0 0 -1 2
-1 45 /home1/WBRN18/YashasH/apb_gpio/src/aux_reg.sv 0 0 0 0 -1 0 0 2 0 0 0 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 2 0 45 /home1/WBRN18/YashasH/apb_gpio/src/aux_reg.sv 2 1 0 0 0 0

@@ -12,12 +12,3 @@ apb_top,Top_Level,PREADY,OUTPUT,1,-,-,-
 apb_top,Top_Level,aux_in,INPUT,32,[31:0],-,-
 apb_top,Top_Level,io_pad,INOUT,32,[31:0],-,-
 apb_top,Top_Level,ext_clk_pad_i,INPUT,1,-,-,-
-apb_fsm,Black Box,PCLK,INPUT,1,-,-,-
-apb_fsm,Black Box,PENABLE,INPUT,1,-,-,-
-apb_fsm,Black Box,PSEL,INPUT,1,-,-,-
-apb_fsm,Black Box,PRESETn,INPUT,1,-,-,-
-apb_fsm,Black Box,PREADY,INPUT,1,-,-,-
-aux_reg,Black Box,sys_clk,INPUT,1,-,-,-
-aux_reg,Black Box,aux_in,INPUT,32,-,-,-
-aux_reg,Black Box,aux_i,INPUT,32,-,-,-
-aux_reg,Black Box,sys_rst,INPUT,1,-,-,-

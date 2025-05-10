@@ -6,16 +6,16 @@ set_option noreport yes
 set_option disable_html_report {html datasheet dashboard}
 set_option ignore_pgpin true
 set_option enable_save_restore no 
-set_option projectwdir /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass
+set_option projectwdir /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass
 set_option language_mode mixed 
 set_option allow_module_override yes 
 set_option top apb_top
 set_option enable_detailed_hierarchy yes
 set_option prefer_tech_lib yes
 set_option disable_internal_waivers_gen yes
-set_option active_methodology /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass
+set_option active_methodology /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/spyglass
 set_option use_vcs_compile yes 
-set_option existing_vir_dump_path /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/
+set_option existing_vir_dump_path /home1/WBRN18/YashasH/VLSI_RN/apb_gpio/script/vcst_rtdb/.internal/design/
 set_option lib dware  /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dware/lib
 set_option lib gtech  /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/gtech/lib
 set_option lib dw01  /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/packages/DW/linux64/packages/dw/dw01/lib

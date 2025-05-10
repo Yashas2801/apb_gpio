@@ -233,21 +233,6 @@ module register (
     end
   end
 
-  //ints logic from grok
-  /*
-wire [31:0]a = rgpio_in ^ in_mux;
-wire [31:0]b = rgpio_ptrig ~^ in_mux;
- wire [31:0]c  = a & b & rgpio_inte;
-wire [31:0]clear_ints = (gpio_addr == `GPIO_RGPIO_INTS && gpio_we)? gpio_dat_i: 32'b0;
-
-always@(posedge sys_clk or negedge sys_rst)begin
-if (~sys_rst) begin
-      rgpio_ints <= 'b0;
-end else begin
-	rgpio_ints <= (rgpio_ints|c)& ~clear_ints;
-	end
-end
-*/
   //Mux logic
   //
 

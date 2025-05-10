@@ -41,10 +41,10 @@ set search_path "./"
 set link_library " "
 set_app_var enable_lint true
 configure_lint_setup -goal lint_rtl
-analyze -verbose -format verilog "../src/apb_io.sv ../src/apb_if.sv ../src/apb_top.sv ../src/register.sv ../src/aux_if.sv"
+analyze -verbose -format verilog "../src/apb_io.sv ../src/apb_if.sv ../src/apb_top.sv ../src/register.sv ../src/aux_if.sv ../src/aux_reg.sv ../src/apb_fsm.sv"
 [Info] DB_COPT044: Calling VCS: '$VCS_HOME/bin/vlogan  -kdb=common_elab /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/analyzeCmd1 -Xufe=parallel:incrdump  -full64 '.
                          Chronologic VCS (TM)
-         Version T-2022.06_Full64 -- Wed May  7 12:15:52 2025
+         Version T-2022.06_Full64 -- Wed May  7 12:19:05 2025
 
                     Copyright (c) 1991 - 2022 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
@@ -68,27 +68,18 @@ Parsing design file './../src/apb_if.sv'
 Parsing design file './../src/apb_top.sv'
 Parsing design file './../src/register.sv'
 Parsing design file './../src/aux_if.sv'
-CPU time: .112 seconds to compile
+Parsing design file './../src/aux_reg.sv'
+Parsing design file './../src/apb_fsm.sv'
+CPU time: .109 seconds to compile
 elaborate apb_top
 Doing common elaboration 
 Final timescale is '1ps/1ps'
-Notice: Ports were coerced to input/inout/output, please use '-vcs -notice' for details
 Info: Invoking Simon...
 Importing Symbol Libraries...
 Info: Simon VCS Start
-
-Warning-[SM_URMI] Unresolved module instance in design.
-./../src/apb_if.sv, 22
-  Module definition 'apb_fsm' of instance 'fs1' is not found in the design
-
-
-Warning-[SM_URMI] Unresolved module instance in design.
-./../src/aux_if.sv, 8
-  Module definition 'aux_reg' of instance 'i1' is not found in the design
-
 =======================================================
-VCS CPU Time(s)     :0.10
-SIMON CPU Time(s)   :0.11
+VCS CPU Time(s)     :0.09
+SIMON CPU Time(s)   :0.12
 SIMON Total Time(s) :0.06
 Peak Memory(MB)     :389
 =======================================================
@@ -106,10 +97,10 @@ Warning-[DB_CANT_LOAD] Invalid library file specified.
 
 Verdi KDB elaboration done and the database successfully generated: 0 error(s), 0 warning(s)
 # Gate Counts 
-Number of Flat Instances = 1078
-Number of Operator = 1076
+Number of Flat Instances = 1134
+Number of Operator = 1134
 Number of Libcells = 0
-Number of Black-Box Instances = 2
+Number of Black-Box Instances = 0
 
 check_lint
 [Info] Running goal lint_rtl
@@ -119,9 +110,11 @@ eval {;}
 waive_lint -tag "STARC05-2.5.1.2" -add apb_top1
 report_lint -verbose -file ./report/apb_top_lint_register.txt
 
+vim report/apb_top_lint_register.txt 
+Error: unknown command 'vim' (CMD-005)
 exit
 =======================================================
-Total Time(S)  :23.57
-CPU Time(S)    :15.01
-Peak Memory(MB):2640
+Total Time(S)  :42.76
+CPU Time(S)    :14.46
+Peak Memory(MB):2638
 =======================================================

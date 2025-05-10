@@ -1,4 +1,4 @@
-22 serialization::archive 18 0 0 17030 0 0 0 0 5 0 2 1 0
+22 serialization::archive 18 0 0 17030 0 0 0 0 7 0 2 1 0
 0 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_io.sv 0 0 0 0 0 0 0 0 -1 2
 1 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_if.sv 0 0 0 0 -1 2
 2 45 /home1/WBRN18/YashasH/apb_gpio/src/apb_top.sv 0 0 0 0 -1 2
@@ -38,4 +38,6 @@
 36 218 7 15 6 32'h20 219 6
 37 219 7 17 6 32'h24 235 6
 38 235 7 21 4 1'b1 0 0 -1 2
-39 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 0 0 0 0 -1 0 0 5 0 0 0 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_if.sv 2 1 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_io.sv 2 0 45 /home1/WBRN18/YashasH/apb_gpio/src/apb_top.sv 2 2 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 2 39 46 /home1/WBRN18/YashasH/apb_gpio/src/register.sv 2 3 0 0 12 0 7 5 7 7 7 9 7 11 7 13 7 15 7 17 7 19 7 21 7 23 7 27 7 35
+39 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 0 0 0 0 -1 2
+40 45 /home1/WBRN18/YashasH/apb_gpio/src/aux_reg.sv 0 0 0 0 -1 2
+41 45 /home1/WBRN18/YashasH/apb_gpio/src/apb_fsm.sv 0 0 0 0 -1 0 0 7 0 0 0 45 /home1/WBRN18/YashasH/apb_gpio/src/apb_fsm.sv 2 41 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_if.sv 2 1 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_io.sv 2 0 45 /home1/WBRN18/YashasH/apb_gpio/src/apb_top.sv 2 2 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 2 39 45 /home1/WBRN18/YashasH/apb_gpio/src/aux_reg.sv 2 40 46 /home1/WBRN18/YashasH/apb_gpio/src/register.sv 2 3 0 0 12 0 7 5 7 7 7 9 7 11 7 13 7 15 7 17 7 19 7 21 7 23 7 27 7 35
