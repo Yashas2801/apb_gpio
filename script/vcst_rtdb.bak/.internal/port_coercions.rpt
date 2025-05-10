@@ -1,0 +1,4 @@
+Module               Port       Old Dir  New Dir 
+=================================================
+apb_fsm              PREADY     input    output  
+aux_reg              aux_i      input    output  

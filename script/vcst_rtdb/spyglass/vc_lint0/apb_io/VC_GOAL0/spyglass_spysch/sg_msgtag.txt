@@ -1,0 +1,27 @@
+-1 "CMD_incdir03" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["VC_GOAL0"]
+"RULE_ORDER"
+[20]
+"RULEGROUP"
+["morelint"]
+-1 "VCSRunSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"

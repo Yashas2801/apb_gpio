@@ -1,0 +1,3 @@
+Command Line: /home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/vcs-mx/linux64/bin/elabcom -simflow -KDBRESOLVER -simvdaidir /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/apb_top.exe.daidir -logdir /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/verdi/elabcomLog -ssy -ssv -ssz -silent +disable_message+C00373 -rcFile /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/verdi/elabcom.rc -partialdesign -q -logdir /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/apb_top.exe.daidir/kdbresolverLog
+uname(Linux mavenserver-RH3 4.18.0-553.44.1.el8_10.x86_64 #1 SMP Wed Mar 5 10:48:41 EST 2025 x86_64)
+au time 1.099344 0.008721 0.008719 delta 87179264 87179264 total 248926208 248926208

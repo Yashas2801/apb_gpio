@@ -1,0 +1,42 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -kdb=common_elab +v2k +incdir+./ -skip_translate_body +define+SYNTHESIS -full64 -full64
+
+all :		_VCSgd_y0uucc_1.db \
+	_VCSgd_hMPcAb_1.db \
+	_VCSgd_USGvN_1.db \
+	_VCSgd_wePYHd_1.db \
+	_VCSgd_Hs98Uc_1.db \
+	_VCSgd_uSILnc_1.db \
+	_VCSgd_rdc73c_1.db \
+
+
+
+_VCSgd_y0uucc_1.db :	./../src/apb_io.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./../src/apb_io.sv
+
+
+_VCSgd_hMPcAb_1.db :	./../src/apb_if.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./../src/apb_if.sv
+
+
+_VCSgd_USGvN_1.db :	./../src/apb_top.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./../src/apb_top.sv
+
+
+_VCSgd_wePYHd_1.db :	./../src/register.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./../src/register.sv
+
+
+_VCSgd_Hs98Uc_1.db :	./../src/aux_if.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./../src/aux_if.sv
+
+
+_VCSgd_uSILnc_1.db :	./../src/aux_reg.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./../src/aux_reg.sv
+
+
+_VCSgd_rdc73c_1.db :	./../src/apb_fsm.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ./../src/apb_fsm.sv
+
+

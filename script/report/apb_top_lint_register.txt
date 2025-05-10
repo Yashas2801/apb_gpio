@@ -1,0 +1,209 @@
+
+  -----------------------------------------------------------------------------
+  Report Summary
+  -----------------------------------------------------------------------------
+  Product Info
+    Name    : VC Static Master Shell
+    Version : T-2022.06 -- May 30, 2022
+
+  Report Info
+    Created : May 07, 2025  12:19:14
+
+    TopLevelModule: apb_top
+
+  -----------------------------------------------------------------------------
+  Management Summary
+  -----------------------------------------------------------------------------
+  Stage             Family      Fatals    Errors  Warnings     Infos
+  -----             --------  --------  --------  --------  --------
+  LANGUAGE_CHECK    CODING           0         0         4         1
+  STRUCTURAL_CHECK  CODING           0         0         1         8
+  -----             --------  --------  --------  --------  --------
+  Total                              0         0         5         9
+
+
+  -----------------------------------------------------------------------------
+  Tree Summary
+  -----------------------------------------------------------------------------
+  Severity  Stage             Tag                  Count
+  --------  -----             -------------------  -----
+  warning   LANGUAGE_CHECK    STARC05-2.1.5.3          2
+  warning   LANGUAGE_CHECK    W224                     2
+  warning   STRUCTURAL_CHECK  STARC05-1.3.1.3          1
+  info      LANGUAGE_CHECK    ReportPortInfo-ML        1
+  info      STRUCTURAL_CHECK  RegInputOutput-ML        8
+  --------  -----             -------------------  -----
+  Total                                               14
+
+
+
+  -----------------------------------------------------------------------------
+  STARC05-1.3.1.3  (1 warning/0 waived)
+  -----------------------------------------------------------------------------
+  Tag                 : STARC05-1.3.1.3
+  Description         : Asynchronous [SetOrReset] signal '[SeqSetRstNet]' ([FlopOrLatch]: '[DesignSeqNet]') used as non-[SetOrReset]/synchronous-[SetOrReset] at instance '[DesignInstanceName]' (File Name: '[RTL_FILENAME]' ,Line no.: '[RTL_LINE_NUM]')
+  Violation           : Lint:1
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_fsm.sv
+  LineNumber          : 19
+  Statement           :     if (~PRESETn) begin
+  SetOrReset          : reset
+  FlopOrLatch         : flop
+  SeqSetRstNet        : PRESETn
+  DesignSeqNet        : if_instance/fs1/present_state[0]
+  DesignInstanceName  : reg_instance/rgpio_aux/D[0]
+  RTL_FILENAME        : ./../src/register.sv
+  RTL_LINE_NUM        : 100
+  Module              : apb_top
+
+  -----------------------------------------------------------------------------
+  STARC05-2.1.5.3  (2 warnings/0 waived)
+  -----------------------------------------------------------------------------
+  Tag           : STARC05-2.1.5.3
+  Description   : Conditional expression ([NodeType]) does not evaluate to a scalar [Hierarchy: '[HIERARCHY]']
+  Violation     : Lint:13
+  Goal          : lint_rtl
+  Module        : register
+  FileName      : ./../src/register.sv
+  LineNumber    : 165
+  Statement     :     if (rgpio_eclk) begin
+  NodeType      : rgpio_eclk
+  HIERARCHY     : :apb_top:reg_instance@register
+  -----------------------------------------------------------------------------
+  Tag           : STARC05-2.1.5.3
+  Description   : Conditional expression ([NodeType]) does not evaluate to a scalar [Hierarchy: '[HIERARCHY]']
+  Violation     : Lint:12
+  Goal          : lint_rtl
+  Module        : register
+  FileName      : ./../src/register.sv
+  LineNumber    : 157
+  Statement     :     if (rgpio_nec) begin
+  NodeType      : rgpio_nec
+  HIERARCHY     : :apb_top:reg_instance@register
+
+  -----------------------------------------------------------------------------
+  W224  (2 warnings/0 waived)
+  -----------------------------------------------------------------------------
+  Tag             : W224
+  Description     : Multi-bit expression '[RTL_EXPRESSION]' found when one-bit expression expected[Hierarchy: '[HIERARCHY]']
+  Violation       : Lint:10
+  Goal            : lint_rtl
+  Module          : register
+  FileName        : ./../src/register.sv
+  LineNumber      : 157
+  Statement       :     if (rgpio_nec) begin
+  RTL_EXPRESSION  : rgpio_nec
+  HIERARCHY       : :apb_top:reg_instance@register
+  -----------------------------------------------------------------------------
+  Tag             : W224
+  Description     : Multi-bit expression '[RTL_EXPRESSION]' found when one-bit expression expected[Hierarchy: '[HIERARCHY]']
+  Violation       : Lint:11
+  Goal            : lint_rtl
+  Module          : register
+  FileName        : ./../src/register.sv
+  LineNumber      : 165
+  Statement       :     if (rgpio_eclk) begin
+  RTL_EXPRESSION  : rgpio_eclk
+  HIERARCHY       : :apb_top:reg_instance@register
+
+  -----------------------------------------------------------------------------
+  RegInputOutput-ML  (8 infos/0 waived)
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:5
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 10
+  Statement           : output wire IRQ,
+  Signal              : IRQ
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:3
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 5
+  Statement           : input wire PENABLE,
+  Signal              : PENABLE
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:6
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 11
+  Statement           : output wire PREADY,
+  Signal              : PREADY
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:9
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 9
+  Statement           : output wire [31:0]PRDATA,
+  Signal              : PRDATA[31:0]
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:7
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 7
+  Statement           : input wire [31:0]PADDR,
+  Signal              : PADDR[31:0]
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:4
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 6
+  Statement           : input wire PWRITE,
+  Signal              : PWRITE
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:8
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 8
+  Statement           : input wire [31:0]PWDATA,
+  Signal              : PWDATA[31:0]
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:2
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_top.sv
+  LineNumber          : 4
+  Statement           : input wire PSEL,
+  Signal              : PSEL
+  Module              : apb_top
+  DesignObjHierarchy  : apb_top
+
+  -----------------------------------------------------------------------------
+  ReportPortInfo-ML  (1 info/0 waived)
+  -----------------------------------------------------------------------------
+  Tag           : ReportPortInfo-ML
+  Description   : Port Information for top design unit has been generated. For details see report ReportPortInfo.rpt
+  Violation     : Lint:14
+  Goal          : lint_rtl
+  FileName      : /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_top/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo
+  LineNumber    : 1
+  Statement     : #     Comment          : Report Top Level Module Port Info

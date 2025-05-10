@@ -1,0 +1,41 @@
+22 serialization::archive 18 0 0 17030 0 0 0 0 5 0 2 1 0
+0 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_io.sv 0 0 0 0 0 0 0 0 -1 2
+1 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_if.sv 0 0 0 0 -1 2
+2 45 /home1/WBRN18/YashasH/apb_gpio/src/apb_top.sv 0 0 0 0 -1 2
+3 46 /home1/WBRN18/YashasH/apb_gpio/src/register.sv 23 0 0 0 57 6 1 0
+4 57 7 1 0
+5 2 3 2 2 14 GPIO_RGPIO_OUT 5 32'h4 5 32'h4 67 6
+6 67 7
+7 2 3 4 4 15 GPIO_RGPIO_INTE 5 32'hc 5 32'hc 77 6
+8 77 7
+9 2 3 3 3 13 GPIO_RGPIO_OE 5 32'h8 5 32'h8 87 6
+10 87 7
+11 2 3 5 5 16 GPIO_RGPIO_PTRIG 6 32'h10 6 32'h10 97 6
+12 97 7
+13 2 3 6 6 14 GPIO_RGPIO_AUX 6 32'h14 6 32'h14 107 6
+14 107 7
+15 2 3 9 9 15 GPIO_RGPIO_ECLK 6 32'h20 6 32'h20 117 6
+16 117 7
+17 2 3 10 10 14 GPIO_RGPIO_NEC 6 32'h24 6 32'h24 125 6
+18 125 7
+19 2 3 7 7 15 GPIO_RGPIO_CTRL 6 32'h18 6 32'h18 128 6
+20 128 7
+21 2 3 12 12 20 GPIO_RGPIO_CTRL_INTE 4 1'b1 4 1'b1 129 6
+22 129 7
+23 2 3 13 13 20 GPIO_RGPIO_CTRL_INTS 4 1'b0 4 1'b0 193 6
+24 193 7 21 4 1'b1 194 6
+25 194 7 17 6 32'h24 210 6
+26 210 7
+27 2 3 1 1 13 GPIO_RGPIO_IN 5 32'h0 5 32'h0 211 6
+28 211 7 5 5 32'h4 212 6
+29 212 7 9 5 32'h8 213 6
+30 213 7 7 5 32'hc 214 6
+31 214 7 11 6 32'h10 215 6
+32 215 7 13 6 32'h14 216 6
+33 216 7 19 6 32'h18 217 6
+34 217 7
+35 2 3 8 8 15 GPIO_RGPIO_INTS 6 32'h1c 6 32'h1c 218 6
+36 218 7 15 6 32'h20 219 6
+37 219 7 17 6 32'h24 235 6
+38 235 7 21 4 1'b1 0 0 -1 2
+39 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 0 0 0 0 -1 0 0 5 0 0 0 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_if.sv 2 1 44 /home1/WBRN18/YashasH/apb_gpio/src/apb_io.sv 2 0 45 /home1/WBRN18/YashasH/apb_gpio/src/apb_top.sv 2 2 44 /home1/WBRN18/YashasH/apb_gpio/src/aux_if.sv 2 39 46 /home1/WBRN18/YashasH/apb_gpio/src/register.sv 2 3 0 0 12 0 7 5 7 7 7 9 7 11 7 13 7 15 7 17 7 19 7 21 7 23 7 27 7 35

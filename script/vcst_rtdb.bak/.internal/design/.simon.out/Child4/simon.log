@@ -1,0 +1,5 @@
+
+Warning-[SM_URMI] Unresolved module instance in design.
+./../src/aux_if.sv, 8
+  Module definition 'aux_reg' of instance 'i1' is not found in the design
+

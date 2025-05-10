@@ -1,0 +1,7 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@out_pad@@INPUT@@31@@0@@-@@apb_io@@No
+VALUE@@in_pad@@OUTPUT@@31@@0@@-@@apb_io@@No
+VALUE@@io_pad@@INOUT@@31@@0@@-@@apb_io@@No
+VALUE@@oen_padoe@@INPUT@@31@@0@@-@@apb_io@@No
+VALUE@@ext_clk_pad_i@@INPUT@@0@@0@@-@@apb_io@@No
+VALUE@@gpio_eclk@@OUTPUT@@0@@0@@-@@apb_io@@No

@@ -1,0 +1,5 @@
+{"comelab":{"timestamp_begin":1745306072.623675152, "rt":2.15, "ut":0.60, "st":0.72}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1745306072.084956707}
+{"VCS_COMP_START_TIME": 1745306072.084956707}
+{"VCS_COMP_END_TIME": 1745306074.839355386}
+{"VCS_USER_OPTIONS": "-file /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/.internal/design/elaborateCmd -Xvcstatic_extns=0x4 -Xvcstatic_extns=0x100 +warn=noSM_CCE -suppress=SM_BB_LIST -suppress=SM_UM_LIST -kdb=common_elab -Xufe=parallel:incrdump +warn=noKDB-ELAB-E -verdi_opts -logdir /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/verdi/elabcomLog  -Xvd_opts=,-ssy,-ssv,-ssz,-silent,+disable_message+C00373,-rcFile,/home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/verdi/elabcom.rc -full64"}

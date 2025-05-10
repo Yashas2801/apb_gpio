@@ -1,0 +1,63 @@
+###############################################################
+ # This report contains names of design units along with parameter
+ # values and self instances.
+ # Some parameters may have more than one possible values for that
+ # design unit, values will be unique for instances. It is indicated as
+ # "Multiple Values".
+ # In some cases instance count shown may be less than actual instance
+ # count in the design due to optimizations. It is indicated as
+ # "Optimized".
+###############################################################
+
+
+Design Unit Name: 'apb_top', (./../src/apb_top.sv:1)
+    Parameters (Total 0)
+    Instances (Total: 0)
+=============================================
+
+
+Design Unit Name: 'apb_if', (./../src/apb_if.sv:1)
+    Parameters (Total 0)
+    Instances (Total 1)(Optimized)
+        apb_top/if_instance
+=============================================
+
+
+Design Unit Name: 'apb_fsm', (./../src/apb_fsm.sv:1)
+    Parameters (Total 3)
+        IDLE = 2'b00  (default: 2'b00)
+        SETUP = 2'b01  (default: 2'b01)
+        ENABLE = 2'b10  (default: 2'b10)
+    Instances (Total 1)(Optimized)
+        apb_top/if_instance/fs1
+=============================================
+
+
+Design Unit Name: 'register', (./../src/register.sv:16)
+    Parameters (Total 0)
+    Instances (Total 1)(Optimized)
+        apb_top/reg_instance
+=============================================
+
+
+Design Unit Name: 'aux_if', (./../src/aux_if.sv:1)
+    Parameters (Total 0)
+    Instances (Total 1)(Optimized)
+        apb_top/aux_instance
+=============================================
+
+
+Design Unit Name: 'aux_reg', (./../src/aux_reg.sv:1)
+    Parameters (Total 0)
+    Instances (Total 1)(Optimized)
+        apb_top/aux_instance/i1
+=============================================
+
+
+Design Unit Name: 'apb_io', (./../src/apb_io.sv:1)
+    Parameters (Total 0)
+    Instances (Total 1)(Optimized)
+        apb_top/io_instance
+=============================================
+
+
