@@ -1,0 +1,195 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -vopt -voptargs="+acc" -coverage -do "log -r /*" apb_top_tb -work ../sim 
+# Start time: 08:04:38 on May 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.apb_top_tb(fast)
+# Loading work.apb_top(fast)
+# Loading work.apb_if(fast)
+# Loading work.apb_fsm(fast)
+# Loading work.register(fast)
+# Loading work.aux_if(fast)
+# Loading work.aux_reg(fast)
+# Loading work.apb_io(fast)
+# log -r /*
+add wave -position insertpoint  \
+sim:/apb_top_tb/PCLK \
+sim:/apb_top_tb/PRESETn \
+sim:/apb_top_tb/PSEL \
+sim:/apb_top_tb/PENABLE \
+sim:/apb_top_tb/PWRITE \
+sim:/apb_top_tb/PADDR \
+sim:/apb_top_tb/PWDATA \
+sim:/apb_top_tb/PRDATA \
+sim:/apb_top_tb/IRQ \
+sim:/apb_top_tb/PREADY \
+sim:/apb_top_tb/aux_in \
+sim:/apb_top_tb/io_pad \
+sim:/apb_top_tb/ext_clk_pad_i \
+sim:/apb_top_tb/flag \
+sim:/apb_top_tb/temp
+run -all
+# Time                    5: rgpio_in = 00000000, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   15: rgpio_in = 00000000, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   25: rgpio_in = 00000000, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   35: rgpio_in = 00000000, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   45: rgpio_in = 00000000, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   55: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   60: Wrote aaaaffff to address 00000004
+# Time                   65: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   75: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   85: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   95: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                   95: Read aaaaffff from address 00000004
+# Time                  105: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  115: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  120: Wrote ffffffff to address 00000008
+# Time                  125: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  135: rgpio_in = xxxxxxxx, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  145: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  155: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  155: Read ffffffff from address 00000008
+# Time                  165: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  175: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  180: Wrote ffffffff to address 00000014
+# Working as output DONE
+# Time                  185: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  195: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  205: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  210: Wrote 00000000 to address 00000008
+# Time                  215: rgpio_in = zzzzzzzz, in_mux = zzzzzzzz, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  225: rgpio_in = zzzzzzzz, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  235: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  245: rgpio_in = xxxxxxxx, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
+# Time                  245: Read 00000000 from address 00000008
+# Time                  255: rgpio_in = xxxxxxxx, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  265: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  275: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  275: Read abfefabe from address 00000000
+# Working as input DONE
+# Time                  285: rgpio_in = 00000000, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  295: rgpio_in = 00000000, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  305: rgpio_in = 00000000, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  315: rgpio_in = 00000000, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  325: rgpio_in = 00000000, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  335: rgpio_in = 00000000, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  345: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  350: Wrote 00000000 to address 00000008
+# Time                  355: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  365: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  375: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  385: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  385: Read 00000000 from address 00000008
+# Time                  395: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  405: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  410: Wrote ffffffff to address 00000020
+# Time                  415: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  425: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  435: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  445: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  445: Read ffffffff from address 00000020
+# Time                  455: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  465: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  470: Wrote ffffffff to address 00000024
+# Time                  475: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  485: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  495: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  505: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = abfefabe
+# Time                  505: Read ffffffff from address 00000024
+# Time                  515: rgpio_in = abfefabe, in_mux = abfefabe, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = aabbccdd
+# Time                  525: rgpio_in = abfefabe, in_mux = aabbccdd, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = aabbccdd
+# Time                  535: rgpio_in = aabbccdd, in_mux = aabbccdd, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = aabbccdd
+# Time                  545: rgpio_in = aabbccdd, in_mux = aabbccdd, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = aabbccdd
+# Time                  545: Read aabbccdd from address 00000000
+# posedge and negedge ext clk DONE
+# Time                  555: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  565: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  575: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  585: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  595: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  605: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  615: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  620: Wrote 00000000 to address 00000008
+# Time                  625: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  635: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  645: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  650: Wrote ffffffff to address 00000010
+# Time                  655: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  665: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  675: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  680: Wrote ffffffff to address 0000000c
+# Time                  685: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  695: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  705: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  710: Wrote 00000002 to address 00000018
+# Time                  715: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = 00000000
+# Time                  725: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  735: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  740: Wrote 00000000 to address 0000001c
+# Time                  745: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  755: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  765: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  775: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  775: Read 00000000 from address 0000001c
+# Time                  785: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  795: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  800: Wrote 00000000 to address 00000020
+# Time                  805: rgpio_in = 00000000, in_mux = 00000000, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = 00000000
+# Time                  810: Setting temp to 32'hffff_ffff
+# Time                  815: rgpio_in = 00000000, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  825: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 10, IRQ = 1, temp = ffffffff
+# Time                  835: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  845: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  845: Read ffffffff from address 00000000
+# Time                  855: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  865: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  875: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  875: Read ffffffff from address 0000001c
+# Time                  885: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  895: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  900: Wrote 00000000 to address 0000001c
+# Time                  905: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                  915: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 11, IRQ = 0, temp = ffffffff
+# Time                  925: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  935: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  935: Read 00000000 from address 0000001c
+# Time                  945: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  955: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  965: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  965: Read ffffffff from address 00000000
+# Time                  975: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  985: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                  995: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                 1005: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                 1015: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                 1025: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                 1035: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                 1045: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# Time                 1055: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 10, IRQ = 0, temp = ffffffff
+# ** Note: $finish    : ../src/apb_top_tb.sv(318)
+#    Time: 1065 ns  Iteration: 0  Instance: /apb_top_tb
+# 1
+# Break in Module apb_top_tb at ../src/apb_top_tb.sv line 318
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_ctrl
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_ptrig
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_inte
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_ints
+# End time: 08:06:28 on May 10,2025, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
