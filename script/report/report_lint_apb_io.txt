@@ -1,0 +1,104 @@
+
+  -----------------------------------------------------------------------------
+  Report Summary
+  -----------------------------------------------------------------------------
+  Product Info
+    Name    : VC Static Master Shell
+    Version : T-2022.06 -- May 30, 2022
+
+  Report Info
+    Created : May 07, 2025  11:39:01
+
+    TopLevelModule: apb_io
+
+  -----------------------------------------------------------------------------
+  Management Summary
+  -----------------------------------------------------------------------------
+  Stage             Family      Fatals    Errors  Warnings     Infos
+  -----             --------  --------  --------  --------  --------
+  LANGUAGE_CHECK    CODING           0         0         0         1
+  STRUCTURAL_CHECK  CODING           0         0         0         5
+  -----             --------  --------  --------  --------  --------
+  Total                              0         0         0         6
+
+
+  -----------------------------------------------------------------------------
+  Tree Summary
+  -----------------------------------------------------------------------------
+  Severity  Stage             Tag                  Count
+  --------  -----             -------------------  -----
+  info      LANGUAGE_CHECK    ReportPortInfo-ML        1
+  info      STRUCTURAL_CHECK  RegInputOutput-ML        5
+  --------  -----             -------------------  -----
+  Total                                                6
+
+
+
+  -----------------------------------------------------------------------------
+  RegInputOutput-ML  (5 infos/0 waived)
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:1
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_io.sv
+  LineNumber          : 6
+  Statement           : input wire ext_clk_pad_i,
+  Signal              : ext_clk_pad_i
+  Module              : apb_io
+  DesignObjHierarchy  : apb_io
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:5
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_io.sv
+  LineNumber          : 2
+  Statement           : input wire [31:0]out_pad,
+  Signal              : out_pad[31:0]
+  Module              : apb_io
+  DesignObjHierarchy  : apb_io
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:2
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_io.sv
+  LineNumber          : 8
+  Statement           : output wire gpio_eclk);
+  Signal              : gpio_eclk
+  Module              : apb_io
+  DesignObjHierarchy  : apb_io
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:4
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_io.sv
+  LineNumber          : 5
+  Statement           : input wire [31:0]oen_padoe,
+  Signal              : oen_padoe[31:0]
+  Module              : apb_io
+  DesignObjHierarchy  : apb_io
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:3
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_io.sv
+  LineNumber          : 3
+  Statement           : output wire [31:0]in_pad,
+  Signal              : in_pad[31:0]
+  Module              : apb_io
+  DesignObjHierarchy  : apb_io
+
+  -----------------------------------------------------------------------------
+  ReportPortInfo-ML  (1 info/0 waived)
+  -----------------------------------------------------------------------------
+  Tag           : ReportPortInfo-ML
+  Description   : Port Information for top design unit has been generated. For details see report ReportPortInfo.rpt
+  Violation     : Lint:6
+  Goal          : lint_rtl
+  FileName      : /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_io/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo
+  LineNumber    : 1
+  Statement     : #     Comment          : Report Top Level Module Port Info

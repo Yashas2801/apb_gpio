@@ -1,0 +1,14 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@PCLK@@INPUT@@0@@0@@-@@apb_top@@No
+VALUE@@PRESETn@@INPUT@@0@@0@@-@@apb_top@@No
+VALUE@@PSEL@@INPUT@@0@@0@@-@@apb_top@@No
+VALUE@@PENABLE@@INPUT@@0@@0@@-@@apb_top@@No
+VALUE@@PWRITE@@INPUT@@0@@0@@-@@apb_top@@No
+VALUE@@PADDR@@INPUT@@31@@0@@-@@apb_top@@No
+VALUE@@PWDATA@@INPUT@@31@@0@@-@@apb_top@@No
+VALUE@@PRDATA@@OUTPUT@@31@@0@@-@@apb_top@@No
+VALUE@@IRQ@@OUTPUT@@0@@0@@-@@apb_top@@No
+VALUE@@PREADY@@OUTPUT@@0@@0@@-@@apb_top@@No
+VALUE@@aux_in@@INPUT@@31@@0@@-@@apb_top@@No
+VALUE@@io_pad@@INOUT@@31@@0@@-@@apb_top@@No
+VALUE@@ext_clk_pad_i@@INPUT@@0@@0@@-@@apb_top@@No

@@ -1,0 +1,14 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+apb_top,Top_Level,PCLK,INPUT,1,-,-,-
+apb_top,Top_Level,PRESETn,INPUT,1,-,-,-
+apb_top,Top_Level,PSEL,INPUT,1,-,-,-
+apb_top,Top_Level,PENABLE,INPUT,1,-,-,-
+apb_top,Top_Level,PWRITE,INPUT,1,-,-,-
+apb_top,Top_Level,PADDR,INPUT,32,[31:0],-,-
+apb_top,Top_Level,PWDATA,INPUT,32,[31:0],-,-
+apb_top,Top_Level,PRDATA,OUTPUT,32,[31:0],-,-
+apb_top,Top_Level,IRQ,OUTPUT,1,-,-,-
+apb_top,Top_Level,PREADY,OUTPUT,1,-,-,-
+apb_top,Top_Level,aux_in,INPUT,32,[31:0],-,-
+apb_top,Top_Level,io_pad,INOUT,32,[31:0],-,-
+apb_top,Top_Level,ext_clk_pad_i,INPUT,1,-,-,-

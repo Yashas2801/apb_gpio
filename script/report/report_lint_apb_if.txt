@@ -1,0 +1,212 @@
+
+  -----------------------------------------------------------------------------
+  Report Summary
+  -----------------------------------------------------------------------------
+  Product Info
+    Name    : VC Static Master Shell
+    Version : T-2022.06 -- May 30, 2022
+
+  Report Info
+    Created : Apr 22, 2025  11:55:13
+
+    TopLevelModule: apb_if
+
+  -----------------------------------------------------------------------------
+  Management Summary
+  -----------------------------------------------------------------------------
+  Stage             Family      Fatals    Errors  Warnings     Infos
+  -----             --------  --------  --------  --------  --------
+  LANGUAGE_CHECK    CODING           0         0         0         1
+  STRUCTURAL_CHECK  CODING           0         0         1        13
+  -----             --------  --------  --------  --------  --------
+  Total                              0         0         1        14
+
+
+  -----------------------------------------------------------------------------
+  Tree Summary
+  -----------------------------------------------------------------------------
+  Severity  Stage             Tag                  Count
+  --------  -----             -------------------  -----
+  warning   STRUCTURAL_CHECK  STARC05-1.3.1.3          1
+  info      LANGUAGE_CHECK    ReportPortInfo-ML        1
+  info      STRUCTURAL_CHECK  RegInputOutput-ML       13
+  --------  -----             -------------------  -----
+  Total                                               15
+
+
+
+  -----------------------------------------------------------------------------
+  STARC05-1.3.1.3  (1 warning/0 waived)
+  -----------------------------------------------------------------------------
+  Tag                 : STARC05-1.3.1.3
+  Description         : Asynchronous [SetOrReset] signal '[SeqSetRstNet]' ([FlopOrLatch]: '[DesignSeqNet]') used as non-[SetOrReset]/synchronous-[SetOrReset] at instance '[DesignInstanceName]' (File Name: '[RTL_FILENAME]' ,Line no.: '[RTL_LINE_NUM]')
+  Violation           : Lint:1
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_fsm.sv
+  LineNumber          : 19
+  Statement           :     if (~PRESETn) begin
+  SetOrReset          : reset
+  FlopOrLatch         : flop
+  SeqSetRstNet        : PRESETn
+  DesignSeqNet        : fs1/present_state[0]
+  DesignInstanceName  : PRDATA/D
+  RTL_FILENAME        : ./../src/apb_if.sv
+  RTL_LINE_NUM        : 49
+  Module              : apb_if
+
+  -----------------------------------------------------------------------------
+  RegInputOutput-ML  (13 infos/0 waived)
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:6
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 6
+  Statement           : output wire gpio_we,
+  Signal              : gpio_we
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:7
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 13
+  Statement           : input wire PSEL,
+  Signal              : PSEL
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:13
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 16
+  Statement           : input wire [31:0]PWDATA,
+  Signal              : PWDATA[31:0]
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:9
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 15
+  Statement           : input wire PWRITE,
+  Signal              : PWRITE
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:14
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 17
+  Statement           : input wire [3:0]PADDR,
+  Signal              : PADDR[3:0]
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:11
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 7
+  Statement           : output wire [3:0]gpio_addr,
+  Signal              : gpio_addr[3:0]
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:2
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 2
+  Statement           : output wire PREADY,
+  Signal              : PREADY
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:10
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 19
+  Statement           : input wire gpio_int_o
+  Signal              : gpio_int_o
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:8
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 14
+  Statement           : input wire PENABLE,
+  Signal              : PENABLE
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:12
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 18
+  Statement           : input wire [31:0]gpio_dat_o,
+  Signal              : gpio_dat_o[31:0]
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:5
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 5
+  Statement           : output wire sys_rst,
+  Signal              : sys_rst
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:4
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 4
+  Statement           : output wire sys_clk,
+  Signal              : sys_clk
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+  -----------------------------------------------------------------------------
+  Tag                 : RegInputOutput-ML
+  Description         : Port '[Signal]' is not registered [Hierarchy: '[DesignObjHierarchy]']
+  Violation           : Lint:3
+  Goal                : lint_rtl
+  FileName            : ./../src/apb_if.sv
+  LineNumber          : 3
+  Statement           : output wire IRQ,
+  Signal              : IRQ
+  Module              : apb_if
+  DesignObjHierarchy  : apb_if
+
+  -----------------------------------------------------------------------------
+  ReportPortInfo-ML  (1 info/0 waived)
+  -----------------------------------------------------------------------------
+  Tag           : ReportPortInfo-ML
+  Description   : Port Information for top design unit has been generated. For details see report ReportPortInfo.rpt
+  Violation     : Lint:15
+  Goal          : lint_rtl
+  FileName      : /home1/WBRN18/YashasH/apb_gpio/script/vcst_rtdb/spyglass/vc_lint0/apb_if/VC_GOAL0/spyglass_reports/morelint/ReportPortInfo
+  LineNumber    : 1
+  Statement     : #     Comment          : Report Top Level Module Port Info

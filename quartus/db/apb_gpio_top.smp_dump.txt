@@ -1,0 +1,6 @@
+
+State Machine - |apb_top|apb_if:if_instance|apb_fsm:fs1|present_state
+Name present_state.IDLE present_state.ENABLE present_state.SETUP 
+present_state.IDLE 0 0 0 
+present_state.SETUP 1 0 1 
+present_state.ENABLE 1 1 0 

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'PCLK'
+Slack : -4.710
+TNS   : -905.304
+
+Type  : Slow 1100mV 85C Model Setup 'ext_clk_pad_i'
+Slack : -2.152
+TNS   : -90.288
+
+Type  : Slow 1100mV 85C Model Hold 'PCLK'
+Slack : 0.503
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ext_clk_pad_i'
+Slack : 0.586
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'PCLK'
+Slack : -0.724
+TNS   : -396.019
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ext_clk_pad_i'
+Slack : -0.724
+TNS   : -78.103
+
+Type  : Slow 1100mV 0C Model Setup 'PCLK'
+Slack : -4.780
+TNS   : -883.620
+
+Type  : Slow 1100mV 0C Model Setup 'ext_clk_pad_i'
+Slack : -1.982
+TNS   : -81.676
+
+Type  : Slow 1100mV 0C Model Hold 'PCLK'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ext_clk_pad_i'
+Slack : 0.508
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'PCLK'
+Slack : -0.724
+TNS   : -395.565
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ext_clk_pad_i'
+Slack : -0.724
+TNS   : -73.479
+
+Type  : Fast 1100mV 85C Model Setup 'PCLK'
+Slack : -1.544
+TNS   : -255.818
+
+Type  : Fast 1100mV 85C Model Setup 'ext_clk_pad_i'
+Slack : -0.303
+TNS   : -3.072
+
+Type  : Fast 1100mV 85C Model Hold 'PCLK'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ext_clk_pad_i'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'PCLK'
+Slack : -0.091
+TNS   : -30.761
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ext_clk_pad_i'
+Slack : -0.084
+TNS   : -4.504
+
+Type  : Fast 1100mV 0C Model Setup 'PCLK'
+Slack : -1.302
+TNS   : -199.706
+
+Type  : Fast 1100mV 0C Model Setup 'ext_clk_pad_i'
+Slack : -0.189
+TNS   : -1.199
+
+Type  : Fast 1100mV 0C Model Hold 'PCLK'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ext_clk_pad_i'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'PCLK'
+Slack : -0.091
+TNS   : -30.948
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ext_clk_pad_i'
+Slack : -0.087
+TNS   : -5.321
+
+------------------------------------------------------------

@@ -1,0 +1,15 @@
+Start time: 12:12:22 on Apr 21,2025
+qverilog ../src/apb_if_tb.sv 
+-- Compiling module apb_if_tb
+
+Top level modules:
+	apb_if_tb
+# vsim -lib work work.apb_if_tb -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ../src/apb_if_tb.sv(24): Module 'apb_if' is not defined.
+#  For instance '(null)' at path 'apb_if_tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 12:12:23 on Apr 21,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

@@ -1,0 +1,7 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+apb_io,Top_Level,out_pad,INPUT,32,[31:0],-,-
+apb_io,Top_Level,in_pad,OUTPUT,32,[31:0],-,-
+apb_io,Top_Level,io_pad,INOUT,32,[31:0],-,-
+apb_io,Top_Level,oen_padoe,INPUT,32,[31:0],-,-
+apb_io,Top_Level,ext_clk_pad_i,INPUT,1,-,-,-
+apb_io,Top_Level,gpio_eclk,OUTPUT,1,-,-,-

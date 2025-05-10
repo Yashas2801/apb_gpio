@@ -1,0 +1,53 @@
+4 "W224" 1
+"SPG_MSGTAG_HIERARCHY"
+":apb_top:reg_instance@register"
+5 "W224" 1
+"SPG_MSGTAG_HIERARCHY"
+":apb_top:reg_instance@register"
+6 "STARC05-2.1.5.3" 1
+"SPG_MSGTAG_HIERARCHY"
+":apb_top:reg_instance@register"
+7 "STARC05-2.1.5.3" 1
+"SPG_MSGTAG_HIERARCHY"
+":apb_top:reg_instance@register"
+-1 "CMD_incdir03" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["VC_GOAL0"]
+"RULE_ORDER"
+[20]
+"RULEGROUP"
+["morelint"]
+-1 "STARC05-2.1.5.3" 3
+"TEMPLATE"
+["VC_GOAL0"]
+"RULE_ORDER"
+[13]
+"RULEGROUP"
+["starc2005/s05_Quality/s05_Quality1","starc2005/RTL_Description_Technique_05"]
+-1 "VCSRunSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "W224" 3
+"TEMPLATE"
+["VC_GOAL0"]
+"RULE_ORDER"
+[55]
+"RULEGROUP"
+["lint/Expression"]

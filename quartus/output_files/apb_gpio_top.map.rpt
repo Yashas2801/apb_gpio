@@ -1,0 +1,430 @@
+Analysis & Synthesis report for apb_gpio_top
+Sat May 10 08:37:00 2025
+Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |apb_top|apb_if:if_instance|apb_fsm:fs1|present_state
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: apb_if:if_instance|apb_fsm:fs1
+ 13. Post-Synthesis Netlist Statistics for Top Partition
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
+ 16. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++-----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                      ;
++---------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sat May 10 08:37:00 2025           ;
+; Quartus Prime Version           ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
+; Revision Name                   ; apb_gpio_top                                    ;
+; Top-level Entity Name           ; apb_top                                         ;
+; Family                          ; Cyclone V                                       ;
+; Logic utilization (in ALMs)     ; N/A                                             ;
+; Total registers                 ; 420                                             ;
+; Total pins                      ; 168                                             ;
+; Total virtual pins              ; 0                                               ;
+; Total block memory bits         ; 0                                               ;
+; Total DSP Blocks                ; 0                                               ;
+; Total HSSI RX PCSs              ; 0                                               ;
+; Total HSSI PMA RX Deserializers ; 0                                               ;
+; Total HSSI TX PCSs              ; 0                                               ;
+; Total HSSI PMA TX Serializers   ; 0                                               ;
+; Total PLLs                      ; 0                                               ;
+; Total DLLs                      ; 0                                               ;
++---------------------------------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
+; Top-level entity name                                                           ; apb_top            ; apb_gpio_top       ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 16          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-16        ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                               ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
+; ../src/apb_fsm.sv                ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/apb_fsm.sv      ;         ;
+; ../src/apb_if.sv                 ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/apb_if.sv       ;         ;
+; ../src/apb_io.sv                 ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv       ;         ;
+; ../src/apb_top.sv                ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv      ;         ;
+; ../src/aux_if.sv                 ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/aux_if.sv       ;         ;
+; ../src/aux_reg.sv                ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/aux_reg.sv      ;         ;
+; ../src/gpio_defines.sv           ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/gpio_defines.sv ;         ;
+; ../src/register.sv               ; yes             ; User SystemVerilog HDL File  ; /home/yash/Desktop/Github/apb_gpio/src/register.sv     ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimate of Logic utilization (ALMs needed) ; 326           ;
+;                                             ;               ;
+; Combinational ALUT usage for logic          ; 400           ;
+;     -- 7 input functions                    ; 0             ;
+;     -- 6 input functions                    ; 222           ;
+;     -- 5 input functions                    ; 5             ;
+;     -- 4 input functions                    ; 101           ;
+;     -- <=3 input functions                  ; 72            ;
+;                                             ;               ;
+; Dedicated logic registers                   ; 420           ;
+;                                             ;               ;
+; I/O pins                                    ; 168           ;
+;                                             ;               ;
+; Total DSP Blocks                            ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; PRESETn~input ;
+; Maximum fan-out                             ; 485           ;
+; Total fan-out                               ; 3787          ;
+; Average fan-out                             ; 3.19          ;
++---------------------------------------------+---------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                        ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                     ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------+-------------+--------------+
+; |apb_top                   ; 400 (0)             ; 420 (0)                   ; 0                 ; 0          ; 168  ; 0            ; |apb_top                                ; apb_top     ; work         ;
+;    |apb_if:if_instance|    ; 66 (64)             ; 2 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |apb_top|apb_if:if_instance             ; apb_if      ; work         ;
+;       |apb_fsm:fs1|        ; 2 (2)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |apb_top|apb_if:if_instance|apb_fsm:fs1 ; apb_fsm     ; work         ;
+;    |apb_io:io_instance|    ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |apb_top|apb_io:io_instance             ; apb_io      ; work         ;
+;    |aux_if:aux_instance|   ; 0 (0)               ; 32 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |apb_top|aux_if:aux_instance            ; aux_if      ; work         ;
+;       |aux_reg:i1|         ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |apb_top|aux_if:aux_instance|aux_reg:i1 ; aux_reg     ; work         ;
+;    |register:reg_instance| ; 302 (302)           ; 386 (386)                 ; 0                 ; 0          ; 0    ; 0            ; |apb_top|register:reg_instance          ; register    ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++----------------------------------------------------------------------------------------+
+; State Machine - |apb_top|apb_if:if_instance|apb_fsm:fs1|present_state                  ;
++----------------------+--------------------+----------------------+---------------------+
+; Name                 ; present_state.IDLE ; present_state.ENABLE ; present_state.SETUP ;
++----------------------+--------------------+----------------------+---------------------+
+; present_state.IDLE   ; 0                  ; 0                    ; 0                   ;
+; present_state.SETUP  ; 1                  ; 0                    ; 1                   ;
+; present_state.ENABLE ; 1                  ; 1                    ; 0                   ;
++----------------------+--------------------+----------------------+---------------------+
+
+
++------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                     ;
++---------------------------------------------------+--------------------+
+; Register name                                     ; Reason for Removal ;
++---------------------------------------------------+--------------------+
+; apb_if:if_instance|apb_fsm:fs1|present_state.IDLE ; Lost fanout        ;
+; Total Number of Removed Registers = 1             ;                    ;
++---------------------------------------------------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 420   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 32    ;
+; Number of registers using Asynchronous Clear ; 420   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 224   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
+; 10:1               ; 30 bits   ; 180 LEs       ; 180 LEs              ; 0 LEs                  ; Yes        ; |apb_top|register:reg_instance|gpio_dat_o[23]     ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |apb_top|register:reg_instance|gpio_dat_o[1]      ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |apb_top|apb_if:if_instance|PRDATA[26]            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |apb_top|apb_if:if_instance|gpio_dat_i[0]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |apb_top|register:reg_instance|in_mux[1]          ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |apb_top|apb_if:if_instance|apb_fsm:fs1|Selector1 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: apb_if:if_instance|apb_fsm:fs1 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; IDLE           ; 00    ; Unsigned Binary                                    ;
+; SETUP          ; 01    ; Unsigned Binary                                    ;
+; ENABLE         ; 10    ; Unsigned Binary                                    ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 420                         ;
+;     CLR               ; 164                         ;
+;     CLR SLD           ; 32                          ;
+;     ENA CLR           ; 224                         ;
+; arriav_io_obuf        ; 32                          ;
+; arriav_lcell_comb     ; 400                         ;
+;     normal            ; 400                         ;
+;         2 data inputs ; 36                          ;
+;         3 data inputs ; 36                          ;
+;         4 data inputs ; 101                         ;
+;         5 data inputs ; 5                           ;
+;         6 data inputs ; 222                         ;
+; boundary_port         ; 168                         ;
+;                       ;                             ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 2.39                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+    Info: Processing started: Sat May 10 08:36:53 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off apb_gpio_top -c apb_gpio_top
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_fsm.sv
+    Info (12023): Found entity 1: apb_fsm File: /home/yash/Desktop/Github/apb_gpio/src/apb_fsm.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_fsm_tb.sv
+    Info (12023): Found entity 1: apb_fsm_tb File: /home/yash/Desktop/Github/apb_gpio/src/apb_fsm_tb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_if.sv
+    Info (12023): Found entity 1: apb_if File: /home/yash/Desktop/Github/apb_gpio/src/apb_if.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_if_tb.sv
+    Info (12023): Found entity 1: apb_if_tb File: /home/yash/Desktop/Github/apb_gpio/src/apb_if_tb.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv
+    Info (12023): Found entity 1: apb_io File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_io_tb.sv
+    Info (12023): Found entity 1: apb_io_tb File: /home/yash/Desktop/Github/apb_gpio/src/apb_io_tb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv
+    Info (12023): Found entity 1: apb_top File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_top_tb.sv
+    Info (12023): Found entity 1: apb_top_tb File: /home/yash/Desktop/Github/apb_gpio/src/apb_top_tb.sv Line: 162
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/aux_if.sv
+    Info (12023): Found entity 1: aux_if File: /home/yash/Desktop/Github/apb_gpio/src/aux_if.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/aux_if_tb.sv
+    Info (12023): Found entity 1: aux_if_tb File: /home/yash/Desktop/Github/apb_gpio/src/aux_if_tb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/aux_reg.sv
+    Info (12023): Found entity 1: aux_reg File: /home/yash/Desktop/Github/apb_gpio/src/aux_reg.sv Line: 1
+Info (12021): Found 0 design units, including 0 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/gpio_defines.sv
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/register.sv
+    Info (12023): Found entity 1: register File: /home/yash/Desktop/Github/apb_gpio/src/register.sv Line: 16
+Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/register_tb.sv
+    Info (12023): Found entity 1: register_tb File: /home/yash/Desktop/Github/apb_gpio/src/register_tb.sv Line: 2
+Info (12127): Elaborating entity "apb_top" for the top level hierarchy
+Info (12128): Elaborating entity "apb_if" for hierarchy "apb_if:if_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 45
+Info (12128): Elaborating entity "apb_fsm" for hierarchy "apb_if:if_instance|apb_fsm:fs1" File: /home/yash/Desktop/Github/apb_gpio/src/apb_if.sv Line: 28
+Info (12128): Elaborating entity "register" for hierarchy "register:reg_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 66
+Warning (10762): Verilog HDL Case Statement warning at register.sv(256): can't check case statement for completeness because the case expression has too many possible states File: /home/yash/Desktop/Github/apb_gpio/src/register.sv Line: 256
+Info (12128): Elaborating entity "aux_if" for hierarchy "aux_if:aux_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 73
+Info (12128): Elaborating entity "aux_reg" for hierarchy "aux_if:aux_instance|aux_reg:i1" File: /home/yash/Desktop/Github/apb_gpio/src/aux_if.sv Line: 14
+Info (12128): Elaborating entity "apb_io" for hierarchy "apb_io:io_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 82
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[5]" to the node "register:reg_instance|nextc_sampled[5]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[9]" to the node "register:reg_instance|nextc_sampled[9]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[26]" to the node "register:reg_instance|nextc_sampled[26]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[8]" to the node "register:reg_instance|nextc_sampled[8]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[27]" to the node "register:reg_instance|nextc_sampled[27]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[7]" to the node "register:reg_instance|nextc_sampled[7]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[28]" to the node "register:reg_instance|nextc_sampled[28]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[6]" to the node "register:reg_instance|nextc_sampled[6]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[29]" to the node "register:reg_instance|nextc_sampled[29]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[17]" to the node "register:reg_instance|nextc_sampled[17]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[30]" to the node "register:reg_instance|nextc_sampled[30]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[4]" to the node "register:reg_instance|nextc_sampled[4]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[31]" to the node "register:reg_instance|nextc_sampled[31]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[3]" to the node "register:reg_instance|nextc_sampled[3]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[0]" to the node "register:reg_instance|nextc_sampled[0]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[1]" to the node "register:reg_instance|nextc_sampled[1]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[2]" to the node "register:reg_instance|nextc_sampled[2]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[10]" to the node "register:reg_instance|nextc_sampled[10]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[18]" to the node "register:reg_instance|nextc_sampled[18]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[25]" to the node "register:reg_instance|nextc_sampled[25]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[16]" to the node "register:reg_instance|nextc_sampled[16]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[19]" to the node "register:reg_instance|nextc_sampled[19]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[15]" to the node "register:reg_instance|nextc_sampled[15]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[20]" to the node "register:reg_instance|nextc_sampled[20]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[14]" to the node "register:reg_instance|nextc_sampled[14]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[13]" to the node "register:reg_instance|nextc_sampled[13]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[22]" to the node "register:reg_instance|nextc_sampled[22]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[12]" to the node "register:reg_instance|nextc_sampled[12]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[23]" to the node "register:reg_instance|nextc_sampled[23]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[11]" to the node "register:reg_instance|nextc_sampled[11]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[24]" to the node "register:reg_instance|nextc_sampled[24]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+    Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[21]" to the node "register:reg_instance|nextc_sampled[21]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 1 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file /home/yash/Desktop/Github/apb_gpio/quartus/output_files/apb_gpio_top.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 920 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 102 input pins
+    Info (21059): Implemented 34 output pins
+    Info (21060): Implemented 32 bidirectional pins
+    Info (21061): Implemented 752 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 35 warnings
+    Info: Peak virtual memory: 538 megabytes
+    Info: Processing ended: Sat May 10 08:37:00 2025
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:19
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in /home/yash/Desktop/Github/apb_gpio/quartus/output_files/apb_gpio_top.map.smsg.
+
+
