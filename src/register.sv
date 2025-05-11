@@ -9,8 +9,8 @@
 `define GPIO_RGPIO_ECLK 32'h20
 `define GPIO_RGPIO_NEC 32'h24
 
-`define GPIO_RGPIO_CTRL_INTE 1'b1
-`define GPIO_RGPIO_CTRL_INTS 1'b0
+`define GPIO_RGPIO_CTRL_INTE 1'b0
+`define GPIO_RGPIO_CTRL_INTS 1'b1
 
 
 module register (
@@ -149,7 +149,6 @@ module register (
     end
   end
   */
-
   always @(posedge sys_clk or negedge sys_rst) begin
     if (~sys_rst) begin
       rgpio_ctrl <= 2'b0;
@@ -164,7 +163,19 @@ module register (
       rgpio_ctrl[`GPIO_RGPIO_CTRL_INTE] <= rgpio_ctrl[`GPIO_RGPIO_CTRL_INTE];
     end
   end
-
+  /*
+  always @(posedge sys_clk or negedge sys_rst) begin
+    if (~sys_rst) begin
+      rgpio_ctrl <= 2'b0;
+    end else if (gpio_addr == `GPIO_RGPIO_CTRL && gpio_we) begin
+      rgpio_ctrl <= gpio_dat_i[1:0];
+    end else if (rgpio_ctrl[`GPIO_RGPIO_CTRL_INTE]) begin
+      rgpio_ctrl <= {
+        rgpio_ctrl[`GPIO_RGPIO_CTRL_INTE], rgpio_ctrl[`GPIO_RGPIO_CTRL_INTS] | gpio_inta_o
+      };
+    end else rgpio_ctrl <= rgpio_ctrl;
+  end
+  */
   //RGPIO_IN
   reg [31:0] pextc_sampled;
   reg [31:0] nextc_sampled;

@@ -302,7 +302,7 @@ module apb_top_tb ();
     write(`GPIO_RGPIO_OE, 32'h0000_0000);
     write(`GPIO_RGPIO_PTRIG, 32'hffff_ffff);
     write(`GPIO_RGPIO_INTE, 32'hffff_ffff);
-    write(`GPIO_RGPIO_CTRL, 2'b10);
+    write(`GPIO_RGPIO_CTRL, 2'b01);
     write(`GPIO_RGPIO_INTS, 32'h0000_0000);
     read(`GPIO_RGPIO_INTS);
     write(`GPIO_RGPIO_ECLK, 32'h0000_0000);
