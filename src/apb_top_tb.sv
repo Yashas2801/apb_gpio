@@ -180,7 +180,16 @@ module apb_top_tb ();
   reg flag;
   reg [31:0] temp;
 
-  assign io_pad = flag ? 'bz : temp;
+  wire [31:0] drive_enable = ~i1.reg_instance.rgpio_oe;
+
+  generate
+    for (genvar i = 0; i < 32; i = i + 1) begin
+      assign io_pad[i] = drive_enable[i] ? temp[i] : 1'bz;
+    end
+  endgenerate
+
+  //WARN: This temp logic cannot be used as bidirectional
+  // assign io_pad = flag ? 'bz : temp;
 
   apb_top i1 (
       .PCLK(PCLK),
@@ -219,7 +228,7 @@ module apb_top_tb ();
     end
   endtask
 
-  task write(input [31:0] addr, data, input [31:0] aux_i = 32'habcd_abcd);
+  task write(input [31:0] addr, data, input [31:0] aux_i = 32'h0000_0000);
     begin
       @(negedge PCLK);
       PSEL = 1'b1;
@@ -264,22 +273,58 @@ module apb_top_tb ();
     initialize;
     #40;
     // As output
+    flag = 1'b1;
+    write(`GPIO_RGPIO_OE, 32'hffff_ffff);  //io as output
+    read(`GPIO_RGPIO_OE);
+    write(`GPIO_RGPIO_INTE, 32'h0000_0000);  //cleared all the inte to disable the interrupts
+    read(`GPIO_RGPIO_INTE);
     write(`GPIO_RGPIO_OUT, 32'haaaa_ffff);
     read(`GPIO_RGPIO_OUT);
-    write(`GPIO_RGPIO_OE, 32'hffff_ffff);
-    read(`GPIO_RGPIO_OE);
     write(`GPIO_RGPIO_AUX, 32'hffff_ffff, 32'h1234_5678);
     $display("Working as output DONE");
+    #100;
+
+    //As bidirectional
+    initialize;
+    #50;
+    //NOTE: 0-15 act as outputs , 16-31 act as inputs
+    write(`GPIO_RGPIO_OE, 32'h0000_ffff);
+    read(`GPIO_RGPIO_OE);
+    write(`GPIO_RGPIO_ECLK, 32'h0000_0000);
+    read(`GPIO_RGPIO_ECLK);
+    write(`GPIO_RGPIO_OUT, 32'h0000_abcd);
+    read(`GPIO_RGPIO_OUT);
+    //NOTE: Enabling interrupts for 23-31
+    write(`GPIO_RGPIO_INTE, 32'hff00_0000);
+    read(`GPIO_RGPIO_INTE);
+    write(`GPIO_RGPIO_PTRIG, 32'hff_000000);  //posedge(RGPIO_IN) triggering
+    read(`GPIO_RGPIO_INTE);
+    write(`GPIO_RGPIO_CTRL, 2'b01);
+    //NOTE: NO external clock
+    temp = 32'h0000_0000;
+    read(`GPIO_RGPIO_IN);
+    read(`GPIO_RGPIO_INTS);
+    temp = 32'hffff_0000;
+    read(`GPIO_RGPIO_IN);
+    read(`GPIO_RGPIO_INTS);
+    write(`GPIO_RGPIO_CTRL, 2'b00);  // resetting the ctrl[inte], serviced all the interrupts
+    read(`GPIO_RGPIO_IN);
+    read(`GPIO_RGPIO_INTS);
+    #50;
 
     // As input
+    initialize;
+
+    #40;
     flag = 1'b0;
     write(`GPIO_RGPIO_OE, 32'h0000_0000);
     read(`GPIO_RGPIO_OE);
     temp = 32'habfe_fabe;
     read(`GPIO_RGPIO_IN);
     $display("Working as input DONE");
+    #50;
 
-    // Sampling wrt external clk negedge
+    // Sampling wrt external clk
     initialize;
     #50;
     flag = 1'b0;
@@ -287,12 +332,15 @@ module apb_top_tb ();
     read(`GPIO_RGPIO_OE);
     write(`GPIO_RGPIO_ECLK, 32'hffff_ffff);
     read(`GPIO_RGPIO_ECLK);
-    write(`GPIO_RGPIO_NEC, 32'hffff_ffff);
+    //write(`GPIO_RGPIO_NEC, 32'h0000_0000);  // posedge
+    //read(`GPIO_RGPIO_NEC);
+    write(`GPIO_RGPIO_NEC, 32'hffff_ffff);  // negedge
     read(`GPIO_RGPIO_NEC);
-    @(negedge PCLK);
+    @(negedge PCLK);  //uncomment this if you are sampling at negedge
     temp = 32'haabb_ccdd;
     read(`GPIO_RGPIO_IN);
     $display("posedge and negedge ext clk DONE");
+    #50;
 
     // Interrupts
     initialize;
