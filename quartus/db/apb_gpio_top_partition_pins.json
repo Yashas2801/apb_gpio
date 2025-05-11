@@ -416,7 +416,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "PWDATA[1]",
+					"name" : "PWDATA[0]",
 					"strict" : false
 				},
 				{
@@ -488,7 +488,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "PWDATA[0]",
+					"name" : "PWDATA[1]",
 					"strict" : false
 				},
 				{

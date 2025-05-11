@@ -50,7 +50,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE ../src/apb_if_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/apb_io.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/apb_io_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/apb_top.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../src/apb_top_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/aux_if.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/aux_if_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../src/aux_reg.sv

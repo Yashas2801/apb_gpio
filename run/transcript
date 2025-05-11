@@ -13,8 +13,9 @@
 # //  18 U.S.C. Section 1905.
 # //
 # vsim -vopt -voptargs="+acc" -coverage -do "log -r /*" apb_top_tb -work ../sim 
-# Start time: 13:26:03 on May 11,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 23:30:21 on May 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "apb_fsm(fast)".
 # Loading sv_std.std
 # Loading work.apb_top_tb(fast)
 # Loading work.apb_top(fast)
@@ -42,13 +43,6 @@ sim:/apb_top_tb/ext_clk_pad_i \
 sim:/apb_top_tb/flag \
 sim:/apb_top_tb/temp \
 sim:/apb_top_tb/drive_enable
-add wave -position insertpoint  \
-sim:/apb_top_tb/i1/reg_instance/rgpio_oe \
-sim:/apb_top_tb/i1/reg_instance/rgpio_inte \
-sim:/apb_top_tb/i1/reg_instance/rgpio_ptrig \
-sim:/apb_top_tb/i1/reg_instance/rgpio_ctrl \
-sim:/apb_top_tb/i1/reg_instance/rgpio_in \
-sim:/apb_top_tb/i1/reg_instance/rgpio_ints
 run -all
 # Time                    5: rgpio_in = 00000000, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
 # Time                   15: rgpio_in = 00000000, in_mux = xxxxxxxx, rgpio_ints = 00000000, rgpio_ctrl = 00, IRQ = 0, temp = xxxxxxxx
@@ -304,5 +298,15 @@ run -all
 #    Time: 1995 ns  Iteration: 0  Instance: /apb_top_tb
 # 1
 # Break in Module apb_top_tb at ../src/apb_top_tb.sv line 366
-# End time: 13:28:21 on May 11,2025, Elapsed time: 0:02:18
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_out
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_in
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_ints
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_ctrl
+add wave -position insertpoint  \
+sim:/apb_top_tb/i1/reg_instance/rgpio_eclk
+# End time: 23:32:56 on May 11,2025, Elapsed time: 0:02:35
 # Errors: 0, Warnings: 0

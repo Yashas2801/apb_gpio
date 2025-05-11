@@ -4,24 +4,24 @@ SIM_DIR = ../sim
 VSIMOPT = -vopt -voptargs=+acc 
 
 # Files for Register
- VERILOG_FILES = $(SRC_DIR)/register.sv $(SRC_DIR)/register_tb.sv $(SRC_DIR)/gpio_defines.sv
- TOP_MODULE = register_tb
+#VERILOG_FILES = $(SRC_DIR)/register.sv $(SRC_DIR)/register_tb.sv $(SRC_DIR)/gpio_defines.sv
+# TOP_MODULE = register_tb
 
 # Files for aux_if
 # VERILOG_FILES = $(SRC_DIR)/aux_if.sv $(SRC_DIR)/aux_reg.sv $(SRC_DIR)/aux_if_tb.sv
 # TOP_MODULE = aux_if_tb
 
 # Files for apb_interface
- #VERILOG_FILES = $(SRC_DIR)/apb_if.sv $(SRC_DIR)/apb_if_tb.sv $(SRC_DIR)/apb_fsm.sv 
- #TOP_MODULE = apb_if_tb
+#VERILOG_FILES = $(SRC_DIR)/apb_if.sv $(SRC_DIR)/apb_if_tb.sv $(SRC_DIR)/apb_fsm.sv 
+#TOP_MODULE = apb_if_tb
 
 # Files for io_interface
 # VERILOG_FILES = $(SRC_DIR)/apb_io.sv $(SRC_DIR)/apb_io_tb.sv
 # TOP_MODULE = apb_io_tb
 
 # Files for apb_top
-#VERILOG_FILES = $(SRC_DIR)/*.sv
-#TOP_MODULE = apb_top_tb
+VERILOG_FILES = $(SRC_DIR)/*.sv
+TOP_MODULE = apb_top_tb
 
 # Coverage database and report directory
 COV_DB = $(SIM_DIR)/covdb.ucdb

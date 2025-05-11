@@ -1,5 +1,5 @@
 Analysis & Synthesis report for apb_gpio_top
-Sat May 10 08:37:00 2025
+Sun May 11 23:35:06 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -21,7 +21,6 @@ Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
  13. Post-Synthesis Netlist Statistics for Top Partition
  14. Elapsed Time Per Partition
  15. Analysis & Synthesis Messages
- 16. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -48,7 +47,7 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat May 10 08:37:00 2025           ;
+; Analysis & Synthesis Status     ; Successful - Sun May 11 23:35:05 2025           ;
 ; Quartus Prime Version           ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                   ; apb_gpio_top                                    ;
 ; Top-level Entity Name           ; apb_top                                         ;
@@ -276,7 +275,7 @@ Encoding Type:  One-Hot
 ; 10:1               ; 30 bits   ; 180 LEs       ; 180 LEs              ; 0 LEs                  ; Yes        ; |apb_top|register:reg_instance|gpio_dat_o[23]     ;
 ; 11:1               ; 2 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |apb_top|register:reg_instance|gpio_dat_o[1]      ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |apb_top|apb_if:if_instance|PRDATA[26]            ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |apb_top|apb_if:if_instance|gpio_dat_i[0]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |apb_top|apb_if:if_instance|gpio_dat_i[1]         ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |apb_top|register:reg_instance|in_mux[1]          ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |apb_top|apb_if:if_instance|apb_fsm:fs1|Selector1 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
@@ -333,7 +332,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Sat May 10 08:36:53 2025
+    Info: Processing started: Sun May 11 23:34:58 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off apb_gpio_top -c apb_gpio_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -351,8 +350,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file /home/y
     Info (12023): Found entity 1: apb_io_tb File: /home/yash/Desktop/Github/apb_gpio/src/apb_io_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv
     Info (12023): Found entity 1: apb_top File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/apb_top_tb.sv
-    Info (12023): Found entity 1: apb_top_tb File: /home/yash/Desktop/Github/apb_gpio/src/apb_top_tb.sv Line: 162
 Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/aux_if.sv
     Info (12023): Found entity 1: aux_if File: /home/yash/Desktop/Github/apb_gpio/src/aux_if.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/aux_if_tb.sv
@@ -363,12 +360,12 @@ Info (12021): Found 0 design units, including 0 entities, in source file /home/y
 Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/register.sv
     Info (12023): Found entity 1: register File: /home/yash/Desktop/Github/apb_gpio/src/register.sv Line: 16
 Info (12021): Found 1 design units, including 1 entities, in source file /home/yash/Desktop/Github/apb_gpio/src/register_tb.sv
-    Info (12023): Found entity 1: register_tb File: /home/yash/Desktop/Github/apb_gpio/src/register_tb.sv Line: 2
+    Info (12023): Found entity 1: register_tb File: /home/yash/Desktop/Github/apb_gpio/src/register_tb.sv Line: 117
 Info (12127): Elaborating entity "apb_top" for the top level hierarchy
 Info (12128): Elaborating entity "apb_if" for hierarchy "apb_if:if_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 45
 Info (12128): Elaborating entity "apb_fsm" for hierarchy "apb_if:if_instance|apb_fsm:fs1" File: /home/yash/Desktop/Github/apb_gpio/src/apb_if.sv Line: 28
 Info (12128): Elaborating entity "register" for hierarchy "register:reg_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 66
-Warning (10762): Verilog HDL Case Statement warning at register.sv(256): can't check case statement for completeness because the case expression has too many possible states File: /home/yash/Desktop/Github/apb_gpio/src/register.sv Line: 256
+Warning (10762): Verilog HDL Case Statement warning at register.sv(252): can't check case statement for completeness because the case expression has too many possible states File: /home/yash/Desktop/Github/apb_gpio/src/register.sv Line: 252
 Info (12128): Elaborating entity "aux_if" for hierarchy "aux_if:aux_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 73
 Info (12128): Elaborating entity "aux_reg" for hierarchy "aux_if:aux_instance|aux_reg:i1" File: /home/yash/Desktop/Github/apb_gpio/src/aux_if.sv Line: 14
 Info (12128): Elaborating entity "apb_io" for hierarchy "apb_io:io_instance" File: /home/yash/Desktop/Github/apb_gpio/src/apb_top.sv Line: 82
@@ -407,7 +404,6 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13047): Converted the fan-out from the tri-state buffer "apb_io:io_instance|in_pad[21]" to the node "register:reg_instance|nextc_sampled[21]" into an OR gate File: /home/yash/Desktop/Github/apb_gpio/src/apb_io.sv Line: 3
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 1 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file /home/yash/Desktop/Github/apb_gpio/quartus/output_files/apb_gpio_top.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 920 device resources after synthesis - the final resource count might be different
@@ -416,15 +412,9 @@ Info (21057): Implemented 920 device resources after synthesis - the final resou
     Info (21060): Implemented 32 bidirectional pins
     Info (21061): Implemented 752 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 35 warnings
-    Info: Peak virtual memory: 538 megabytes
-    Info: Processing ended: Sat May 10 08:37:00 2025
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:19
-
-
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
-The suppressed messages can be found in /home/yash/Desktop/Github/apb_gpio/quartus/output_files/apb_gpio_top.map.smsg.
+    Info: Peak virtual memory: 541 megabytes
+    Info: Processing ended: Sun May 11 23:35:06 2025
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:20
 
 

@@ -20,6 +20,9 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
 !s11f vlog 2021.2_1 2021.05, May 15 2021
 13
 !s112 1.1
@@ -29,10 +32,10 @@ R0
 cModel Technology
 Z1 d/home/yash/Desktop/Github/apb_gpio/run
 T_opt
-!s110 1746950163
-V5l^3Wi>O2FOAM?d`_02AX3
-04 10 4 work apb_top_tb fast 0
-=1-000ae431a4f1-68205813-973c7-18a01
+!s110 1746985689
+VgdgPQo^S?8S8Y23AcBa>H3
+04 9 4 work apb_if_tb fast 0
+=1-000ae431a4f1-6820e2d9-c7eca-13d1
 Z2 !s124 OEM100
 Z3 o-quiet -auto_acc_if_foreign -work ../sim +acc
 Z4 tCvgOpt 0
@@ -40,19 +43,29 @@ n@_opt
 Z5 OL;O;2021.2_1;73
 R1
 T_opt1
-!s110 1746962366
-V^:fiQW]kMKibUoom:j[4H2
-04 11 4 work register_tb fast 0
-=1-000ae431a4f1-682087be-6bbb6-29ff
+!s110 1746986421
+V5PgHf5ZFNkCZ8k:9fI:if2
+04 10 4 work apb_top_tb fast 0
+=1-000ae431a4f1-6820e5b5-d225e-21a8
 R2
 R3
 R4
 n@_opt1
 R5
+T_opt2
+!s110 1746985560
+VmgNoMPjb]QNVIh@EICOaI3
+04 9 4 work aux_if_tb fast 0
+=1-000ae431a4f1-6820e258-b784e-efd
+R2
+R3
+R4
+n@_opt2
+R5
 R1
 vapb_fsm
 Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z7 !s110 1746962338
+Z7 !s110 1746986418
 !i10b 1
 !s100 V5X?R[lCV[IVID<[FBB9f2
 Im1Mh2Dz9K1^h?G8>LHDmS0
@@ -61,14 +74,14 @@ R1
 w1746794790
 8../src/apb_fsm.sv
 F../src/apb_fsm.sv
-!i122 29
+!i122 34
 L0 1 63
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.2_1;73
 r1
 !s85 0
 31
-Z10 !s108 1746962338.000000
+Z10 !s108 1746986418.000000
 Z11 !s107 ../src/register_tb.sv|../src/register.sv|../src/gpio_defines.sv|../src/aux_reg.sv|../src/aux_if_tb.sv|../src/aux_if.sv|../src/apb_top_tb.sv|../src/apb_top.sv|../src/apb_io_tb.sv|../src/apb_io.sv|../src/apb_if_tb.sv|../src/apb_if.sv|../src/apb_fsm_tb.sv|../src/apb_fsm.sv|
 Z12 !s90 -work|../sim|-coveropt|3|+cover|../src/apb_fsm.sv|../src/apb_fsm_tb.sv|../src/apb_if.sv|../src/apb_if_tb.sv|../src/apb_io.sv|../src/apb_io_tb.sv|../src/apb_top.sv|../src/apb_top_tb.sv|../src/aux_if.sv|../src/aux_if_tb.sv|../src/aux_reg.sv|../src/gpio_defines.sv|../src/register.sv|../src/register_tb.sv|
 !i113 0
@@ -86,7 +99,7 @@ R1
 w1746795002
 8../src/apb_fsm_tb.sv
 F../src/apb_fsm_tb.sv
-!i122 29
+!i122 34
 Z15 L0 1 56
 R8
 R9
@@ -111,7 +124,7 @@ R1
 w1746795545
 8../src/apb_if.sv
 F../src/apb_if.sv
-!i122 29
+!i122 34
 L0 1 62
 R8
 R9
@@ -136,7 +149,7 @@ R1
 w1746796200
 8../src/apb_if_tb.sv
 F../src/apb_if_tb.sv
-!i122 29
+!i122 34
 L0 2 98
 R8
 R9
@@ -161,7 +174,7 @@ R1
 w1746796227
 8../src/apb_io.sv
 F../src/apb_io.sv
-!i122 29
+!i122 34
 L0 1 78
 R8
 R9
@@ -186,7 +199,7 @@ R1
 w1746796231
 8../src/apb_io_tb.sv
 F../src/apb_io_tb.sv
-!i122 29
+!i122 34
 R15
 R8
 R9
@@ -211,7 +224,7 @@ R1
 w1746796237
 8../src/apb_top.sv
 F../src/apb_top.sv
-!i122 29
+!i122 34
 L0 1 84
 R8
 R9
@@ -236,7 +249,7 @@ R1
 w1746950156
 8../src/apb_top_tb.sv
 F../src/apb_top_tb.sv
-!i122 29
+!i122 34
 L0 162 208
 R8
 R9
@@ -261,7 +274,7 @@ R1
 w1746796255
 8../src/aux_if.sv
 F../src/aux_if.sv
-!i122 29
+!i122 34
 Z16 L0 1 17
 R8
 R9
@@ -286,7 +299,7 @@ R1
 w1746796258
 8../src/aux_if_tb.sv
 F../src/aux_if_tb.sv
-!i122 29
+!i122 34
 L0 1 49
 R8
 R9
@@ -311,7 +324,7 @@ R1
 w1746796265
 8../src/aux_reg.sv
 F../src/aux_reg.sv
-!i122 29
+!i122 34
 R16
 R8
 R9
@@ -327,7 +340,7 @@ R14
 R4
 vregister
 R6
-Z17 !s110 1746964493
+R7
 !i10b 1
 !s100 mY2fIz>I7P^SEI^n]zPEi2
 I2;mPfcRYI6V7g2VbCSQ=e0
@@ -336,23 +349,23 @@ R1
 w1746938704
 8../src/register.sv
 F../src/register.sv
-!i122 31
+!i122 34
 L0 16 276
 R8
 R9
 r1
 !s85 0
 31
-Z18 !s108 1746964493.000000
-!s107 ../src/gpio_defines.sv|../src/register_tb.sv|../src/register.sv|
-Z19 !s90 -work|../sim|-coveropt|3|+cover|../src/register.sv|../src/register_tb.sv|../src/gpio_defines.sv|
+R10
+R11
+R12
 !i113 0
 R13
 R14
 R4
 vregister_tb
 R6
-R17
+R7
 !i10b 1
 !s100 [4P]_40nIXTDd`z6D4]]Q1
 IYQ_[S8kk^^>;B08DII62N0
@@ -361,16 +374,16 @@ R1
 w1746962438
 8../src/register_tb.sv
 F../src/register_tb.sv
-!i122 31
+!i122 34
 L0 117 225
 R8
 R9
 r1
 !s85 0
 31
-R18
-Z20 !s107 ../src/gpio_defines.sv|../src/register_tb.sv|../src/register.sv|
-R19
+R10
+R11
+R12
 !i113 0
 R13
 R14
