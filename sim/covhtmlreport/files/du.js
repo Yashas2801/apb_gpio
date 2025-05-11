@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.register","id":2,"zf":1,"tc":83.00,"s":98.71,"b":98.27,"fc":100.00,"fe":50.00,"t":68.02},{"n":"work.register_tb","id":1,"zf":1,"tc":86.35,"s":100.00,"t":72.70}]};
+processDuData(g_data);
