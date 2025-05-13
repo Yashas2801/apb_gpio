@@ -1,0 +1,2 @@
+var g_data = {"6":{"pr":"/aux_if_tb/i1/i1","t":"inst","br":[{"bs":[{"s":"    if (~sys_rst) begin","f":3,"i":1,"l":10,"h":2},{"s":"    end else begin","f":3,"i":1,"l":12,"h":6}],"br":{"s":"    if (~sys_rst) begin","f":3,"l":10,"i":1,"p":100.00}}]}};
+processBranchesData(g_data);
