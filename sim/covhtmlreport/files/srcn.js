@@ -1,2 +1,2 @@
-var g_data = ["","../src/apb_if_tb.sv","../src/apb_if.sv","../src/apb_fsm.sv"];
+var g_data = ["","../src/register_tb.sv","../src/register.sv"];
 processSrcNamesData(g_data);

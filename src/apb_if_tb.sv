@@ -58,16 +58,16 @@ module apb_if_tb ();
     begin
       PRESETn = 'b1;
       @(negedge PCLK);
-	PENABLE = 1'b0;
-      PSEL   = 1'b1;
+      PENABLE = 1'b0;
+      PSEL = 1'b1;
       PWRITE = 1'b1;
-      PADDR  = 32'hffff_0f0f;
+      PADDR = 32'hffff_0f0f;
       PWDATA = 32'd201;
       @(negedge PCLK);
       PENABLE = 1'b1;
       gpio_int_o = 1'b1;
-	@(negedge PCLK);
-	PSEL = 1'b0;
+      @(negedge PCLK);
+      PSEL = 1'b0;
     end
   endtask
 
