@@ -200,7 +200,9 @@ module apb_top_tb ();
     temp = 32'hffff_ffff;
     read(`GPIO_RGPIO_IN);
     //WARN: Experiment- what happens if ctrl[ints] is cleared
-    write(`GPIO_RGPIO_CTRL, 2'b01);
+    //The ctrl[ints] is set by the design since ctrl[inte] is set and ints
+    //register has some bits set, indicating pending interrupts
+    //write(`GPIO_RGPIO_CTRL, 2'b01); // uncomment this to see the above in action
     read(`GPIO_RGPIO_INTS);
     write(`GPIO_RGPIO_INTS, 32'h0000_0000);
     read(`GPIO_RGPIO_INTS);
