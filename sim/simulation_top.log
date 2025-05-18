@@ -1,6 +1,7 @@
 # vsim -vopt -voptargs="+acc" -coverage -c -do "coverage save -onexit -codeAll ../sim/covdb_top.ucdb; log -r /* ;run -all; quit" apb_top_tb -work ../sim -l ../sim/simulation_top.log -wlf ../sim/top_wv/waveform_top.wlf 
-# Start time: 14:36:55 on May 18,2025
+# Start time: 17:15:07 on May 18,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "apb_fsm(fast)".
 # //  Questa Sim-64
 # //  Version 2021.2_1 linux_x86_64 May 15 2021
 # //
@@ -254,27 +255,26 @@
 # Time                 1775: Read ffffffff from address 00000000
 # Time                 1785: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
 # Time                 1795: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
-# Time                 1800: Wrote 00000001 to address 00000018
 # Time                 1805: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
-# Time                 1815: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 01, IRQ = 1, temp = ffffffff
+# Time                 1805: Read ffffffff from address 0000001c
+# Time                 1815: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
 # Time                 1825: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
+# Time                 1830: Wrote 00000000 to address 0000001c
 # Time                 1835: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
-# Time                 1835: Read ffffffff from address 0000001c
-# Time                 1845: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
-# Time                 1855: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
-# Time                 1860: Wrote 00000000 to address 0000001c
-# Time                 1865: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = ffffffff, rgpio_ctrl = 11, IRQ = 1, temp = ffffffff
-# Time                 1875: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 11, IRQ = 0, temp = ffffffff
+# Time                 1845: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 11, IRQ = 0, temp = ffffffff
+# Time                 1855: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
+# Time                 1865: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
+# Time                 1865: Read 00000000 from address 0000001c
+# Time                 1875: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 1885: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 1895: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
-# Time                 1895: Read 00000000 from address 0000001c
+# Time                 1895: Read ffffffff from address 00000000
 # Time                 1905: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 1915: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
+# Time                 1920: Wrote 00000000 to address 000000c8
 # Time                 1925: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
-# Time                 1925: Read ffffffff from address 00000000
 # Time                 1935: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 1945: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
-# Time                 1950: Wrote 00000000 to address 000000c8
 # Time                 1955: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 1965: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 1975: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
@@ -282,11 +282,8 @@
 # Time                 1995: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 2005: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
 # Time                 2015: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
-# Time                 2025: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
-# Time                 2035: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
-# Time                 2045: rgpio_in = ffffffff, in_mux = ffffffff, rgpio_ints = 00000000, rgpio_ctrl = 01, IRQ = 0, temp = ffffffff
-# ** Note: $finish    : ../src/apb_top_tb.sv(211)
-#    Time: 2050 ns  Iteration: 0  Instance: /apb_top_tb
+# ** Note: $finish    : ../src/apb_top_tb.sv(213)
+#    Time: 2020 ns  Iteration: 0  Instance: /apb_top_tb
 # Saving coverage database on exit...
-# End time: 14:36:56 on May 18,2025, Elapsed time: 0:00:01
+# End time: 17:15:08 on May 18,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

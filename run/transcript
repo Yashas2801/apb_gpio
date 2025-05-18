@@ -30,6 +30,3 @@ waveform_top:/apb_top_tb/ext_clk_pad_i \
 waveform_top:/apb_top_tb/flag \
 waveform_top:/apb_top_tb/temp \
 waveform_top:/apb_top_tb/drive_enable
-add wave -position insertpoint  \
-waveform_top:/apb_top_tb/i1/reg_instance/rgpio_ctrl
-find drivers -source -time {1724 ns} -cause waveform_top:/apb_top_tb/i1/reg_instance/rgpio_ctrl

@@ -39,10 +39,10 @@ module apb_fsm (
           next_state = ENABLE;
         end else if (PSEL && !PENABLE) begin
           next_state = SETUP;
-        end else begin
-          next_state = IDLE;
-
         end
+        // else begin
+        // next_state = IDLE;
+        //end
       end
       ENABLE: begin
         if (!PSEL) begin
