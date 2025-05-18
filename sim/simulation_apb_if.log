@@ -1,13 +1,11 @@
 # vsim -vopt -voptargs="+acc" -coverage -c -do "coverage save -onexit -codeAll ../sim/covdb_apb_if.ucdb; log -r /* ;run -all; quit" apb_if_tb -work ../sim -l ../sim/simulation_apb_if.log -wlf ../sim/apb_if_wv/waveform_apb_if.wlf 
-# Start time: 11:38:55 on May 14,2025
+# Start time: 14:17:34 on May 18,2025
 # ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vopt-143) Recognized 1 FSM in module "apb_fsm(fast)".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # //  Questa Sim-64
-# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
 # //
-# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  Copyright 1991-2021 Mentor Graphics Corporation
 # //  All Rights Reserved.
 # //
 # //  QuestaSim and its associated documentation contain trade
@@ -25,8 +23,8 @@
 # coverage save -onexit -codeAll ../sim/covdb_apb_if.ucdb
 #  log -r /* 
 # run -all
-# ** Note: $finish    : ../src/apb_if_tb.sv(94)
-#    Time: 170 ns  Iteration: 0  Instance: /apb_if_tb
+# ** Note: $finish    : ../src/apb_if_tb.sv(97)
+#    Time: 200 ns  Iteration: 0  Instance: /apb_if_tb
 # Saving coverage database on exit...
-# End time: 11:38:55 on May 14,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
+# End time: 14:17:35 on May 18,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

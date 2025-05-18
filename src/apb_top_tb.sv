@@ -198,8 +198,9 @@ module apb_top_tb ();
     @(negedge PCLK);
     $display("Time %t: Setting temp to 32'hffff_ffff", $time);
     temp = 32'hffff_ffff;
-    #10;  // Small delay to ensure input propagates before read
     read(`GPIO_RGPIO_IN);
+    //WARN: Experiment- what happens if ctrl[ints] is cleared
+    write(`GPIO_RGPIO_CTRL, 2'b01);
     read(`GPIO_RGPIO_INTS);
     write(`GPIO_RGPIO_INTS, 32'h0000_0000);
     read(`GPIO_RGPIO_INTS);
