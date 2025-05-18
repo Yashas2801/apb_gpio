@@ -1,10 +1,12 @@
 # vsim -vopt -voptargs="+acc" -coverage -c -do "coverage save -onexit -codeAll ../sim/covdb_reg.ucdb; log -r /* ;run -all; quit" register_tb -work ../sim -l ../sim/simulation_reg.log -wlf ../sim/reg_wv/waveform_reg.wlf 
-# Start time: 19:47:16 on May 13,2025
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 10:30:31 on May 15,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # //  Questa Sim-64
-# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
 # //
-# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  Copyright 1991-2022 Mentor Graphics Corporation
 # //  All Rights Reserved.
 # //
 # //  QuestaSim and its associated documentation contain trade
@@ -80,5 +82,5 @@
 # ** Note: $finish    : ../src/register_tb.sv(200)
 #    Time: 905 ns  Iteration: 0  Instance: /register_tb
 # Saving coverage database on exit...
-# End time: 19:47:17 on May 13,2025, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
+# End time: 10:30:31 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1

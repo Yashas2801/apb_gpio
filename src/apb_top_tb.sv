@@ -204,7 +204,8 @@ module apb_top_tb ();
     write(`GPIO_RGPIO_INTS, 32'h0000_0000);
     read(`GPIO_RGPIO_INTS);
     read(`GPIO_RGPIO_IN);
-//invalid addr coverage
+
+    //invalid addr coverage
     write(32'd200, 32'h0000_0000);
     #100 $finish;
   end

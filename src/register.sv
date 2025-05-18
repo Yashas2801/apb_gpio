@@ -149,6 +149,7 @@ module register (
     end
   end
   */
+ //working
   always @(posedge sys_clk or negedge sys_rst) begin
     if (~sys_rst) begin
       rgpio_ctrl <= 2'b0;
@@ -176,6 +177,23 @@ module register (
     end else rgpio_ctrl <= rgpio_ctrl;
   end
   */
+/*
+ //chethana logic
+  always@(posedge sys_clk or negedge sys_rst)begin
+    if(~sys_rst)begin
+      rgpio_ctrl <= 2'b0;
+    end
+    else if(gpio_addr == `GPIO_RGPIO_CTRL && gpio_we)begin
+      rgpio_ctrl <= gpio_dat_i[1:0];
+    end
+    else if(`GPIO_RGPIO_CTRL_INTE)begin
+      rgpio_ctrl <= {rgpio_ctrl[`GPIO_RGPIO_CTRL_INTS] | gpio_inta_o , rgpio_ctrl[`GPIO_RGPIO_CTRL_INTE]};
+    end
+    else begin
+      rgpio_ctrl <= rgpio_ctrl;
+    end
+  end
+*/
   //RGPIO_IN
   reg [31:0] pextc_sampled;
   reg [31:0] nextc_sampled;

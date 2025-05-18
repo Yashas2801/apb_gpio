@@ -1,2 +1,2 @@
-var g_data = {"4":["work.apb_fsm",95.23,1],"3":["work.apb_if",94.67,1],"8":["work.apb_io",97.08,1],"2":["work.apb_top",75.56,1],"1":["work.apb_top_tb",94.95,1],"6":["work.aux_if",42.42,1],"7":["work.aux_reg",80.80,1],"5":["work.register",97.64,1]};
+var g_data = {"4":["work.apb_fsm",95.23,1],"3":["work.apb_if",94.67,1],"8":["work.apb_io",97.08,1],"2":["work.apb_top",75.56,1],"1":["work.apb_top_tb",94.95,1],"6":["work.aux_if",42.42,1],"7":["work.aux_reg",80.80,1],"5":["work.register",97.62,1]};
 processDuLinks(g_data);

@@ -162,7 +162,7 @@ module register_tb;
     read_reg(`GPIO_RGPIO_IN, temp);
     $display("Verified via waveform");
 
-    // 7. Interrupt posedge
+    // 7. Interrupt posedge triggered 
     write_reg(`GPIO_RGPIO_OE, 32'h0000_0000);  //configure as ip
     write_reg(`GPIO_RGPIO_ECLK, 32'h0000_0000);  // use sys_clk
     write_reg(`GPIO_RGPIO_INTE, 32'h0000_00FF);  // enable interrupts for bits 0-7
@@ -181,7 +181,7 @@ module register_tb;
     read_reg(`GPIO_RGPIO_CTRL, temp);
     //clear working
 
-    // 8. Interrupt negedge
+    // 8. Interrupt negedge triggered
     write_reg(`GPIO_RGPIO_PTRIG, 32'h0000_0000);  // neg_edge for bits 0-7
     in_pad_i = 32'h0000_00FF;
     @(posedge sys_clk);

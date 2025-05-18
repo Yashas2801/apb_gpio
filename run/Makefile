@@ -131,7 +131,7 @@ cov_report_io:
 cov_report_apb_if:
 	vcover report -details -codeAll -html -output $(COV_REPORT_APB_IF) $(COV_DB_APB_IF)
 
-
+cov_report_all: cov_report_reg cov_report_top cov_report_aux cov_report_io cov_report_apb_if
 
 # View coverage report in browser
 

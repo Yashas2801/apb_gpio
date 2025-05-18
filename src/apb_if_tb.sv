@@ -91,6 +91,9 @@ module apb_if_tb ();
     read;
     #30;
     write1;
+    #30;
+    initialise;
+     
     #50 $finish;
   end
 
