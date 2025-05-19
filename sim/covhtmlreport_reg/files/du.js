@@ -1,2 +1,2 @@
-var g_data = {"data":[{"n":"work.register","id":2,"zf":1,"tc":86.07,"s":100.00,"b":100.00,"fc":100.00,"fe":50.00,"t":80.37},{"n":"work.register_tb","id":1,"zf":1,"tc":54.17,"s":92.03,"b":50.00,"fc":0.00,"t":74.67}]};
+var g_data = {"data":[{"n":"work.register","id":2,"zf":1,"tc":86.07,"s":100.00,"b":100.00,"fc":100.00,"fe":50.00,"t":80.37},{"n":"work.register_tb","id":1,"zf":1,"tc":54.19,"s":92.10,"b":50.00,"fc":0.00,"t":74.67}]};
 processDuData(g_data);

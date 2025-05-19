@@ -1,4 +1,3 @@
-
 module apb_if_tb ();
   reg PCLK;
   reg PRESETn;
@@ -46,61 +45,159 @@ module apb_if_tb ();
 
   task initialise();
     begin
-      {PRESETn, PSEL, PENABLE, PWRITE, gpio_int_o} = 5'b0;
-      PADDR = 4'b0;
+      PRESETn = 0;
+      PSEL = 0;
+      PENABLE = 0;
+      PWRITE = 0;
+      gpio_int_o = 0;
+      PADDR = 32'b0;
       PWDATA = 32'b0;
       gpio_dat_o = 32'b0;
+      #10;
+      PRESETn = 1;
     end
-
   endtask
 
-  task write1();
+  task write();
     begin
-      PRESETn = 'b1;
       @(negedge PCLK);
-      PENABLE = 1'b0;
-      PSEL = 1'b1;
-      PWRITE = 1'b1;
+      PRESETn = 1;
+      PSEL = 1;
+      PENABLE = 0;
+      PWRITE = 1;
       PADDR = 32'hffff_0f0f;
-      PWDATA = 32'd201;
+      PWDATA = 32'h0000_00c9;
       @(negedge PCLK);
-      PENABLE = 1'b1;
-      gpio_int_o = 1'b1;
+      PENABLE = 1;
+      gpio_int_o = 1;
       @(negedge PCLK);
-      PSEL = 1'b0;
+      PSEL = 0;
+      PENABLE = 0;
     end
   endtask
 
   task read();
     begin
-      PRESETn = 1'b1;
       @(negedge PCLK);
-      PSEL   = 1'b1;
-      PWRITE = 1'b0;
-      PADDR  = 32'hf0f0_ffff;
+      PRESETn = 1;
+      PSEL = 1;
+      PENABLE = 0;
+      PWRITE = 0;
+      PADDR = 32'hf0f0_ffff;
       @(negedge PCLK);
-      PENABLE = 1'b1;
-      gpio_dat_o = 32'd201;
+      PENABLE = 1;
+      gpio_dat_o = 32'h0000_00c9;  //dummy value from register block
+      @(negedge PCLK);
+      PSEL = 0;
+      PENABLE = 0;
     end
   endtask
 
+  task stay_in_setup();
+    begin
+      @(negedge PCLK);
+      PRESETn = 1;
+      PSEL = 1;
+      PENABLE = 0;
+      PWRITE = 1;
+      PADDR = 32'h1234_5678;
+      PWDATA = 32'habcd_ef01;
+      @(negedge PCLK);
+      @(negedge PCLK);
+      PENABLE = 1;
+      @(negedge PCLK);
+      PSEL = 0;
+      PENABLE = 0;
+    end
+  endtask
+
+  task setup_to_idle();
+    begin
+      @(negedge PCLK);
+      PRESETn = 1;
+      PSEL = 1;
+      PENABLE = 0;
+      PWRITE = 1;
+      PADDR = 32'h8765_4321;
+      PWDATA = 32'hfeed_face;
+      @(negedge PCLK);
+      PRESETn = 0;
+      PSEL = 0;
+      PENABLE = 0;
+      @(negedge PCLK);
+    end
+  endtask
+
+  task enable_to_setup();
+    begin
+      @(negedge PCLK);
+      PRESETn = 1;
+      PSEL = 1;
+      PENABLE = 0;
+      PWRITE = 1;
+      PADDR = 32'hABEF_1234;
+      PWDATA = 32'hCAEF_4321;
+      @(negedge PCLK);
+      PENABLE = 1;
+      @(negedge PCLK);
+      PENABLE = 0;  //goes back to setup
+      PSEL = 1;
+    end
+  endtask
+
+  /*
+  task condition_cov();
+    begin
+      @(negedge PCLK);
+      PRESETn = 1;
+      PSEL = 1;
+      PENABLE = 1;
+      PWRITE = 1;
+      PADDR = 32'h8765_4321;
+      PWDATA = 32'hfeed_face;
+      @(negedge PCLK);
+      PRESETn = 0;
+      PSEL = 0;
+      PENABLE = 0;
+      @(negedge PCLK);
+      initialise;
+      @(negedge PCLK);
+      PRESETn = 1;
+      PSEL = 1;
+      PENABLE = 0;
+      PWRITE = 1;
+      PADDR = 32'h8765_4321;
+      PWDATA = 32'hfeed_face;
+      @(negedge PCLK);
+      PRESETn = 0;
+      PSEL = 0;
+      PENABLE = 0;
+      @(negedge PCLK);
+
+    end
+  endtask
+*/
+
   initial begin
-    #30;
     initialise;
-    #30;
+    #20;
+
+    write;  //SETUP to ENABLE
+    #20;
     read;
-    #30;
-    write1;
-    #30;
-    initialise;
-     
-    #50 $finish;
+    #20;
+
+    stay_in_setup;
+    #20;
+
+    setup_to_idle;
+    #20;
+    write;
+    #20;
+    enable_to_setup;
+    #20;
+    //   condition_cov;
+
+    #100 $finish;
   end
-
-  //initial begin
-
-  //$monitor("pready = %0b, IRQ = %0b, gpio_int_o = %0b, sys_rst = %0b,");
-  //end
-
 endmodule
-

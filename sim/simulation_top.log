@@ -1,6 +1,6 @@
 # vsim -vopt -voptargs="+acc" -coverage -c -do "coverage save -onexit -codeAll ../sim/covdb_top.ucdb; log -r /* ;run -all; quit" apb_top_tb -work ../sim -l ../sim/simulation_top.log -wlf ../sim/top_wv/waveform_top.wlf 
-# Start time: 17:15:07 on May 18,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 07:37:38 on May 19,2025
+# ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "apb_fsm(fast)".
 # //  Questa Sim-64
 # //  Version 2021.2_1 linux_x86_64 May 15 2021
@@ -285,5 +285,5 @@
 # ** Note: $finish    : ../src/apb_top_tb.sv(213)
 #    Time: 2020 ns  Iteration: 0  Instance: /apb_top_tb
 # Saving coverage database on exit...
-# End time: 17:15:08 on May 18,2025, Elapsed time: 0:00:01
+# End time: 07:37:39 on May 19,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

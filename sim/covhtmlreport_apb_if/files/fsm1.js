@@ -1,2 +1,2 @@
-var g_data = {"6":{"pr":"/apb_if_tb/duv/fs1","fsms":[["present_state",3,30,[["IDLE",0,3,30,4,"                 0"],["SETUP",0,3,37,3,"                 1"],["ENABLE",0,3,47,3,"                 2"],["IDLE -> SETUP",1,3,32,1,0],["SETUP -> IDLE",1,3,43,0,1],["SETUP -> ENABLE",1,3,39,3,2],["ENABLE -> SETUP",1,3,51,2,3],["ENABLE -> IDLE",1,3,49,1,4]],100.00,80.00]]}};
+var g_data = {"6":{"pr":"/apb_if_tb/duv/fs1","fsms":[["present_state",3,30,[["IDLE",0,3,30,13,"                 0"],["SETUP",0,3,37,9,"                 1"],["ENABLE",0,3,47,5,"                 2"],["IDLE -> SETUP",1,3,32,6,0],["SETUP -> ENABLE",1,3,39,5,1],["SETUP -> IDLE",1,3,20,1,2],["ENABLE -> SETUP",1,3,51,1,3],["ENABLE -> IDLE",1,3,49,4,4]],100.00,100.00]]}};
 processFsmData(g_data);

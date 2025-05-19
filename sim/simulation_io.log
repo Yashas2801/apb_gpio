@@ -1,5 +1,5 @@
 # vsim -vopt -voptargs="+acc" -coverage -c -do "coverage save -onexit -codeAll ../sim/covdb_io.ucdb; log -r /* ;run -all; quit" apb_io_tb -work ../sim -l ../sim/simulation_io.log -wlf ../sim/io_wv/waveform_io.wlf 
-# Start time: 14:17:40 on May 18,2025
+# Start time: 07:37:35 on May 19,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim-64
 # //  Version 2021.2_1 linux_x86_64 May 15 2021
@@ -27,5 +27,5 @@
 # ** Note: $finish    : ../src/apb_io_tb.sv(47)
 #    Time: 130 ns  Iteration: 0  Instance: /apb_io_tb
 # Saving coverage database on exit...
-# End time: 14:17:41 on May 18,2025, Elapsed time: 0:00:01
+# End time: 07:37:36 on May 19,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

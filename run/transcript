@@ -12,21 +12,24 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# ../sim/top_wv/waveform_top.wlf opened as dataset "waveform_top"
+# ../sim/apb_if_wv/waveform_apb_if.wlf opened as dataset "waveform_apb_if"
 add wave -position insertpoint  \
-waveform_top:/apb_top_tb/PCLK \
-waveform_top:/apb_top_tb/PRESETn \
-waveform_top:/apb_top_tb/PSEL \
-waveform_top:/apb_top_tb/PENABLE \
-waveform_top:/apb_top_tb/PWRITE \
-waveform_top:/apb_top_tb/PADDR \
-waveform_top:/apb_top_tb/PWDATA \
-waveform_top:/apb_top_tb/PRDATA \
-waveform_top:/apb_top_tb/IRQ \
-waveform_top:/apb_top_tb/PREADY \
-waveform_top:/apb_top_tb/aux_in \
-waveform_top:/apb_top_tb/io_pad \
-waveform_top:/apb_top_tb/ext_clk_pad_i \
-waveform_top:/apb_top_tb/flag \
-waveform_top:/apb_top_tb/temp \
-waveform_top:/apb_top_tb/drive_enable
+waveform_apb_if:/apb_if_tb/PCLK \
+waveform_apb_if:/apb_if_tb/PRESETn \
+waveform_apb_if:/apb_if_tb/PSEL \
+waveform_apb_if:/apb_if_tb/PENABLE \
+waveform_apb_if:/apb_if_tb/PWRITE \
+waveform_apb_if:/apb_if_tb/PWDATA \
+waveform_apb_if:/apb_if_tb/PADDR \
+waveform_apb_if:/apb_if_tb/gpio_dat_o \
+waveform_apb_if:/apb_if_tb/gpio_int_o \
+waveform_apb_if:/apb_if_tb/PREADY \
+waveform_apb_if:/apb_if_tb/IRQ \
+waveform_apb_if:/apb_if_tb/sys_clk \
+waveform_apb_if:/apb_if_tb/sys_rst \
+waveform_apb_if:/apb_if_tb/gpio_we \
+waveform_apb_if:/apb_if_tb/gpio_addr \
+waveform_apb_if:/apb_if_tb/gpio_dat_i \
+waveform_apb_if:/apb_if_tb/PRDATA
+# Break key hit
+# Break key hit

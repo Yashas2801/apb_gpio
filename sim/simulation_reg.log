@@ -1,5 +1,5 @@
 # vsim -vopt -voptargs="+acc" -coverage -c -do "coverage save -onexit -codeAll ../sim/covdb_reg.ucdb; log -r /* ;run -all; quit" register_tb -work ../sim -l ../sim/simulation_reg.log -wlf ../sim/reg_wv/waveform_reg.wlf 
-# Start time: 14:17:31 on May 18,2025
+# Start time: 07:37:26 on May 19,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim-64
 # //  Version 2021.2_1 linux_x86_64 May 15 2021
@@ -80,5 +80,5 @@
 # ** Note: $finish    : ../src/register_tb.sv(200)
 #    Time: 905 ns  Iteration: 0  Instance: /register_tb
 # Saving coverage database on exit...
-# End time: 14:17:32 on May 18,2025, Elapsed time: 0:00:01
+# End time: 07:37:28 on May 19,2025, Elapsed time: 0:00:02
 # Errors: 2, Warnings: 0
